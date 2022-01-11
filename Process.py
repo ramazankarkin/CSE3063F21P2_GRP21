@@ -99,7 +99,7 @@ def get_semester_courses(semester):
     my_course_list = []
 
     for course in course_list:
-        if (course.semester == semester):
+        if course.semester == semester:
             my_course_list.append(course)
 
     return my_course_list
@@ -109,7 +109,7 @@ def get_elective_courses(elective_type):
     my_course_list = []
 
     for course in course_list:
-        if (course.elective_type == elective_type):
+        if course.elective_type == elective_type:
             my_course_list.append(course)
 
     return my_course_list
@@ -121,9 +121,10 @@ def initialize_students():
         for y in range(70):
             student = Student(generate_student_number(year, y), generate_random_name(), year, advisor,
                               create_transcript(year),
-                              None, None)
-            student.course_offerd = create_course_offered(student)
+                              None)
+            student.course_offered = create_course_offered(student)
             student_list.append(student)
+            advisor.student_list.append(student)
 
 
 def create_transcript(year):
@@ -131,34 +132,74 @@ def create_transcript(year):
     point = 0
     given_credit = 0
     completed_credit = 0
-    gano = 0
 
     for semester in range(1, semester_to_int(year)):
         for course in get_semester_courses(semester):
             letter_grade = generate_random_letter_grade()
-            my_course_list.append({"course": course, "letterGrade": letter_grade})
+            my_course_list.append([course, letter_grade])
 
-        # if(semester == 2):
-        #     while(True):
-        #         electiveCourse = get_elective_courses("NTE")[randint(0, len(get_elective_courses("NTE"))-1)]
-        #         if my_course_list.count(electiveCourse) == 0:
-        #             my_course_list.append({"course" : electiveCourse, "letterGrade" : generateRandomLetterGrade(), "semester" : semester})
-        #             break
+            given_credit += course.course_credit
+            point += course.course_credit * get_numeric_grade_from_letter_grade(letter_grade)
+            if letter_grade != "FF" and letter_grade != "FD":
+                completed_credit += course.course_credit
 
+        if semester == 2:
+            while (True):
+                course = get_elective_courses("NTE")[randint(0, len(get_elective_courses("NTE")) - 1)]
+                if my_course_list.count(course) == 0:
+                    letter_grade = generate_random_letter_grade()
+                    my_course_list.append([course, letter_grade])
+                    given_credit += course.course_credit
+                    point += course.course_credit * get_numeric_grade_from_letter_grade(letter_grade)
+                    if letter_grade != "FF" and letter_grade != "FD":
+                        completed_credit += course.course_credit
+                    break
+
+        elif semester == 7:
+            while (True):
+                course = get_elective_courses("TE")[randint(0, len(get_elective_courses("TE")) - 1)]
+                if my_course_list.count(course) == 0:
+                    letter_grade = generate_random_letter_grade()
+                    my_course_list.append([course, letter_grade])
+                    given_credit += course.course_credit
+                    point += course.course_credit * get_numeric_grade_from_letter_grade(letter_grade)
+                    if letter_grade != "FF" and letter_grade != "FD":
+                        completed_credit += course.course_credit
+                    break
+
+            while (True):
+                course = get_elective_courses("ENG-UE")[randint(0, len(get_elective_courses("ENG-UE")) - 1)]
+                if my_course_list.count(course) == 0:
+                    letter_grade = generate_random_letter_grade()
+                    my_course_list.append([course, letter_grade])
+                    given_credit += course.course_credit
+                    point += course.course_credit * get_numeric_grade_from_letter_grade(letter_grade)
+                    if letter_grade != "FF" and letter_grade != "FD":
+                        completed_credit += course.course_credit
+                    break
+
+    gano = round(point / given_credit, 2)
     transcript = Transcript(my_course_list, given_credit, completed_credit, point, gano)
     return transcript
 
 
 def create_course_offered(student):
-    error_list = []
     my_course_list = []
-
     semester_int = semester_to_int(student.year)
-
     semester_courses = get_semester_courses(semester_int)
 
     for course in semester_courses:
         my_course_list.append(course)
+        course.number_of_student += 1
+        for transcript_courses in student.transcript_before.course_list:
+            if (course.prerequisite == transcript_courses[0].course_name and
+                    (transcript_courses[1] == "FF" or transcript_courses[1] == "FD")):
+                error = "The system did not allow " + course.course_name + " because student failed prerequisite " + course.prerequisite;
+                student.errors.append(error)
+                my_course_list.pop()
+
+                if student.student_number not in student.advisor.prerequisite_error_list:
+                    student.advisor.prerequisite_error_list.append(student.student_number)
 
     nte_courses = get_elective_courses("NTE")
     te_courses = get_elective_courses("TE")
@@ -166,28 +207,105 @@ def create_course_offered(student):
     fte_courses = get_elective_courses("ENG-FTE")
 
     if semester_int == 2:
-        while (True):
+        while True:
             course = nte_courses[randint(0, len(nte_courses) - 1)]
-            if course not in student.transcript_before.course_list:
-                if (check_for_quota(course) == True):
+            if course not in student.transcript_before.get_course_list_without_grades():
+                if check_for_quota(course):
                     my_course_list.append(course)
-                    break
+                    course.number_of_student += 1
                 else:
-                    error = "The system didnt allow " + course.course_name + " because quota is full!"
-                    error_list.append(error)
+                    error = "The system didnt allow NTE - " + course.course_name + " because quota is full!"
+                    student.errors.append(error)
+
+                    if student.student_number not in student.advisor.quota_error_list:
+                        student.advisor.quota_error_list.append(student.student_number)
+                break
+
+    elif semester_int == 7:
+        while True:
+            course = te_courses[randint(0, len(te_courses) - 1)]
+            if course not in student.transcript_before.get_course_list_without_grades():
+                if check_for_quota(course):
+                    my_course_list.append(course)
+                    course.number_of_student += 1
+                else:
+                    error = "The system didnt allow TE - " + course.course_name + " because quota is full!"
+                    student.errors.append(error)
+
+                    if student.student_number not in student.advisor.quota_error_list:
+                        student.advisor.quota_error_list.append(student.student_number)
+                break
+
+        while True:
+            course = ue_courses[randint(0, len(ue_courses) - 1)]
+            if course not in student.transcript_before.get_course_list_without_grades():
+                if check_for_quota(course):
+                    my_course_list.append(course)
+                    course.number_of_student += 1
+                else:
+                    error = "The system didnt allow ENG - UE" + course.course_name + " because quota is full!"
+                    student.errors.append(error)
+
+                    if student.student_number not in student.advisor.quota_error_list:
+                        student.advisor.quota_error_list.append(student.student_number)
+                break
+
+    elif semester_int == 8:
+        for i in range(3):
+            while True:
+                course = te_courses[randint(0, len(te_courses) - 1)]
+                if course not in student.transcript_before.get_course_list_without_grades():
+                    if check_for_quota(course):
+                        my_course_list.append(course)
+                        course.number_of_student += 1
+                    else:
+                        error = "The system didnt allow TE - " + course.course_name + " because quota is full!"
+                        student.errors.append(error)
+
+                        if student.student_number not in student.advisor.quota_error_list:
+                            student.advisor.quota_error_list.append(student.student_number)
+                    break
+
+        while True:
+            course = fte_courses[randint(0, len(fte_courses) - 1)]
+            if course not in student.transcript_before.get_course_list_without_grades():
+                if check_for_quota(course):
+                    my_course_list.append(course)
+                    course.number_of_student += 1
+                else:
+                    error = "The system didnt allow ENG-FTE - " + course.course_name + " because quota is full!"
+                    student.errors.append(error)
+
+                    if student.student_number not in student.advisor.quota_error_list:
+                        student.advisor.quota_error_list.append(student.student_number)
+                break
+
+        while True:
+            course = nte_courses[randint(0, len(nte_courses) - 1)]
+            if course not in student.transcript_before.get_course_list_without_grades():
+                if check_for_quota(course):
+                    my_course_list.append(course)
+                    course.number_of_student += 1
+                else:
+                    error = "The system didnt allow NTE - " + course.course_name + " because quota is full!"
+                    student.errors.append(error)
+
+                    if student.student_number not in student.advisor.quota_error_list:
+                        student.advisor.quota_error_list.append(student.student_number)
+                break
 
     return my_course_list
 
 
 def check_for_quota(course):
-    if (len(course.student_list) >= course.quota):
+    if course.number_of_student == course.quota:
         return False
     else:
         return True
 
 
 def semester_to_int(year):
-    if (semester == "FALL"):
+    if semester == "FALL":
         return year * 2 - 1
     else:
         return year * 2
@@ -268,4 +386,13 @@ if __name__ == '__main__':
     course_list = create_courses()
 
     initialize_students()
+
     create_json_for_all_students()
+
+    for i in advisor_list:
+        if len(i.quota_error_list) != 0:
+            print(i.advisor_name + 's quota list:')
+            print(i.quota_error_list)
+        if len(i.prerequisite_error_list) != 0:
+            print(i.advisor_name + 's prerequisite list:')
+            print(i.prerequisite_error_list)

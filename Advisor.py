@@ -4,3 +4,6 @@ class Advisor:
         self.department = department
         self.rank = rank
         self.student_list = []
+        self.quota_error_list = []
+        self.prerequisite_error_list = []
+        self.stu = {'Name': self.advisor_name, 'Department': self.department, 'Rank': self.rank}

@@ -1,9 +1,9 @@
 {
     "Student Number": "150121027",
-    "Student Name": "Defne Akyıldız",
+    "Student Name": "Kardelen Bilgin",
     "Year": 1,
     "Advisor": {
-        "Name": "Ali Fuat Alkaya",
+        "Name": "Mustafa Ağaoğlu",
         "Department": "CSE",
         "Rank": "Doç.Dr"
     },
@@ -16,7 +16,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "CB"
+                "DD"
             ],
             [
                 {
@@ -25,7 +25,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "CB"
+                "FF"
             ],
             [
                 {
@@ -43,7 +43,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "BA"
+                "BB"
             ],
             [
                 {
@@ -52,7 +52,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "DC"
+                "CB"
             ],
             [
                 {
@@ -70,7 +70,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "BB"
+                "CB"
             ],
             [
                 {
@@ -79,13 +79,13 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "BB"
+                "FF"
             ]
         ],
         "Attended Credit": 31,
-        "Completed Credit": 27,
-        "Point": 73.5,
-        "GANO": 2.37
+        "Completed Credit": 20,
+        "Point": 54.0,
+        "GANO": 1.74
     },
     "Course Offered": [
         {
@@ -138,5 +138,7 @@
             "Elective Type": "NTE"
         }
     ],
-    "Errors": []
+    "Errors": [
+        "There is a collision between Computer Programming II 2.hour and Our Biosphere 1.hour"
+    ]
 }

@@ -1,9 +1,9 @@
 {
     "Student Number": "150121047",
-    "Student Name": "Gökay Açıkgöz",
+    "Student Name": "Ceyda Temur",
     "Year": 1,
     "Advisor": {
-        "Name": "Ali Fuat Alkaya",
+        "Name": "Mustafa Ağaoğlu",
         "Department": "CSE",
         "Rank": "Doç.Dr"
     },
@@ -16,7 +16,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "FF"
+                "BB"
             ],
             [
                 {
@@ -25,7 +25,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "FF"
+                "AA"
             ],
             [
                 {
@@ -34,7 +34,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "AA"
+                "CC"
             ],
             [
                 {
@@ -43,7 +43,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "AA"
+                "FF"
             ],
             [
                 {
@@ -52,7 +52,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "AA"
+                "BA"
             ],
             [
                 {
@@ -61,7 +61,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "BB"
+                "CC"
             ],
             [
                 {
@@ -70,7 +70,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "AA"
+                "FD"
             ],
             [
                 {
@@ -79,13 +79,13 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "CB"
+                "DC"
             ]
         ],
         "Attended Credit": 31,
-        "Completed Credit": 24,
-        "Point": 89.0,
-        "GANO": 2.87
+        "Completed Credit": 23,
+        "Point": 67.0,
+        "GANO": 2.16
     },
     "Course Offered": [
         {
@@ -131,7 +131,7 @@
             "Prerequisite": null
         },
         {
-            "Course Name": "Cardiopulmonary Resuscitation and First Aid Basics",
+            "Course Name": "Energy for Physical Activity",
             "Course Credit": 3,
             "Quota": 20,
             "Prerequisite": null,

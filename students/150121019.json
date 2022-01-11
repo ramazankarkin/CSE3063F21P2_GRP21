@@ -1,9 +1,9 @@
 {
     "Student Number": "150121019",
-    "Student Name": "İlhan Temur",
+    "Student Name": "İlhan Şahin",
     "Year": 1,
     "Advisor": {
-        "Name": "Ali Fuat Alkaya",
+        "Name": "Mustafa Ağaoğlu",
         "Department": "CSE",
         "Rank": "Doç.Dr"
     },
@@ -16,7 +16,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "DC"
+                "CC"
             ],
             [
                 {
@@ -25,7 +25,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "AA"
+                "BB"
             ],
             [
                 {
@@ -34,7 +34,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "CC"
+                "BA"
             ],
             [
                 {
@@ -43,7 +43,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "DD"
+                "FD"
             ],
             [
                 {
@@ -61,7 +61,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "BB"
+                "FD"
             ],
             [
                 {
@@ -70,7 +70,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "DD"
+                "AA"
             ],
             [
                 {
@@ -79,13 +79,13 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "DD"
+                "CB"
             ]
         ],
         "Attended Credit": 31,
-        "Completed Credit": 31,
-        "Point": 77.0,
-        "GANO": 2.48
+        "Completed Credit": 21,
+        "Point": 75.0,
+        "GANO": 2.42
     },
     "Course Offered": [
         {
@@ -131,7 +131,7 @@
             "Prerequisite": null
         },
         {
-            "Course Name": "Interpersonal Relations and Communication",
+            "Course Name": "Cardiopulmonary Resuscitation and First Aid Basics",
             "Course Credit": 3,
             "Quota": 20,
             "Prerequisite": null,

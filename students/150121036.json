@@ -1,9 +1,9 @@
 {
     "Student Number": "150121036",
-    "Student Name": "Rabia Bilgin",
+    "Student Name": "Esra Ekşi",
     "Year": 1,
     "Advisor": {
-        "Name": "Ali Fuat Alkaya",
+        "Name": "Mustafa Ağaoğlu",
         "Department": "CSE",
         "Rank": "Doç.Dr"
     },
@@ -16,7 +16,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "BB"
+                "FF"
             ],
             [
                 {
@@ -25,7 +25,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "FF"
+                "CB"
             ],
             [
                 {
@@ -34,7 +34,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "CB"
+                "BB"
             ],
             [
                 {
@@ -52,7 +52,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "DD"
+                "BA"
             ],
             [
                 {
@@ -61,7 +61,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "BA"
+                "DC"
             ],
             [
                 {
@@ -70,7 +70,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "BB"
+                "DC"
             ],
             [
                 {
@@ -79,13 +79,13 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "AA"
+                "CB"
             ]
         ],
         "Attended Credit": 31,
-        "Completed Credit": 26,
-        "Point": 62.0,
-        "GANO": 2.0
+        "Completed Credit": 29,
+        "Point": 71.5,
+        "GANO": 2.31
     },
     "Course Offered": [
         {
@@ -131,7 +131,7 @@
             "Prerequisite": null
         },
         {
-            "Course Name": "Energy for Physical Activity",
+            "Course Name": "Self Management",
             "Course Credit": 3,
             "Quota": 20,
             "Prerequisite": null,

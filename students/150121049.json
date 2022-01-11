@@ -1,9 +1,9 @@
 {
     "Student Number": "150121049",
-    "Student Name": "Hesna Şahin",
+    "Student Name": "Murat Duraner",
     "Year": 1,
     "Advisor": {
-        "Name": "Ali Fuat Alkaya",
+        "Name": "Mustafa Ağaoğlu",
         "Department": "CSE",
         "Rank": "Doç.Dr"
     },
@@ -16,7 +16,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "CB"
+                "BB"
             ],
             [
                 {
@@ -25,7 +25,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "BA"
+                "CB"
             ],
             [
                 {
@@ -34,7 +34,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "CB"
+                "FD"
             ],
             [
                 {
@@ -43,7 +43,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "DC"
+                "AA"
             ],
             [
                 {
@@ -52,7 +52,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "BA"
+                "BB"
             ],
             [
                 {
@@ -61,7 +61,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "DD"
+                "CC"
             ],
             [
                 {
@@ -70,7 +70,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "FF"
+                "CB"
             ],
             [
                 {
@@ -79,13 +79,13 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "DC"
+                "AA"
             ]
         ],
         "Attended Credit": 31,
-        "Completed Credit": 29,
-        "Point": 69.5,
-        "GANO": 2.24
+        "Completed Credit": 27,
+        "Point": 83.5,
+        "GANO": 2.69
     },
     "Course Offered": [
         {
@@ -131,7 +131,7 @@
             "Prerequisite": null
         },
         {
-            "Course Name": "Entrepreneurship and Innovation",
+            "Course Name": "Strategic Entrepreneurship",
             "Course Credit": 3,
             "Quota": 20,
             "Prerequisite": null,

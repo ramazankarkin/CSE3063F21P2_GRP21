@@ -10,6 +10,9 @@ class Course:
         self.elective_type = elective_type
         self.course_hour = course_hour
 
+    def course_hours(self):
+        self.course_hour
+
     def json_dumps_text(self):
         if self.elective_type is not None:
             return {'Course Name': self.course_name, 'Course Credit': self.course_credit,

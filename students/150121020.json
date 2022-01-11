@@ -1,9 +1,9 @@
 {
     "Student Number": "150121020",
-    "Student Name": "Hesna Dinç",
+    "Student Name": "Ali Büyük",
     "Year": 1,
     "Advisor": {
-        "Name": "Ali Fuat Alkaya",
+        "Name": "Mustafa Ağaoğlu",
         "Department": "CSE",
         "Rank": "Doç.Dr"
     },
@@ -25,7 +25,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "BA"
+                "CB"
             ],
             [
                 {
@@ -34,7 +34,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "FD"
+                "FF"
             ],
             [
                 {
@@ -52,7 +52,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "CC"
+                "DD"
             ],
             [
                 {
@@ -61,7 +61,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "FD"
+                "CB"
             ],
             [
                 {
@@ -70,7 +70,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "FD"
+                "BB"
             ],
             [
                 {
@@ -79,13 +79,13 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "DC"
+                "FD"
             ]
         ],
         "Attended Credit": 31,
-        "Completed Credit": 21,
-        "Point": 59.5,
-        "GANO": 1.92
+        "Completed Credit": 25,
+        "Point": 57.5,
+        "GANO": 1.85
     },
     "Course Offered": [
         {
@@ -131,12 +131,14 @@
             "Prerequisite": null
         },
         {
-            "Course Name": "Cardiopulmonary Resuscitation and First Aid Basics",
+            "Course Name": "International Business",
             "Course Credit": 3,
             "Quota": 20,
             "Prerequisite": null,
             "Elective Type": "NTE"
         }
     ],
-    "Errors": []
+    "Errors": [
+        "There is a collision between Physics II 3.hour and International Business 1.hour"
+    ]
 }

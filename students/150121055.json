@@ -1,9 +1,9 @@
 {
     "Student Number": "150121055",
-    "Student Name": "Mustafa Bilgin",
+    "Student Name": "Ebrar Bilgin",
     "Year": 1,
     "Advisor": {
-        "Name": "Ali Fuat Alkaya",
+        "Name": "Mustafa Ağaoğlu",
         "Department": "CSE",
         "Rank": "Doç.Dr"
     },
@@ -16,7 +16,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "FF"
+                "BB"
             ],
             [
                 {
@@ -25,7 +25,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "BA"
+                "DD"
             ],
             [
                 {
@@ -34,7 +34,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "CC"
+                "FD"
             ],
             [
                 {
@@ -43,7 +43,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "CB"
+                "DC"
             ],
             [
                 {
@@ -52,7 +52,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "AA"
+                "FF"
             ],
             [
                 {
@@ -61,7 +61,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "AA"
+                "FF"
             ],
             [
                 {
@@ -70,7 +70,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "CC"
+                "FF"
             ],
             [
                 {
@@ -79,13 +79,13 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "AA"
+                "BA"
             ]
         ],
         "Attended Credit": 31,
-        "Completed Credit": 29,
-        "Point": 92.5,
-        "GANO": 2.98
+        "Completed Credit": 15,
+        "Point": 29.0,
+        "GANO": 0.94
     },
     "Course Offered": [
         {
@@ -131,12 +131,14 @@
             "Prerequisite": null
         },
         {
-            "Course Name": "Human Performance and Nutrition",
+            "Course Name": "International Business",
             "Course Credit": 3,
             "Quota": 20,
             "Prerequisite": null,
             "Elective Type": "NTE"
         }
     ],
-    "Errors": []
+    "Errors": [
+        "There is a collision between Physics II 3.hour and International Business 1.hour"
+    ]
 }

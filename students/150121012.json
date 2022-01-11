@@ -1,9 +1,9 @@
 {
     "Student Number": "150121012",
-    "Student Name": "Ceyda Genç",
+    "Student Name": "Mehmet Türkay",
     "Year": 1,
     "Advisor": {
-        "Name": "Ali Fuat Alkaya",
+        "Name": "Mustafa Ağaoğlu",
         "Department": "CSE",
         "Rank": "Doç.Dr"
     },
@@ -16,7 +16,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "FD"
+                "FF"
             ],
             [
                 {
@@ -25,7 +25,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "DD"
+                "AA"
             ],
             [
                 {
@@ -34,7 +34,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "AA"
+                "BB"
             ],
             [
                 {
@@ -43,7 +43,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "AA"
+                "BB"
             ],
             [
                 {
@@ -61,7 +61,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "BA"
+                "CB"
             ],
             [
                 {
@@ -70,7 +70,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "BA"
+                "CB"
             ],
             [
                 {
@@ -79,13 +79,13 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "FF"
+                "BB"
             ]
         ],
         "Attended Credit": 31,
-        "Completed Credit": 27,
-        "Point": 91.0,
-        "GANO": 2.94
+        "Completed Credit": 29,
+        "Point": 95.0,
+        "GANO": 3.06
     },
     "Course Offered": [
         {
@@ -131,12 +131,14 @@
             "Prerequisite": null
         },
         {
-            "Course Name": "International Business",
+            "Course Name": "Our Biosphere",
             "Course Credit": 3,
             "Quota": 20,
             "Prerequisite": null,
             "Elective Type": "NTE"
         }
     ],
-    "Errors": []
+    "Errors": [
+        "There is a collision between Computer Programming II 2.hour and Our Biosphere 1.hour"
+    ]
 }

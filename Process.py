@@ -118,7 +118,6 @@ def initialize_students():
         random_student = list(range(70))
         random.shuffle(random_student)
         for student_count in random_student:
-
             student = Student(generate_student_number(year, student_count), generate_random_name(), year, advisor,
                               create_transcript(year), None)
             student.course_offered = create_course_offered(student)
@@ -303,6 +302,16 @@ def create_course_offered(student):
                         student.advisor.quota_error_list.append(student.student_number)
                 break
 
+    for i in range(0, len(my_course_list)):
+        for j in range(i + 1, len(my_course_list)):
+            for k in range(0, len(my_course_list[i].course_hour)):
+                for n in range(0, len(my_course_list[j].course_hour)):
+                    if my_course_list[i].course_hour[k] == my_course_list[j].course_hour[n]:
+                        error = ("There is a collision between " + my_course_list[i].course_name + " " + str(
+                            k + 1) + ".hour and " + my_course_list[j].course_name + " " + str(n + 1) + ".hour")
+                        student.errors.append(error)
+                        if student.student_number not in student.advisor.collision_error_list:
+                            student.advisor.collision_error_list.append(student.student_number)
 
     return my_course_list
 
@@ -401,8 +410,11 @@ if __name__ == '__main__':
 
     for i in advisor_list:
         if len(i.quota_error_list) != 0:
-            print(i.advisor_name + 's quota list:')
+            print(i.advisor_name + f"'s quota list({len(i.quota_error_list)} students):")
             print(i.quota_error_list)
         if len(i.prerequisite_error_list) != 0:
-            print(i.advisor_name + 's prerequisite list:')
+            print(i.advisor_name + f"'s prerequisite list({len(i.prerequisite_error_list)} students):")
             print(i.prerequisite_error_list)
+        if len(i.collision_error_list) != 0:
+            print(i.advisor_name + f"'s collison list({len(i.collision_error_list)} students):")
+            print(i.collision_error_list)

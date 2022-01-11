@@ -6,6 +6,7 @@ class Advisor:
         self.student_list = []
         self.quota_error_list = []
         self.prerequisite_error_list = []
+        self.collision_error_list =[]
         self.collision_error_list = []
         self.te_error_list = []
         self.project_error_list = []

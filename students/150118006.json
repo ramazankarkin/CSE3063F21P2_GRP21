@@ -1,11 +1,11 @@
 {
     "student_number": "150118006",
-    "student_name": "Muhammed Temur",
+    "student_name": "Ferit Kuru\u00e7ay",
     "year": 4,
     "advisor": {
-        "advisor_name": "Mustafa A\u00c4\u0178ao\u00c4\u0178lu",
+        "advisor_name": "\u00c3\u2021i\u00c4\u0178dem Ero\u00c4\u0178lu Erdem",
         "department": "CSE",
-        "rank": "Do\u00c3\u00a7.Dr",
+        "rank": "Prof.Dr.",
         "student_list": []
     },
     "transcript_before": {
@@ -24,7 +24,7 @@
                         32
                     ]
                 },
-                "letterGrade": "BA"
+                "letterGrade": "FF"
             },
             {
                 "course": {
@@ -58,7 +58,7 @@
                         67
                     ]
                 },
-                "letterGrade": "BB"
+                "letterGrade": "CB"
             },
             {
                 "course": {
@@ -92,7 +92,7 @@
                         49
                     ]
                 },
-                "letterGrade": "AA"
+                "letterGrade": "BB"
             },
             {
                 "course": {
@@ -109,7 +109,7 @@
                         56
                     ]
                 },
-                "letterGrade": "DD"
+                "letterGrade": "FF"
             },
             {
                 "course": {
@@ -125,7 +125,7 @@
                         2
                     ]
                 },
-                "letterGrade": "FD"
+                "letterGrade": "DD"
             },
             {
                 "course": {
@@ -141,7 +141,7 @@
                         105
                     ]
                 },
-                "letterGrade": "BA"
+                "letterGrade": "FD"
             },
             {
                 "course": {
@@ -157,7 +157,7 @@
                         103
                     ]
                 },
-                "letterGrade": "FD"
+                "letterGrade": "CC"
             },
             {
                 "course": {
@@ -208,7 +208,7 @@
                         35
                     ]
                 },
-                "letterGrade": "FF"
+                "letterGrade": "DD"
             },
             {
                 "course": {
@@ -225,7 +225,7 @@
                         57
                     ]
                 },
-                "letterGrade": "DD"
+                "letterGrade": "AA"
             },
             {
                 "course": {
@@ -241,7 +241,7 @@
                         8
                     ]
                 },
-                "letterGrade": "BB"
+                "letterGrade": "CC"
             },
             {
                 "course": {
@@ -257,7 +257,7 @@
                         83
                     ]
                 },
-                "letterGrade": "CB"
+                "letterGrade": "DD"
             },
             {
                 "course": {
@@ -291,7 +291,7 @@
                         40
                     ]
                 },
-                "letterGrade": "CB"
+                "letterGrade": "FD"
             },
             {
                 "course": {
@@ -307,7 +307,7 @@
                         28
                     ]
                 },
-                "letterGrade": "BA"
+                "letterGrade": "DC"
             },
             {
                 "course": {
@@ -324,7 +324,7 @@
                         55
                     ]
                 },
-                "letterGrade": "CC"
+                "letterGrade": "BA"
             },
             {
                 "course": {
@@ -341,7 +341,7 @@
                         34
                     ]
                 },
-                "letterGrade": "FF"
+                "letterGrade": "DD"
             },
             {
                 "course": {
@@ -375,7 +375,7 @@
                         72
                     ]
                 },
-                "letterGrade": "DC"
+                "letterGrade": "BB"
             },
             {
                 "course": {
@@ -392,7 +392,7 @@
                         22
                     ]
                 },
-                "letterGrade": "BB"
+                "letterGrade": "DC"
             },
             {
                 "course": {
@@ -409,7 +409,7 @@
                         115
                     ]
                 },
-                "letterGrade": "BB"
+                "letterGrade": "CC"
             },
             {
                 "course": {
@@ -425,7 +425,7 @@
                         59
                     ]
                 },
-                "letterGrade": "BB"
+                "letterGrade": "AA"
             },
             {
                 "course": {
@@ -442,7 +442,7 @@
                         24
                     ]
                 },
-                "letterGrade": "BA"
+                "letterGrade": "CC"
             },
             {
                 "course": {
@@ -459,7 +459,7 @@
                         130
                     ]
                 },
-                "letterGrade": "DC"
+                "letterGrade": "BB"
             },
             {
                 "course": {
@@ -476,7 +476,7 @@
                         50
                     ]
                 },
-                "letterGrade": "CB"
+                "letterGrade": "BB"
             },
             {
                 "course": {
@@ -492,7 +492,7 @@
                         33
                     ]
                 },
-                "letterGrade": "FF"
+                "letterGrade": "FD"
             },
             {
                 "course": {
@@ -509,7 +509,7 @@
                         72
                     ]
                 },
-                "letterGrade": "FF"
+                "letterGrade": "BA"
             },
             {
                 "course": {
@@ -526,7 +526,7 @@
                         18
                     ]
                 },
-                "letterGrade": "FF"
+                "letterGrade": "BB"
             },
             {
                 "course": {
@@ -543,7 +543,7 @@
                         66
                     ]
                 },
-                "letterGrade": "DD"
+                "letterGrade": "AA"
             },
             {
                 "course": {
@@ -560,7 +560,7 @@
                         52
                     ]
                 },
-                "letterGrade": "CB"
+                "letterGrade": "BB"
             },
             {
                 "course": {
@@ -577,7 +577,7 @@
                         51
                     ]
                 },
-                "letterGrade": "FD"
+                "letterGrade": "BA"
             },
             {
                 "course": {
@@ -594,7 +594,7 @@
                         22
                     ]
                 },
-                "letterGrade": "FD"
+                "letterGrade": "FF"
             },
             {
                 "course": {
@@ -611,7 +611,7 @@
                         66
                     ]
                 },
-                "letterGrade": "CC"
+                "letterGrade": "DC"
             },
             {
                 "course": {
@@ -628,7 +628,7 @@
                         19
                     ]
                 },
-                "letterGrade": "BA"
+                "letterGrade": "DC"
             },
             {
                 "course": {
@@ -644,106 +644,7 @@
                         118
                     ]
                 },
-                "letterGrade": "DD"
-            },
-            {
-                "course": {
-                    "course_name": "Summer Practice II",
-                    "student_list": [],
-                    "course_credit": 10,
-                    "semester": 7,
-                    "quota": null,
-                    "prerequisite": null,
-                    "elective_type": null,
-                    "course_hour": [
-                        120,
-                        121
-                    ]
-                },
-                "letterGrade": "BB"
-            },
-            {
-                "course": {
-                    "course_name": "Computer Networks",
-                    "student_list": [],
-                    "course_credit": 5,
-                    "semester": 7,
-                    "quota": null,
-                    "prerequisite": null,
-                    "elective_type": null,
-                    "course_hour": [
-                        8,
-                        55,
-                        56
-                    ]
-                },
-                "letterGrade": "BB"
-            },
-            {
-                "course": {
-                    "course_name": "Principles of Embedded System Design",
-                    "student_list": [],
-                    "course_credit": 6,
-                    "semester": 7,
-                    "quota": null,
-                    "prerequisite": null,
-                    "elective_type": null,
-                    "course_hour": [
-                        9,
-                        10,
-                        54
-                    ]
-                },
-                "letterGrade": "BB"
-            },
-            {
-                "course": {
-                    "course_name": "Engineering Project I",
-                    "student_list": [],
-                    "course_credit": 5,
-                    "semester": 7,
-                    "quota": null,
-                    "prerequisite": null,
-                    "elective_type": null,
-                    "course_hour": [
-                        125,
-                        126
-                    ]
-                },
-                "letterGrade": "FF"
-            },
-            {
-                "course": {
-                    "course_name": "\u00c4\u00b0\u00c5\u0178 Sa\u00c4\u0178l\u00c4\u00b1\u00c4\u0178\u00c4\u00b1 ve G\u00c3\u00bcvenli\u00c4\u0178i I",
-                    "student_list": [],
-                    "course_credit": 2,
-                    "semester": 7,
-                    "quota": null,
-                    "prerequisite": null,
-                    "elective_type": null,
-                    "course_hour": [
-                        86,
-                        87
-                    ]
-                },
-                "letterGrade": "AA"
-            },
-            {
-                "course": {
-                    "course_name": "Introduction to Machine Learning",
-                    "student_list": [],
-                    "course_credit": 5,
-                    "semester": 7,
-                    "quota": null,
-                    "prerequisite": null,
-                    "elective_type": null,
-                    "course_hour": [
-                        81,
-                        82,
-                        83
-                    ]
-                },
-                "letterGrade": "CC"
+                "letterGrade": "CB"
             }
         ],
         "given_credit": 0,
@@ -753,29 +654,84 @@
     },
     "course_offerd": [
         {
-            "course_name": "Engineering Project II",
+            "course_name": "Summer Practice II",
             "student_list": [],
-            "course_credit": 5,
-            "semester": 8,
-            "quota": null,
-            "prerequisite": "Engineering Project I",
-            "elective_type": null,
-            "course_hour": [
-                136,
-                137
-            ]
-        },
-        {
-            "course_name": "\u00c4\u00b0\u00c5\u0178 Sa\u00c4\u0178l\u00c4\u00b1\u00c4\u0178\u00c4\u00b1 ve G\u00c3\u00bcvenli\u00c4\u0178i II",
-            "student_list": [],
-            "course_credit": 2,
-            "semester": 8,
+            "course_credit": 10,
+            "semester": 7,
             "quota": null,
             "prerequisite": null,
             "elective_type": null,
             "course_hour": [
-                90,
-                91
+                120,
+                121
+            ]
+        },
+        {
+            "course_name": "Computer Networks",
+            "student_list": [],
+            "course_credit": 5,
+            "semester": 7,
+            "quota": null,
+            "prerequisite": null,
+            "elective_type": null,
+            "course_hour": [
+                8,
+                55,
+                56
+            ]
+        },
+        {
+            "course_name": "Principles of Embedded System Design",
+            "student_list": [],
+            "course_credit": 6,
+            "semester": 7,
+            "quota": null,
+            "prerequisite": null,
+            "elective_type": null,
+            "course_hour": [
+                9,
+                10,
+                54
+            ]
+        },
+        {
+            "course_name": "Engineering Project I",
+            "student_list": [],
+            "course_credit": 5,
+            "semester": 7,
+            "quota": null,
+            "prerequisite": null,
+            "elective_type": null,
+            "course_hour": [
+                125,
+                126
+            ]
+        },
+        {
+            "course_name": "\u00c4\u00b0\u00c5\u0178 Sa\u00c4\u0178l\u00c4\u00b1\u00c4\u0178\u00c4\u00b1 ve G\u00c3\u00bcvenli\u00c4\u0178i I",
+            "student_list": [],
+            "course_credit": 2,
+            "semester": 7,
+            "quota": null,
+            "prerequisite": null,
+            "elective_type": null,
+            "course_hour": [
+                86,
+                87
+            ]
+        },
+        {
+            "course_name": "Introduction to Machine Learning",
+            "student_list": [],
+            "course_credit": 5,
+            "semester": 7,
+            "quota": null,
+            "prerequisite": null,
+            "elective_type": null,
+            "course_hour": [
+                81,
+                82,
+                83
             ]
         }
     ],

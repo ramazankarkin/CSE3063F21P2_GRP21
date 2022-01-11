@@ -1,9 +1,9 @@
 {
     "student_number": "150120030",
-    "student_name": "Miran T\u00fcrkay",
+    "student_name": "\u00d6zlem Ball\u0131ca",
     "year": 2,
     "advisor": {
-        "advisor_name": "Ali Fuat Alkaya",
+        "advisor_name": "M\u00c3\u00bcjdat Soyt\u00c3\u00bcrk",
         "department": "CSE",
         "rank": "Do\u00c3\u00a7.Dr",
         "student_list": []
@@ -41,7 +41,7 @@
                         68
                     ]
                 },
-                "letterGrade": "BA"
+                "letterGrade": "FF"
             },
             {
                 "course": {
@@ -58,7 +58,7 @@
                         67
                     ]
                 },
-                "letterGrade": "BA"
+                "letterGrade": "FD"
             },
             {
                 "course": {
@@ -75,7 +75,7 @@
                         39
                     ]
                 },
-                "letterGrade": "DD"
+                "letterGrade": "DC"
             },
             {
                 "course": {
@@ -109,7 +109,7 @@
                         56
                     ]
                 },
-                "letterGrade": "DC"
+                "letterGrade": "CC"
             },
             {
                 "course": {
@@ -125,7 +125,7 @@
                         2
                     ]
                 },
-                "letterGrade": "AA"
+                "letterGrade": "BB"
             },
             {
                 "course": {
@@ -141,7 +141,7 @@
                         105
                     ]
                 },
-                "letterGrade": "BB"
+                "letterGrade": "FF"
             },
             {
                 "course": {
@@ -157,7 +157,7 @@
                         103
                     ]
                 },
-                "letterGrade": "BA"
+                "letterGrade": "DC"
             },
             {
                 "course": {
@@ -191,7 +191,7 @@
                         52
                     ]
                 },
-                "letterGrade": "DC"
+                "letterGrade": "CB"
             },
             {
                 "course": {
@@ -208,7 +208,7 @@
                         35
                     ]
                 },
-                "letterGrade": "BB"
+                "letterGrade": "FD"
             },
             {
                 "course": {
@@ -225,7 +225,7 @@
                         57
                     ]
                 },
-                "letterGrade": "FF"
+                "letterGrade": "AA"
             },
             {
                 "course": {
@@ -241,7 +241,7 @@
                         8
                     ]
                 },
-                "letterGrade": "BA"
+                "letterGrade": "AA"
             },
             {
                 "course": {
@@ -257,108 +257,7 @@
                         83
                     ]
                 },
-                "letterGrade": "DC"
-            },
-            {
-                "course": {
-                    "course_name": "Discrete Computational Structures",
-                    "student_list": [],
-                    "course_credit": 6,
-                    "semester": 3,
-                    "quota": null,
-                    "prerequisite": null,
-                    "elective_type": null,
-                    "course_hour": [
-                        6,
-                        7,
-                        73
-                    ]
-                },
-                "letterGrade": "BB"
-            },
-            {
-                "course": {
-                    "course_name": "Data Structures",
-                    "student_list": [],
-                    "course_credit": 7,
-                    "semester": 3,
-                    "quota": null,
-                    "prerequisite": "Computer Programming II",
-                    "elective_type": null,
-                    "course_hour": [
-                        8,
-                        39,
-                        40
-                    ]
-                },
-                "letterGrade": "DD"
-            },
-            {
-                "course": {
-                    "course_name": "Engineering Economy",
-                    "student_list": [],
-                    "course_credit": 4,
-                    "semester": 3,
-                    "quota": null,
-                    "prerequisite": null,
-                    "elective_type": null,
-                    "course_hour": [
-                        27,
-                        28
-                    ]
-                },
-                "letterGrade": "DC"
-            },
-            {
-                "course": {
-                    "course_name": "Electric Circuits",
-                    "student_list": [],
-                    "course_credit": 5,
-                    "semester": 3,
-                    "quota": null,
-                    "prerequisite": null,
-                    "elective_type": null,
-                    "course_hour": [
-                        22,
-                        23,
-                        55
-                    ]
-                },
-                "letterGrade": "FD"
-            },
-            {
-                "course": {
-                    "course_name": "Differential Equations",
-                    "student_list": [],
-                    "course_credit": 4,
-                    "semester": 3,
-                    "quota": null,
-                    "prerequisite": null,
-                    "elective_type": null,
-                    "course_hour": [
-                        2,
-                        33,
-                        34
-                    ]
-                },
-                "letterGrade": "FF"
-            },
-            {
-                "course": {
-                    "course_name": "Numerical Methods",
-                    "student_list": [],
-                    "course_credit": 4,
-                    "semester": 3,
-                    "quota": null,
-                    "prerequisite": null,
-                    "elective_type": null,
-                    "course_hour": [
-                        24,
-                        25,
-                        56
-                    ]
-                },
-                "letterGrade": "BA"
+                "letterGrade": "AA"
             }
         ],
         "given_credit": 0,
@@ -368,72 +267,86 @@
     },
     "course_offerd": [
         {
-            "course_name": "Analysis of Algorithms",
+            "course_name": "Discrete Computational Structures",
             "student_list": [],
             "course_credit": 6,
-            "semester": 4,
+            "semester": 3,
             "quota": null,
-            "prerequisite": "Data Structures",
+            "prerequisite": null,
             "elective_type": null,
             "course_hour": [
-                54,
-                71,
-                72
+                6,
+                7,
+                73
             ]
         },
         {
-            "course_name": "Systems Programming",
+            "course_name": "Data Structures",
             "student_list": [],
             "course_credit": 7,
-            "semester": 4,
+            "semester": 3,
             "quota": null,
-            "prerequisite": null,
+            "prerequisite": "Computer Programming II",
             "elective_type": null,
             "course_hour": [
-                7,
                 8,
-                22
+                39,
+                40
             ]
         },
         {
-            "course_name": "Principles of Programming Languages",
+            "course_name": "Engineering Economy",
             "student_list": [],
             "course_credit": 4,
-            "semester": 4,
+            "semester": 3,
             "quota": null,
             "prerequisite": null,
             "elective_type": null,
             "course_hour": [
-                113,
-                114,
-                115
+                27,
+                28
             ]
         },
         {
-            "course_name": "Electronics",
+            "course_name": "Electric Circuits",
             "student_list": [],
             "course_credit": 5,
-            "semester": 4,
+            "semester": 3,
             "quota": null,
             "prerequisite": null,
             "elective_type": null,
             "course_hour": [
-                58,
-                59
-            ]
-        },
-        {
-            "course_name": "Introduction to Probability and Statistics",
-            "student_list": [],
-            "course_credit": 5,
-            "semester": 4,
-            "quota": null,
-            "prerequisite": null,
-            "elective_type": null,
-            "course_hour": [
-                9,
+                22,
                 23,
-                24
+                55
+            ]
+        },
+        {
+            "course_name": "Differential Equations",
+            "student_list": [],
+            "course_credit": 4,
+            "semester": 3,
+            "quota": null,
+            "prerequisite": null,
+            "elective_type": null,
+            "course_hour": [
+                2,
+                33,
+                34
+            ]
+        },
+        {
+            "course_name": "Numerical Methods",
+            "student_list": [],
+            "course_credit": 4,
+            "semester": 3,
+            "quota": null,
+            "prerequisite": null,
+            "elective_type": null,
+            "course_hour": [
+                24,
+                25,
+                56
             ]
         }
     ],

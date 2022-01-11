@@ -79,12 +79,12 @@ def create_elective_courses(electiveType):
     my_course_list = []
 
     for courses in variables['courses']:
-        for semester in courses[electiveType]:
-            new_course = Course(semester['courseName'], semester['courseCredit'],
-                                None, semester['quota'], None, electiveType, semester['courseHourCode'])
+        for elective in courses[electiveType]:
+            new_course = Course(elective['courseName'], elective['courseCredit'],
+                                None, elective['quota'], None, electiveType, elective['courseHourCode'])
 
-            if 'prerequisite' in semester:
-                new_course.prerequisite = semester['prerequisite']
+            if 'prerequisite' in elective:
+                new_course.prerequisite = elective['prerequisite']
 
             my_course_list.append(new_course)
 
@@ -114,8 +114,8 @@ def get_elective_courses(elective_type):
 def initialize_students():
     for year in range(1, 5):
         advisor = advisor_list[randint(0, len(advisor_list) - 1)]
-        for y in range(70):
-            student = Student(generate_student_number(year, y), generate_random_name(), year, advisor,
+        for student_count in range(70):
+            student = Student(generate_student_number(year, student_count), generate_random_name(), year, advisor,
                               create_transcript(year), None)
             student.course_offered = create_course_offered(student)
             student_list.append(student)
@@ -181,11 +181,13 @@ def create_transcript(year):
 
 def create_course_offered(student):
     my_course_list = []
+    total_course_list = student.transcript_before.get_course_list_without_grades()
     semester_int = semester_to_int(student.year)
     semester_courses = get_semester_courses(semester_int)
 
     for course in semester_courses:
         my_course_list.append(course)
+        total_course_list.append(course)
         course.number_of_student += 1
         for transcript_courses in student.transcript_before.course_list:
             if (course.prerequisite == transcript_courses[0].course_name and
@@ -193,6 +195,7 @@ def create_course_offered(student):
                 error = "The system did not allow " + course.course_name + " because student failed prerequisite " + course.prerequisite;
                 student.errors.append(error)
                 my_course_list.pop()
+                total_course_list.pop()
 
                 if student.student_number not in student.advisor.prerequisite_error_list:
                     student.advisor.prerequisite_error_list.append(student.student_number)
@@ -205,9 +208,10 @@ def create_course_offered(student):
     if semester_int == 2:
         while True:
             course = nte_courses[randint(0, len(nte_courses) - 1)]
-            if course not in student.transcript_before.get_course_list_without_grades():
+            if course not in total_course_list:
                 if check_for_quota(course):
                     my_course_list.append(course)
+                    total_course_list.append(course)
                     course.number_of_student += 1
                 else:
                     error = "The system didnt allow NTE - " + course.course_name + " because quota is full!"
@@ -220,9 +224,10 @@ def create_course_offered(student):
     elif semester_int == 7:
         while True:
             course = te_courses[randint(0, len(te_courses) - 1)]
-            if course not in student.transcript_before.get_course_list_without_grades():
+            if course not in total_course_list:
                 if check_for_quota(course):
                     my_course_list.append(course)
+                    total_course_list.append(course)
                     course.number_of_student += 1
                 else:
                     error = "The system didnt allow TE - " + course.course_name + " because quota is full!"
@@ -234,9 +239,10 @@ def create_course_offered(student):
 
         while True:
             course = ue_courses[randint(0, len(ue_courses) - 1)]
-            if course not in student.transcript_before.get_course_list_without_grades():
+            if course not in total_course_list:
                 if check_for_quota(course):
                     my_course_list.append(course)
+                    total_course_list.append(course)
                     course.number_of_student += 1
                 else:
                     error = "The system didnt allow ENG - UE" + course.course_name + " because quota is full!"
@@ -250,9 +256,10 @@ def create_course_offered(student):
         for i in range(3):
             while True:
                 course = te_courses[randint(0, len(te_courses) - 1)]
-                if course not in student.transcript_before.get_course_list_without_grades():
+                if course not in total_course_list:
                     if check_for_quota(course):
                         my_course_list.append(course)
+                        total_course_list.append(course)
                         course.number_of_student += 1
                     else:
                         error = "The system didnt allow TE - " + course.course_name + " because quota is full!"
@@ -264,9 +271,10 @@ def create_course_offered(student):
 
         while True:
             course = fte_courses[randint(0, len(fte_courses) - 1)]
-            if course not in student.transcript_before.get_course_list_without_grades():
+            if course not in total_course_list:
                 if check_for_quota(course):
                     my_course_list.append(course)
+                    total_course_list.append(course)
                     course.number_of_student += 1
                 else:
                     error = "The system didnt allow ENG-FTE - " + course.course_name + " because quota is full!"
@@ -278,9 +286,10 @@ def create_course_offered(student):
 
         while True:
             course = nte_courses[randint(0, len(nte_courses) - 1)]
-            if course not in student.transcript_before.get_course_list_without_grades():
+            if course not in total_course_list:
                 if check_for_quota(course):
                     my_course_list.append(course)
+                    total_course_list.append(course)
                     course.number_of_student += 1
                 else:
                     error = "The system didnt allow NTE - " + course.course_name + " because quota is full!"
@@ -294,7 +303,7 @@ def create_course_offered(student):
 
 
 def check_for_quota(course):
-    if course.number_of_student == course.quota:
+    if course.number_of_student >= course.quota:
         return False
     else:
         return True

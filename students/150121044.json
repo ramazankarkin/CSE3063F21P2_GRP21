@@ -1,9 +1,9 @@
 {
     "Student Number": "150121044",
-    "Student Name": "Eymen Kartal",
+    "Student Name": "\u0130lhan Aky\u0131ld\u0131z",
     "Year": 1,
     "Advisor": {
-        "Name": "Ali Haydar \u00c3\u2013zer",
+        "Name": "Sanem Arslan",
         "Department": "CSE",
         "Rank": "Dr.\u00c3\u2013\u00c4\u0178r.\u00c3\u0153yesi"
     },
@@ -16,7 +16,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "BA"
+                "BB"
             ],
             [
                 {
@@ -25,7 +25,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "DD"
+                "CC"
             ],
             [
                 {
@@ -34,7 +34,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "FD"
+                "CB"
             ],
             [
                 {
@@ -43,7 +43,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "DC"
+                "FD"
             ],
             [
                 {
@@ -52,7 +52,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "CC"
+                "CB"
             ],
             [
                 {
@@ -61,7 +61,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "FD"
+                "CB"
             ],
             [
                 {
@@ -70,7 +70,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "BA"
+                "FD"
             ],
             [
                 {
@@ -79,13 +79,13 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "CB"
+                "DD"
             ]
         ],
         "Attended Credit": 31,
         "Completed Credit": 23,
-        "Point": 49.0,
-        "GANO": 1.58
+        "Point": 57.0,
+        "GANO": 1.84
     },
     "Course Offered": [
         {
@@ -131,7 +131,7 @@
             "Prerequisite": null
         },
         {
-            "Course Name": "Entrepreneurship and Innovation",
+            "Course Name": "Cardiopulmonary Resuscitation and First Aid Basics",
             "Course Credit": 3,
             "Quota": 20,
             "Prerequisite": null,

@@ -1,9 +1,9 @@
 {
     "Student Number": "150121046",
-    "Student Name": "Atilla B\u00fcy\u00fck",
+    "Student Name": "Defne Ad\u0131g\u00fczel",
     "Year": 1,
     "Advisor": {
-        "Name": "Ali Haydar \u00c3\u2013zer",
+        "Name": "Sanem Arslan",
         "Department": "CSE",
         "Rank": "Dr.\u00c3\u2013\u00c4\u0178r.\u00c3\u0153yesi"
     },
@@ -16,7 +16,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "BA"
+                "FD"
             ],
             [
                 {
@@ -25,7 +25,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "DC"
+                "BA"
             ],
             [
                 {
@@ -34,7 +34,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "AA"
+                "BA"
             ],
             [
                 {
@@ -43,7 +43,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "BB"
+                "DD"
             ],
             [
                 {
@@ -52,7 +52,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "AA"
+                "CB"
             ],
             [
                 {
@@ -61,7 +61,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "FF"
+                "CB"
             ],
             [
                 {
@@ -70,7 +70,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "BA"
+                "DC"
             ],
             [
                 {
@@ -79,13 +79,13 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "DD"
+                "FD"
             ]
         ],
         "Attended Credit": 31,
         "Completed Credit": 27,
-        "Point": 81.5,
-        "GANO": 2.63
+        "Point": 67.5,
+        "GANO": 2.18
     },
     "Course Offered": [
         {
@@ -131,7 +131,7 @@
             "Prerequisite": null
         },
         {
-            "Course Name": "Self Management",
+            "Course Name": "Cardiopulmonary Resuscitation and First Aid Basics",
             "Course Credit": 3,
             "Quota": 20,
             "Prerequisite": null,

@@ -1,11 +1,11 @@
 {
     "Student Number": "150119040",
-    "Student Name": "Fatih Beler",
+    "Student Name": "Azra \u00d6zt\u00fcrk",
     "Year": 3,
     "Advisor": {
-        "Name": "Bet\u00c3\u00bcl Demir\u00c3\u00b6z Boz",
+        "Name": "Borahan T\u00c3\u00bcmer",
         "Department": "CSE",
-        "Rank": "Dr.\u00c3\u2013\u00c4\u0178r.\u00c3\u0153yesi"
+        "Rank": "Do\u00c3\u00a7.Dr"
     },
     "Transcript Before": {
         "Course List": [
@@ -25,7 +25,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "FD"
+                "BB"
             ],
             [
                 {
@@ -34,7 +34,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "CB"
+                "DC"
             ],
             [
                 {
@@ -61,7 +61,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "FF"
+                "BA"
             ],
             [
                 {
@@ -70,7 +70,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "DD"
+                "BA"
             ],
             [
                 {
@@ -88,7 +88,7 @@
                     "Semester": 2,
                     "Prerequisite": null
                 },
-                "BB"
+                "CB"
             ],
             [
                 {
@@ -106,7 +106,7 @@
                     "Semester": 2,
                     "Prerequisite": null
                 },
-                "BB"
+                "DC"
             ],
             [
                 {
@@ -115,7 +115,7 @@
                     "Semester": 2,
                     "Prerequisite": null
                 },
-                "CB"
+                "AA"
             ],
             [
                 {
@@ -124,7 +124,7 @@
                     "Semester": 2,
                     "Prerequisite": null
                 },
-                "CB"
+                "DC"
             ],
             [
                 {
@@ -133,7 +133,7 @@
                     "Semester": 2,
                     "Prerequisite": null
                 },
-                "BB"
+                "CC"
             ],
             [
                 {
@@ -142,17 +142,17 @@
                     "Semester": 2,
                     "Prerequisite": null
                 },
-                "DC"
+                "BB"
             ],
             [
                 {
-                    "Course Name": "International Business",
+                    "Course Name": "Energy for Physical Activity",
                     "Course Credit": 3,
                     "Quota": 20,
                     "Prerequisite": null,
                     "Elective Type": "NTE"
                 },
-                "BB"
+                "FD"
             ],
             [
                 {
@@ -161,7 +161,7 @@
                     "Semester": 3,
                     "Prerequisite": null
                 },
-                "BB"
+                "FF"
             ],
             [
                 {
@@ -170,7 +170,7 @@
                     "Semester": 3,
                     "Prerequisite": "Computer Programming II"
                 },
-                "BA"
+                "BB"
             ],
             [
                 {
@@ -179,7 +179,7 @@
                     "Semester": 3,
                     "Prerequisite": null
                 },
-                "BB"
+                "DD"
             ],
             [
                 {
@@ -188,7 +188,7 @@
                     "Semester": 3,
                     "Prerequisite": null
                 },
-                "AA"
+                "DC"
             ],
             [
                 {
@@ -197,7 +197,7 @@
                     "Semester": 3,
                     "Prerequisite": null
                 },
-                "AA"
+                "BB"
             ],
             [
                 {
@@ -206,7 +206,7 @@
                     "Semester": 3,
                     "Prerequisite": null
                 },
-                "CC"
+                "FD"
             ],
             [
                 {
@@ -215,7 +215,7 @@
                     "Semester": 4,
                     "Prerequisite": "Data Structures"
                 },
-                "FF"
+                "CB"
             ],
             [
                 {
@@ -233,7 +233,7 @@
                     "Semester": 4,
                     "Prerequisite": null
                 },
-                "FD"
+                "CC"
             ],
             [
                 {
@@ -242,7 +242,7 @@
                     "Semester": 4,
                     "Prerequisite": null
                 },
-                "BB"
+                "BA"
             ],
             [
                 {
@@ -251,7 +251,7 @@
                     "Semester": 4,
                     "Prerequisite": null
                 },
-                "AA"
+                "FF"
             ],
             [
                 {
@@ -278,7 +278,7 @@
                     "Semester": 5,
                     "Prerequisite": null
                 },
-                "DD"
+                "BB"
             ],
             [
                 {
@@ -287,7 +287,7 @@
                     "Semester": 5,
                     "Prerequisite": null
                 },
-                "CB"
+                "DD"
             ],
             [
                 {
@@ -296,7 +296,7 @@
                     "Semester": 5,
                     "Prerequisite": null
                 },
-                "FD"
+                "BA"
             ],
             [
                 {
@@ -305,13 +305,13 @@
                     "Semester": 5,
                     "Prerequisite": null
                 },
-                "BA"
+                "DC"
             ]
         ],
         "Attended Credit": 157,
-        "Completed Credit": 133,
-        "Point": 362.5,
-        "GANO": 2.31
+        "Completed Credit": 139,
+        "Point": 339.0,
+        "GANO": 2.16
     },
     "Course Offered": [
         {

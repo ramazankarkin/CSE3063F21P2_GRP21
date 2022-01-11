@@ -1,9 +1,9 @@
 {
     "Student Number": "150120024",
-    "Student Name": "Zeynep Gen\u00e7",
+    "Student Name": "Ba\u015fak Aky\u0131ld\u0131z",
     "Year": 2,
     "Advisor": {
-        "Name": "Ali Haydar \u00c3\u2013zer",
+        "Name": "Fatma Corut Ergin",
         "Department": "CSE",
         "Rank": "Dr.\u00c3\u2013\u00c4\u0178r.\u00c3\u0153yesi"
     },
@@ -16,7 +16,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "FD"
+                "DD"
             ],
             [
                 {
@@ -25,7 +25,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "BA"
+                "FD"
             ],
             [
                 {
@@ -34,7 +34,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "CC"
+                "BB"
             ],
             [
                 {
@@ -52,7 +52,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "BB"
+                "CC"
             ],
             [
                 {
@@ -70,7 +70,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "BB"
+                "CB"
             ],
             [
                 {
@@ -79,7 +79,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "CB"
+                "CC"
             ],
             [
                 {
@@ -88,7 +88,7 @@
                     "Semester": 2,
                     "Prerequisite": null
                 },
-                "BB"
+                "AA"
             ],
             [
                 {
@@ -97,7 +97,7 @@
                     "Semester": 2,
                     "Prerequisite": null
                 },
-                "CB"
+                "DC"
             ],
             [
                 {
@@ -106,7 +106,7 @@
                     "Semester": 2,
                     "Prerequisite": null
                 },
-                "FD"
+                "BB"
             ],
             [
                 {
@@ -115,7 +115,7 @@
                     "Semester": 2,
                     "Prerequisite": null
                 },
-                "BB"
+                "AA"
             ],
             [
                 {
@@ -124,7 +124,7 @@
                     "Semester": 2,
                     "Prerequisite": null
                 },
-                "CB"
+                "DD"
             ],
             [
                 {
@@ -133,7 +133,7 @@
                     "Semester": 2,
                     "Prerequisite": null
                 },
-                "AA"
+                "DD"
             ],
             [
                 {
@@ -142,17 +142,17 @@
                     "Semester": 2,
                     "Prerequisite": null
                 },
-                "BB"
+                "DD"
             ],
             [
                 {
-                    "Course Name": "Self Management",
+                    "Course Name": "Entrepreneurship and Innovation",
                     "Course Credit": 3,
                     "Quota": 20,
                     "Prerequisite": null,
                     "Elective Type": "NTE"
                 },
-                "CB"
+                "FD"
             ],
             [
                 {
@@ -161,7 +161,7 @@
                     "Semester": 3,
                     "Prerequisite": null
                 },
-                "CC"
+                "FF"
             ],
             [
                 {
@@ -170,7 +170,7 @@
                     "Semester": 3,
                     "Prerequisite": "Computer Programming II"
                 },
-                "CC"
+                "FF"
             ],
             [
                 {
@@ -179,7 +179,7 @@
                     "Semester": 3,
                     "Prerequisite": null
                 },
-                "BA"
+                "BB"
             ],
             [
                 {
@@ -188,7 +188,7 @@
                     "Semester": 3,
                     "Prerequisite": null
                 },
-                "FF"
+                "BB"
             ],
             [
                 {
@@ -197,7 +197,7 @@
                     "Semester": 3,
                     "Prerequisite": null
                 },
-                "DD"
+                "BB"
             ],
             [
                 {
@@ -206,21 +206,15 @@
                     "Semester": 3,
                     "Prerequisite": null
                 },
-                "CB"
+                "BB"
             ]
         ],
         "Attended Credit": 91,
-        "Completed Credit": 78,
-        "Point": 204.0,
-        "GANO": 2.24
+        "Completed Credit": 70,
+        "Point": 177.0,
+        "GANO": 1.95
     },
     "Course Offered": [
-        {
-            "Course Name": "Analysis of Algorithms",
-            "Course Credit": 6,
-            "Semester": 4,
-            "Prerequisite": "Data Structures"
-        },
         {
             "Course Name": "Systems Programming",
             "Course Credit": 7,
@@ -246,5 +240,7 @@
             "Prerequisite": null
         }
     ],
-    "Errors": []
+    "Errors": [
+        "The system did not allow Analysis of Algorithms because student failed prerequisite Data Structures"
+    ]
 }

@@ -1,6 +1,6 @@
 {
     "Student Number": "150118065",
-    "Student Name": "\u00d6mer \u015eahin",
+    "Student Name": "Eymen T\u00fcrkay",
     "Year": 4,
     "Advisor": {
         "Name": "Ali Fuat Alkaya",
@@ -16,7 +16,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "DC"
+                "AA"
             ],
             [
                 {
@@ -25,7 +25,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "FD"
+                "DC"
             ],
             [
                 {
@@ -34,7 +34,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "DC"
+                "FD"
             ],
             [
                 {
@@ -52,7 +52,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "BA"
+                "CC"
             ],
             [
                 {
@@ -61,7 +61,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "FF"
+                "AA"
             ],
             [
                 {
@@ -70,7 +70,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "BB"
+                "FF"
             ],
             [
                 {
@@ -79,7 +79,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "BB"
+                "FF"
             ],
             [
                 {
@@ -88,7 +88,7 @@
                     "Semester": 2,
                     "Prerequisite": null
                 },
-                "FF"
+                "BB"
             ],
             [
                 {
@@ -97,7 +97,7 @@
                     "Semester": 2,
                     "Prerequisite": null
                 },
-                "BB"
+                "AA"
             ],
             [
                 {
@@ -106,7 +106,7 @@
                     "Semester": 2,
                     "Prerequisite": null
                 },
-                "BA"
+                "DD"
             ],
             [
                 {
@@ -115,7 +115,7 @@
                     "Semester": 2,
                     "Prerequisite": null
                 },
-                "BA"
+                "FF"
             ],
             [
                 {
@@ -124,7 +124,7 @@
                     "Semester": 2,
                     "Prerequisite": null
                 },
-                "BA"
+                "DC"
             ],
             [
                 {
@@ -133,7 +133,7 @@
                     "Semester": 2,
                     "Prerequisite": null
                 },
-                "BB"
+                "AA"
             ],
             [
                 {
@@ -142,17 +142,17 @@
                     "Semester": 2,
                     "Prerequisite": null
                 },
-                "DD"
+                "FF"
             ],
             [
                 {
-                    "Course Name": "Interpersonal Relations and Communication",
+                    "Course Name": "Our Biosphere",
                     "Course Credit": 3,
                     "Quota": 20,
                     "Prerequisite": null,
                     "Elective Type": "NTE"
                 },
-                "DC"
+                "CB"
             ],
             [
                 {
@@ -161,7 +161,7 @@
                     "Semester": 3,
                     "Prerequisite": null
                 },
-                "DD"
+                "CC"
             ],
             [
                 {
@@ -170,7 +170,7 @@
                     "Semester": 3,
                     "Prerequisite": "Computer Programming II"
                 },
-                "BA"
+                "AA"
             ],
             [
                 {
@@ -179,7 +179,7 @@
                     "Semester": 3,
                     "Prerequisite": null
                 },
-                "DD"
+                "CB"
             ],
             [
                 {
@@ -188,7 +188,7 @@
                     "Semester": 3,
                     "Prerequisite": null
                 },
-                "FF"
+                "FD"
             ],
             [
                 {
@@ -197,7 +197,7 @@
                     "Semester": 3,
                     "Prerequisite": null
                 },
-                "FD"
+                "AA"
             ],
             [
                 {
@@ -206,7 +206,7 @@
                     "Semester": 3,
                     "Prerequisite": null
                 },
-                "CB"
+                "BB"
             ],
             [
                 {
@@ -215,7 +215,7 @@
                     "Semester": 4,
                     "Prerequisite": "Data Structures"
                 },
-                "DC"
+                "CB"
             ],
             [
                 {
@@ -224,7 +224,7 @@
                     "Semester": 4,
                     "Prerequisite": null
                 },
-                "BB"
+                "FF"
             ],
             [
                 {
@@ -233,7 +233,7 @@
                     "Semester": 4,
                     "Prerequisite": null
                 },
-                "AA"
+                "FD"
             ],
             [
                 {
@@ -242,7 +242,7 @@
                     "Semester": 4,
                     "Prerequisite": null
                 },
-                "BB"
+                "CC"
             ],
             [
                 {
@@ -251,7 +251,7 @@
                     "Semester": 4,
                     "Prerequisite": null
                 },
-                "FF"
+                "CB"
             ],
             [
                 {
@@ -260,7 +260,7 @@
                     "Semester": 5,
                     "Prerequisite": null
                 },
-                "BA"
+                "DD"
             ],
             [
                 {
@@ -278,7 +278,7 @@
                     "Semester": 5,
                     "Prerequisite": null
                 },
-                "CC"
+                "BA"
             ],
             [
                 {
@@ -287,7 +287,7 @@
                     "Semester": 5,
                     "Prerequisite": null
                 },
-                "BB"
+                "CC"
             ],
             [
                 {
@@ -296,7 +296,7 @@
                     "Semester": 5,
                     "Prerequisite": null
                 },
-                "FF"
+                "BB"
             ],
             [
                 {
@@ -305,7 +305,7 @@
                     "Semester": 5,
                     "Prerequisite": null
                 },
-                "BB"
+                "AA"
             ],
             [
                 {
@@ -314,7 +314,7 @@
                     "Semester": 6,
                     "Prerequisite": null
                 },
-                "DC"
+                "BB"
             ],
             [
                 {
@@ -332,7 +332,7 @@
                     "Semester": 6,
                     "Prerequisite": null
                 },
-                "FF"
+                "BA"
             ],
             [
                 {
@@ -341,7 +341,7 @@
                     "Semester": 6,
                     "Prerequisite": null
                 },
-                "BB"
+                "FD"
             ],
             [
                 {
@@ -350,7 +350,7 @@
                     "Semester": 6,
                     "Prerequisite": null
                 },
-                "CB"
+                "AA"
             ],
             [
                 {
@@ -359,7 +359,7 @@
                     "Semester": 6,
                     "Prerequisite": null
                 },
-                "BA"
+                "BB"
             ],
             [
                 {
@@ -368,7 +368,7 @@
                     "Semester": 7,
                     "Prerequisite": null
                 },
-                "DC"
+                "CC"
             ],
             [
                 {
@@ -377,7 +377,7 @@
                     "Semester": 7,
                     "Prerequisite": null
                 },
-                "DC"
+                "CB"
             ],
             [
                 {
@@ -395,7 +395,7 @@
                     "Semester": 7,
                     "Prerequisite": null
                 },
-                "BB"
+                "BA"
             ],
             [
                 {
@@ -404,7 +404,7 @@
                     "Semester": 7,
                     "Prerequisite": null
                 },
-                "BB"
+                "BA"
             ],
             [
                 {
@@ -413,33 +413,33 @@
                     "Semester": 7,
                     "Prerequisite": null
                 },
-                "FF"
+                "CC"
             ],
             [
                 {
-                    "Course Name": "Software Project Management",
+                    "Course Name": "Introduction to Distributed Systems",
                     "Course Credit": 5,
                     "Quota": 20,
                     "Prerequisite": null,
                     "Elective Type": "TE"
                 },
-                "BB"
+                "BA"
             ],
             [
                 {
-                    "Course Name": "Entrepreneurship and Innovation",
+                    "Course Name": "Cardiopulmonary Resuscitation and First Aid Basics",
                     "Course Credit": 3,
                     "Quota": 20,
                     "Prerequisite": null,
                     "Elective Type": "ENG-UE"
                 },
-                "BB"
+                "DC"
             ]
         ],
         "Attended Credit": 228,
-        "Completed Credit": 188,
-        "Point": 497.5,
-        "GANO": 2.18
+        "Completed Credit": 192,
+        "Point": 525.0,
+        "GANO": 2.3
     },
     "Course Offered": [
         {
@@ -455,35 +455,40 @@
             "Prerequisite": null
         },
         {
-            "Course Name": "Introduction to Parallel Processing",
+            "Course Name": "Advanced Unix Programming",
+            "Course Credit": 5,
+            "Quota": 20,
+            "Prerequisite": "Operating Systems",
+            "Elective Type": "TE"
+        },
+        {
+            "Course Name": "Introduction to Robotics and Control Theory",
             "Course Credit": 5,
             "Quota": 20,
             "Prerequisite": null,
             "Elective Type": "TE"
         },
         {
-            "Course Name": "Introduction to Parallel Processing",
+            "Course Name": "Introduction to Robotics and Control Theory",
             "Course Credit": 5,
             "Quota": 20,
             "Prerequisite": null,
             "Elective Type": "TE"
         },
         {
-            "Course Name": "Software Project Management",
+            "Course Name": "Introduction to Information Systems Management",
             "Course Credit": 5,
             "Quota": 20,
             "Prerequisite": null,
             "Elective Type": "ENG-FTE"
         },
         {
-            "Course Name": "Strategic Entrepreneurship",
+            "Course Name": "Energy for Physical Activity",
             "Course Credit": 3,
             "Quota": 20,
             "Prerequisite": null,
             "Elective Type": "NTE"
         }
     ],
-    "Errors": [
-        "The system didnt allow TE - Cloud Computing because quota is full!"
-    ]
+    "Errors": []
 }

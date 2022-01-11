@@ -1,11 +1,11 @@
 {
     "Student Number": "150119045",
-    "Student Name": "Ahsen B\u00fcy\u00fck",
+    "Student Name": "Asena Yal\u00e7\u0131nkaya",
     "Year": 3,
     "Advisor": {
-        "Name": "Bet\u00c3\u00bcl Demir\u00c3\u00b6z Boz",
+        "Name": "Borahan T\u00c3\u00bcmer",
         "Department": "CSE",
-        "Rank": "Dr.\u00c3\u2013\u00c4\u0178r.\u00c3\u0153yesi"
+        "Rank": "Do\u00c3\u00a7.Dr"
     },
     "Transcript Before": {
         "Course List": [
@@ -16,7 +16,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "DD"
+                "DC"
             ],
             [
                 {
@@ -25,7 +25,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "BB"
+                "BA"
             ],
             [
                 {
@@ -34,7 +34,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "FD"
+                "FF"
             ],
             [
                 {
@@ -43,7 +43,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "DD"
+                "CC"
             ],
             [
                 {
@@ -52,7 +52,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "FF"
+                "CC"
             ],
             [
                 {
@@ -61,7 +61,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "FD"
+                "BA"
             ],
             [
                 {
@@ -70,7 +70,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "DD"
+                "FD"
             ],
             [
                 {
@@ -79,7 +79,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "FF"
+                "DC"
             ],
             [
                 {
@@ -88,7 +88,7 @@
                     "Semester": 2,
                     "Prerequisite": null
                 },
-                "CC"
+                "FF"
             ],
             [
                 {
@@ -97,7 +97,7 @@
                     "Semester": 2,
                     "Prerequisite": null
                 },
-                "FF"
+                "CB"
             ],
             [
                 {
@@ -106,7 +106,7 @@
                     "Semester": 2,
                     "Prerequisite": null
                 },
-                "FF"
+                "BB"
             ],
             [
                 {
@@ -115,7 +115,7 @@
                     "Semester": 2,
                     "Prerequisite": null
                 },
-                "FF"
+                "AA"
             ],
             [
                 {
@@ -133,7 +133,7 @@
                     "Semester": 2,
                     "Prerequisite": null
                 },
-                "FF"
+                "BB"
             ],
             [
                 {
@@ -142,11 +142,11 @@
                     "Semester": 2,
                     "Prerequisite": null
                 },
-                "CC"
+                "BA"
             ],
             [
                 {
-                    "Course Name": "Human Performance and Nutrition",
+                    "Course Name": "Self Management",
                     "Course Credit": 3,
                     "Quota": 20,
                     "Prerequisite": null,
@@ -161,7 +161,7 @@
                     "Semester": 3,
                     "Prerequisite": null
                 },
-                "AA"
+                "BB"
             ],
             [
                 {
@@ -170,7 +170,7 @@
                     "Semester": 3,
                     "Prerequisite": "Computer Programming II"
                 },
-                "DD"
+                "DC"
             ],
             [
                 {
@@ -179,7 +179,7 @@
                     "Semester": 3,
                     "Prerequisite": null
                 },
-                "DD"
+                "AA"
             ],
             [
                 {
@@ -188,7 +188,7 @@
                     "Semester": 3,
                     "Prerequisite": null
                 },
-                "DD"
+                "DC"
             ],
             [
                 {
@@ -197,7 +197,7 @@
                     "Semester": 3,
                     "Prerequisite": null
                 },
-                "AA"
+                "CC"
             ],
             [
                 {
@@ -206,7 +206,7 @@
                     "Semester": 3,
                     "Prerequisite": null
                 },
-                "CC"
+                "FF"
             ],
             [
                 {
@@ -215,7 +215,7 @@
                     "Semester": 4,
                     "Prerequisite": "Data Structures"
                 },
-                "BB"
+                "CC"
             ],
             [
                 {
@@ -224,7 +224,7 @@
                     "Semester": 4,
                     "Prerequisite": null
                 },
-                "FD"
+                "DD"
             ],
             [
                 {
@@ -233,7 +233,7 @@
                     "Semester": 4,
                     "Prerequisite": null
                 },
-                "BA"
+                "BB"
             ],
             [
                 {
@@ -242,7 +242,7 @@
                     "Semester": 4,
                     "Prerequisite": null
                 },
-                "CB"
+                "FF"
             ],
             [
                 {
@@ -251,7 +251,7 @@
                     "Semester": 4,
                     "Prerequisite": null
                 },
-                "FD"
+                "CC"
             ],
             [
                 {
@@ -260,7 +260,7 @@
                     "Semester": 5,
                     "Prerequisite": null
                 },
-                "AA"
+                "FF"
             ],
             [
                 {
@@ -278,7 +278,7 @@
                     "Semester": 5,
                     "Prerequisite": null
                 },
-                "DC"
+                "BB"
             ],
             [
                 {
@@ -287,7 +287,7 @@
                     "Semester": 5,
                     "Prerequisite": null
                 },
-                "BB"
+                "FD"
             ],
             [
                 {
@@ -296,7 +296,7 @@
                     "Semester": 5,
                     "Prerequisite": null
                 },
-                "BB"
+                "FF"
             ],
             [
                 {
@@ -305,13 +305,13 @@
                     "Semester": 5,
                     "Prerequisite": null
                 },
-                "DC"
+                "CB"
             ]
         ],
         "Attended Credit": 157,
-        "Completed Credit": 110,
-        "Point": 276.0,
-        "GANO": 1.76
+        "Completed Credit": 118,
+        "Point": 296.0,
+        "GANO": 1.89
     },
     "Course Offered": [
         {

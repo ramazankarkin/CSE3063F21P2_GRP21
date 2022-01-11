@@ -1,9 +1,9 @@
 {
     "Student Number": "150121057",
-    "Student Name": "Ali Erdo\u011fmu\u015f",
+    "Student Name": "\u00d6nder Temur",
     "Year": 1,
     "Advisor": {
-        "Name": "Ali Haydar \u00c3\u2013zer",
+        "Name": "Sanem Arslan",
         "Department": "CSE",
         "Rank": "Dr.\u00c3\u2013\u00c4\u0178r.\u00c3\u0153yesi"
     },
@@ -16,7 +16,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "DD"
+                "FF"
             ],
             [
                 {
@@ -25,7 +25,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "BB"
+                "DD"
             ],
             [
                 {
@@ -34,7 +34,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "AA"
+                "FD"
             ],
             [
                 {
@@ -43,7 +43,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "BB"
+                "AA"
             ],
             [
                 {
@@ -52,7 +52,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "BB"
+                "DC"
             ],
             [
                 {
@@ -61,7 +61,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "AA"
+                "CB"
             ],
             [
                 {
@@ -70,7 +70,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "AA"
+                "FD"
             ],
             [
                 {
@@ -79,13 +79,13 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "CB"
+                "DD"
             ]
         ],
         "Attended Credit": 31,
-        "Completed Credit": 31,
-        "Point": 98.0,
-        "GANO": 3.16
+        "Completed Credit": 23,
+        "Point": 53.0,
+        "GANO": 1.71
     },
     "Course Offered": [
         {
@@ -131,7 +131,7 @@
             "Prerequisite": null
         },
         {
-            "Course Name": "International Business",
+            "Course Name": "Our Biosphere",
             "Course Credit": 3,
             "Quota": 20,
             "Prerequisite": null,

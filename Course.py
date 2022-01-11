@@ -11,7 +11,7 @@ class Course:
         self.course_hour = course_hour
 
     def json_dumps_text(self):
-        if(self.elective_type != None):
+        if self.elective_type is not None:
             return {'Course Name': self.course_name, 'Course Credit': self.course_credit,
                     'Quota': self.quota, 'Prerequisite': self.prerequisite,
                     'Elective Type': self.elective_type}

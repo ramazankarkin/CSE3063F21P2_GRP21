@@ -1,9 +1,9 @@
 {
     "Student Number": "150121023",
-    "Student Name": "Ali Din\u00e7",
+    "Student Name": "K\u00fcbra Duraner",
     "Year": 1,
     "Advisor": {
-        "Name": "Ali Haydar \u00c3\u2013zer",
+        "Name": "Sanem Arslan",
         "Department": "CSE",
         "Rank": "Dr.\u00c3\u2013\u00c4\u0178r.\u00c3\u0153yesi"
     },
@@ -25,7 +25,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "BB"
+                "CC"
             ],
             [
                 {
@@ -43,7 +43,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "FF"
+                "AA"
             ],
             [
                 {
@@ -52,7 +52,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "FD"
+                "DC"
             ],
             [
                 {
@@ -61,7 +61,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "AA"
+                "BB"
             ],
             [
                 {
@@ -70,7 +70,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "CC"
+                "CB"
             ],
             [
                 {
@@ -79,13 +79,13 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "FD"
+                "AA"
             ]
         ],
         "Attended Credit": 31,
-        "Completed Credit": 15,
-        "Point": 55.0,
-        "GANO": 1.77
+        "Completed Credit": 29,
+        "Point": 84.0,
+        "GANO": 2.71
     },
     "Course Offered": [
         {
@@ -131,7 +131,7 @@
             "Prerequisite": null
         },
         {
-            "Course Name": "Our Biosphere",
+            "Course Name": "Energy for Physical Activity",
             "Course Credit": 3,
             "Quota": 20,
             "Prerequisite": null,

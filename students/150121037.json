@@ -1,9 +1,9 @@
 {
     "Student Number": "150121037",
-    "Student Name": "Kardelen Bilgin",
+    "Student Name": "Mehmet H\u00fcy\u00fcktepe",
     "Year": 1,
     "Advisor": {
-        "Name": "Ali Haydar \u00c3\u2013zer",
+        "Name": "Sanem Arslan",
         "Department": "CSE",
         "Rank": "Dr.\u00c3\u2013\u00c4\u0178r.\u00c3\u0153yesi"
     },
@@ -25,7 +25,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "CB"
+                "AA"
             ],
             [
                 {
@@ -34,7 +34,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "FF"
+                "FD"
             ],
             [
                 {
@@ -43,7 +43,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "DC"
+                "BB"
             ],
             [
                 {
@@ -52,7 +52,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "DC"
+                "DD"
             ],
             [
                 {
@@ -61,7 +61,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "BA"
+                "DD"
             ],
             [
                 {
@@ -70,7 +70,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "BB"
+                "DD"
             ],
             [
                 {
@@ -79,13 +79,13 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "BA"
+                "BB"
             ]
         ],
         "Attended Credit": 31,
         "Completed Credit": 25,
-        "Point": 57.5,
-        "GANO": 1.85
+        "Point": 58.0,
+        "GANO": 1.87
     },
     "Course Offered": [
         {
@@ -131,7 +131,7 @@
             "Prerequisite": null
         },
         {
-            "Course Name": "Strategic Entrepreneurship",
+            "Course Name": "Interpersonal Relations and Communication",
             "Course Credit": 3,
             "Quota": 20,
             "Prerequisite": null,

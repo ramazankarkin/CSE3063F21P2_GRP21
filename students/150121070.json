@@ -1,9 +1,9 @@
 {
     "Student Number": "150121070",
-    "Student Name": "Ramazan Ball\u0131ca",
+    "Student Name": "Ahmet Ek\u015fi",
     "Year": 1,
     "Advisor": {
-        "Name": "Ali Haydar \u00c3\u2013zer",
+        "Name": "Sanem Arslan",
         "Department": "CSE",
         "Rank": "Dr.\u00c3\u2013\u00c4\u0178r.\u00c3\u0153yesi"
     },
@@ -25,7 +25,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "BB"
+                "BA"
             ],
             [
                 {
@@ -34,7 +34,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "DC"
+                "AA"
             ],
             [
                 {
@@ -43,7 +43,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "CB"
+                "FF"
             ],
             [
                 {
@@ -52,7 +52,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "FD"
+                "BB"
             ],
             [
                 {
@@ -61,7 +61,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "CC"
+                "BB"
             ],
             [
                 {
@@ -70,7 +70,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "DD"
+                "FD"
             ],
             [
                 {
@@ -83,9 +83,9 @@
             ]
         ],
         "Attended Credit": 31,
-        "Completed Credit": 25,
-        "Point": 62.0,
-        "GANO": 2.0
+        "Completed Credit": 23,
+        "Point": 77.5,
+        "GANO": 2.5
     },
     "Course Offered": [
         {
@@ -131,7 +131,7 @@
             "Prerequisite": null
         },
         {
-            "Course Name": "Human Performance and Nutrition",
+            "Course Name": "Cardiopulmonary Resuscitation and First Aid Basics",
             "Course Credit": 3,
             "Quota": 20,
             "Prerequisite": null,

@@ -1,9 +1,9 @@
 {
     "Student Number": "150120026",
-    "Student Name": "Ali \u00c7etin",
+    "Student Name": "K\u00fcbra A\u00e7\u0131kg\u00f6z",
     "Year": 2,
     "Advisor": {
-        "Name": "Ali Haydar \u00c3\u2013zer",
+        "Name": "Fatma Corut Ergin",
         "Department": "CSE",
         "Rank": "Dr.\u00c3\u2013\u00c4\u0178r.\u00c3\u0153yesi"
     },
@@ -16,7 +16,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "AA"
+                "FF"
             ],
             [
                 {
@@ -43,7 +43,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "FF"
+                "DC"
             ],
             [
                 {
@@ -52,7 +52,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "BA"
+                "CB"
             ],
             [
                 {
@@ -61,7 +61,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "FF"
+                "BA"
             ],
             [
                 {
@@ -70,7 +70,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "CC"
+                "DD"
             ],
             [
                 {
@@ -79,7 +79,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "FD"
+                "BB"
             ],
             [
                 {
@@ -88,7 +88,7 @@
                     "Semester": 2,
                     "Prerequisite": null
                 },
-                "BA"
+                "BB"
             ],
             [
                 {
@@ -97,7 +97,7 @@
                     "Semester": 2,
                     "Prerequisite": null
                 },
-                "AA"
+                "FF"
             ],
             [
                 {
@@ -106,7 +106,7 @@
                     "Semester": 2,
                     "Prerequisite": null
                 },
-                "DC"
+                "DD"
             ],
             [
                 {
@@ -115,7 +115,7 @@
                     "Semester": 2,
                     "Prerequisite": null
                 },
-                "CB"
+                "DD"
             ],
             [
                 {
@@ -124,7 +124,7 @@
                     "Semester": 2,
                     "Prerequisite": null
                 },
-                "BB"
+                "AA"
             ],
             [
                 {
@@ -133,7 +133,7 @@
                     "Semester": 2,
                     "Prerequisite": null
                 },
-                "BB"
+                "BA"
             ],
             [
                 {
@@ -152,7 +152,7 @@
                     "Prerequisite": null,
                     "Elective Type": "NTE"
                 },
-                "BB"
+                "DD"
             ],
             [
                 {
@@ -161,7 +161,7 @@
                     "Semester": 3,
                     "Prerequisite": null
                 },
-                "DC"
+                "DD"
             ],
             [
                 {
@@ -170,7 +170,7 @@
                     "Semester": 3,
                     "Prerequisite": "Computer Programming II"
                 },
-                "FD"
+                "CC"
             ],
             [
                 {
@@ -179,7 +179,7 @@
                     "Semester": 3,
                     "Prerequisite": null
                 },
-                "AA"
+                "DD"
             ],
             [
                 {
@@ -188,7 +188,7 @@
                     "Semester": 3,
                     "Prerequisite": null
                 },
-                "BB"
+                "CB"
             ],
             [
                 {
@@ -197,7 +197,7 @@
                     "Semester": 3,
                     "Prerequisite": null
                 },
-                "FD"
+                "CC"
             ],
             [
                 {
@@ -206,15 +206,21 @@
                     "Semester": 3,
                     "Prerequisite": null
                 },
-                "BB"
+                "FD"
             ]
         ],
         "Attended Credit": 91,
-        "Completed Credit": 68,
-        "Point": 204.0,
-        "GANO": 2.24
+        "Completed Credit": 79,
+        "Point": 168.5,
+        "GANO": 1.85
     },
     "Course Offered": [
+        {
+            "Course Name": "Analysis of Algorithms",
+            "Course Credit": 6,
+            "Semester": 4,
+            "Prerequisite": "Data Structures"
+        },
         {
             "Course Name": "Systems Programming",
             "Course Credit": 7,
@@ -240,7 +246,5 @@
             "Prerequisite": null
         }
     ],
-    "Errors": [
-        "The system did not allow Analysis of Algorithms because student failed prerequisite Data Structures"
-    ]
+    "Errors": []
 }

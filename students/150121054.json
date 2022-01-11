@@ -1,9 +1,9 @@
 {
     "Student Number": "150121054",
-    "Student Name": "Bihter Kuru\u00e7ay",
+    "Student Name": "Ebrar Ek\u015fi",
     "Year": 1,
     "Advisor": {
-        "Name": "Ali Haydar \u00c3\u2013zer",
+        "Name": "Sanem Arslan",
         "Department": "CSE",
         "Rank": "Dr.\u00c3\u2013\u00c4\u0178r.\u00c3\u0153yesi"
     },
@@ -25,7 +25,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "CB"
+                "AA"
             ],
             [
                 {
@@ -34,7 +34,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "FF"
+                "FD"
             ],
             [
                 {
@@ -43,7 +43,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "DD"
+                "FF"
             ],
             [
                 {
@@ -52,7 +52,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "BB"
+                "BA"
             ],
             [
                 {
@@ -61,7 +61,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "CC"
+                "DC"
             ],
             [
                 {
@@ -70,7 +70,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "AA"
+                "FD"
             ],
             [
                 {
@@ -83,9 +83,9 @@
             ]
         ],
         "Attended Credit": 31,
-        "Completed Credit": 27,
-        "Point": 65.5,
-        "GANO": 2.11
+        "Completed Credit": 19,
+        "Point": 63.0,
+        "GANO": 2.03
     },
     "Course Offered": [
         {
@@ -131,7 +131,7 @@
             "Prerequisite": null
         },
         {
-            "Course Name": "Energy for Physical Activity",
+            "Course Name": "Entrepreneurship and Innovation",
             "Course Credit": 3,
             "Quota": 20,
             "Prerequisite": null,

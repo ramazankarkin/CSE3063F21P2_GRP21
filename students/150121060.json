@@ -1,9 +1,9 @@
 {
     "Student Number": "150121060",
-    "Student Name": "\u00d6zge Beler",
+    "Student Name": "Ramazan Aky\u0131ld\u0131z",
     "Year": 1,
     "Advisor": {
-        "Name": "Ali Haydar \u00c3\u2013zer",
+        "Name": "Sanem Arslan",
         "Department": "CSE",
         "Rank": "Dr.\u00c3\u2013\u00c4\u0178r.\u00c3\u0153yesi"
     },
@@ -16,7 +16,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "FF"
+                "FD"
             ],
             [
                 {
@@ -25,7 +25,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "FF"
+                "AA"
             ],
             [
                 {
@@ -52,7 +52,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "CC"
+                "AA"
             ],
             [
                 {
@@ -61,7 +61,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "BB"
+                "DD"
             ],
             [
                 {
@@ -70,7 +70,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "CC"
+                "BB"
             ],
             [
                 {
@@ -79,13 +79,13 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "CC"
+                "DC"
             ]
         ],
         "Attended Credit": 31,
-        "Completed Credit": 20,
-        "Point": 50.0,
-        "GANO": 1.61
+        "Completed Credit": 25,
+        "Point": 76.0,
+        "GANO": 2.45
     },
     "Course Offered": [
         {
@@ -131,7 +131,7 @@
             "Prerequisite": null
         },
         {
-            "Course Name": "Our Biosphere",
+            "Course Name": "International Business",
             "Course Credit": 3,
             "Quota": 20,
             "Prerequisite": null,

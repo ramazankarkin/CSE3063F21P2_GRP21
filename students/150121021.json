@@ -1,9 +1,9 @@
 {
     "Student Number": "150121021",
-    "Student Name": "Rabia Y\u0131ld\u0131z",
+    "Student Name": "Bihter Gen\u00e7",
     "Year": 1,
     "Advisor": {
-        "Name": "Ali Haydar \u00c3\u2013zer",
+        "Name": "Sanem Arslan",
         "Department": "CSE",
         "Rank": "Dr.\u00c3\u2013\u00c4\u0178r.\u00c3\u0153yesi"
     },
@@ -16,7 +16,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "BB"
+                "CB"
             ],
             [
                 {
@@ -25,7 +25,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "BA"
+                "FD"
             ],
             [
                 {
@@ -34,7 +34,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "CB"
+                "FF"
             ],
             [
                 {
@@ -43,7 +43,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "DD"
+                "AA"
             ],
             [
                 {
@@ -52,7 +52,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "FD"
+                "BB"
             ],
             [
                 {
@@ -61,7 +61,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "BA"
+                "DD"
             ],
             [
                 {
@@ -70,7 +70,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "DD"
+                "BA"
             ],
             [
                 {
@@ -79,11 +79,11 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "BA"
+                "CB"
             ]
         ],
         "Attended Credit": 31,
-        "Completed Credit": 25,
+        "Completed Credit": 22,
         "Point": 65.5,
         "GANO": 2.11
     },
@@ -131,7 +131,7 @@
             "Prerequisite": null
         },
         {
-            "Course Name": "Our Biosphere",
+            "Course Name": "Energy for Physical Activity",
             "Course Credit": 3,
             "Quota": 20,
             "Prerequisite": null,

@@ -1,9 +1,9 @@
 {
     "Student Number": "150121051",
-    "Student Name": "Buse Kuru\u00e7ay",
+    "Student Name": "Hamza Y\u0131lmaz",
     "Year": 1,
     "Advisor": {
-        "Name": "Ali Haydar \u00c3\u2013zer",
+        "Name": "Sanem Arslan",
         "Department": "CSE",
         "Rank": "Dr.\u00c3\u2013\u00c4\u0178r.\u00c3\u0153yesi"
     },
@@ -16,7 +16,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "AA"
+                "BB"
             ],
             [
                 {
@@ -25,7 +25,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "AA"
+                "BB"
             ],
             [
                 {
@@ -34,7 +34,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "FD"
+                "DC"
             ],
             [
                 {
@@ -43,7 +43,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "FD"
+                "DC"
             ],
             [
                 {
@@ -52,7 +52,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "BB"
+                "CB"
             ],
             [
                 {
@@ -61,7 +61,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "DC"
+                "CC"
             ],
             [
                 {
@@ -79,11 +79,11 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "CC"
+                "DD"
             ]
         ],
         "Attended Credit": 31,
-        "Completed Credit": 21,
+        "Completed Credit": 31,
         "Point": 66.0,
         "GANO": 2.13
     },
@@ -131,7 +131,7 @@
             "Prerequisite": null
         },
         {
-            "Course Name": "International Business",
+            "Course Name": "Human Performance and Nutrition",
             "Course Credit": 3,
             "Quota": 20,
             "Prerequisite": null,

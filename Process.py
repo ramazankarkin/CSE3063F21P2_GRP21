@@ -12,7 +12,7 @@ def get_create_new_student_from_json():
     variables = json.load(json_file)
     json_file.close()
 
-    return True if variables['createNewStudents'] == True else False
+    return True if variables['createNewStudents'] is True else False
 
 
 def get_semester_from_json():
@@ -25,34 +25,30 @@ def get_semester_from_json():
 
 def get_advisors_from_json():
     json_file = open("input.json")
-
-    with open("input.json", encoding='utf-8') as data_file:
-        data = json.load(data_file)
-
     variables = json.load(json_file)
     json_file.close()
 
-    advisor_list = []
+    my_advisor_list = []
 
     for advisor in variables['advisors']:
         new_advisor = Advisor(advisor['advisorName'], advisor['department'], advisor['rank'])
-        advisor_list.append(new_advisor)
+        my_advisor_list.append(new_advisor)
 
-    return advisor_list
+    return my_advisor_list
 
 
 def create_courses():
-    course_list = []
+    my_course_list = []
 
     for semester in range(1, 9):
-        course_list += create_semester_courses(semester)
+        my_course_list += create_semester_courses(semester)
 
-    course_list += create_elective_courses("NTE")
-    course_list += create_elective_courses("ENG-UE")
-    course_list += create_elective_courses("TE")
-    course_list += create_elective_courses("ENG-FTE")
+    my_course_list += create_elective_courses("NTE")
+    my_course_list += create_elective_courses("ENG-UE")
+    my_course_list += create_elective_courses("TE")
+    my_course_list += create_elective_courses("ENG-FTE")
 
-    return course_list
+    return my_course_list
 
 
 def create_semester_courses(semester):
@@ -60,7 +56,7 @@ def create_semester_courses(semester):
     variables = json.load(json_file)
     json_file.close()
 
-    myCourseList = []
+    my_course_list = []
 
     for courses in variables['courses']:
         for semester_course in courses[str(semester)]:
@@ -70,9 +66,9 @@ def create_semester_courses(semester):
             if 'prerequisite' in semester_course:
                 new_course.prerequisite = semester_course['prerequisite']
 
-            myCourseList.append(new_course)
+            my_course_list.append(new_course)
 
-    return myCourseList
+    return my_course_list
 
 
 def create_elective_courses(electiveType):
@@ -80,7 +76,7 @@ def create_elective_courses(electiveType):
     variables = json.load(json_file)
     json_file.close()
 
-    myCourseList = []
+    my_course_list = []
 
     for courses in variables['courses']:
         for semester in courses[electiveType]:
@@ -90,9 +86,9 @@ def create_elective_courses(electiveType):
             if 'prerequisite' in semester:
                 new_course.prerequisite = semester['prerequisite']
 
-            myCourseList.append(new_course)
+            my_course_list.append(new_course)
 
-    return myCourseList
+    return my_course_list
 
 
 def get_semester_courses(semester):
@@ -120,8 +116,7 @@ def initialize_students():
         advisor = advisor_list[randint(0, len(advisor_list) - 1)]
         for y in range(70):
             student = Student(generate_student_number(year, y), generate_random_name(), year, advisor,
-                              create_transcript(year),
-                              None)
+                              create_transcript(year), None)
             student.course_offered = create_course_offered(student)
             student_list.append(student)
             advisor.student_list.append(student)
@@ -130,7 +125,7 @@ def initialize_students():
 def create_transcript(year):
     my_course_list = []
     point = 0
-    given_credit = 0
+    attended_credit = 0
     completed_credit = 0
 
     for semester in range(1, semester_to_int(year)):
@@ -138,48 +133,49 @@ def create_transcript(year):
             letter_grade = generate_random_letter_grade()
             my_course_list.append([course, letter_grade])
 
-            given_credit += course.course_credit
+            attended_credit += course.course_credit
             point += course.course_credit * get_numeric_grade_from_letter_grade(letter_grade)
+
             if letter_grade != "FF" and letter_grade != "FD":
                 completed_credit += course.course_credit
 
         if semester == 2:
-            while (True):
+            while True:
                 course = get_elective_courses("NTE")[randint(0, len(get_elective_courses("NTE")) - 1)]
                 if my_course_list.count(course) == 0:
                     letter_grade = generate_random_letter_grade()
                     my_course_list.append([course, letter_grade])
-                    given_credit += course.course_credit
+                    attended_credit += course.course_credit
                     point += course.course_credit * get_numeric_grade_from_letter_grade(letter_grade)
                     if letter_grade != "FF" and letter_grade != "FD":
                         completed_credit += course.course_credit
                     break
 
         elif semester == 7:
-            while (True):
+            while True:
                 course = get_elective_courses("TE")[randint(0, len(get_elective_courses("TE")) - 1)]
                 if my_course_list.count(course) == 0:
                     letter_grade = generate_random_letter_grade()
                     my_course_list.append([course, letter_grade])
-                    given_credit += course.course_credit
+                    attended_credit += course.course_credit
                     point += course.course_credit * get_numeric_grade_from_letter_grade(letter_grade)
                     if letter_grade != "FF" and letter_grade != "FD":
                         completed_credit += course.course_credit
                     break
 
-            while (True):
+            while True:
                 course = get_elective_courses("ENG-UE")[randint(0, len(get_elective_courses("ENG-UE")) - 1)]
                 if my_course_list.count(course) == 0:
                     letter_grade = generate_random_letter_grade()
                     my_course_list.append([course, letter_grade])
-                    given_credit += course.course_credit
+                    attended_credit += course.course_credit
                     point += course.course_credit * get_numeric_grade_from_letter_grade(letter_grade)
                     if letter_grade != "FF" and letter_grade != "FD":
                         completed_credit += course.course_credit
                     break
 
-    gano = round(point / given_credit, 2)
-    transcript = Transcript(my_course_list, given_credit, completed_credit, point, gano)
+    gano = round(point / attended_credit, 2)
+    transcript = Transcript(my_course_list, attended_credit, completed_credit, point, gano)
     return transcript
 
 

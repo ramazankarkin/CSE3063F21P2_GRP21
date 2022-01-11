@@ -1,22 +1,22 @@
 {
     "Student Number": "150120023",
-    "Student Name": "\u00d6zlem Din\u00e7",
+    "Student Name": "Rabia Dinç",
     "Year": 2,
     "Advisor": {
-        "Name": "Borahan T\u00c3\u00bcmer",
+        "Name": "Mustafa Ağaoğlu",
         "Department": "CSE",
-        "Rank": "Do\u00c3\u00a7.Dr"
+        "Rank": "Doç.Dr"
     },
     "Transcript Before": {
         "Course List": [
             [
                 {
-                    "Course Name": "Atat\u00c3\u00bcrk \u00c4\u00b0lkeleri ve \u00c4\u00b0nk\u00c4\u00b1lap Tarihi I",
+                    "Course Name": "Atatürk İlkeleri ve İnkılap Tarihi I",
                     "Course Credit": 2,
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "FF"
+                "FD"
             ],
             [
                 {
@@ -25,7 +25,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "BA"
+                "BB"
             ],
             [
                 {
@@ -43,7 +43,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "AA"
+                "FD"
             ],
             [
                 {
@@ -52,7 +52,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "CB"
+                "DC"
             ],
             [
                 {
@@ -61,7 +61,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "AA"
+                "DC"
             ],
             [
                 {
@@ -70,25 +70,25 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "CB"
+                "DD"
             ],
             [
                 {
-                    "Course Name": "T\u00c3\u00bcrk Dili I",
+                    "Course Name": "Türk Dili I",
                     "Course Credit": 2,
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "FD"
+                "CC"
             ],
             [
                 {
-                    "Course Name": "Atat\u00c3\u00bcrk \u00c4\u00b0lkeleri ve \u00c4\u00b0nk\u00c4\u00b1lap Tarihi II",
+                    "Course Name": "Atatürk İlkeleri ve İnkılap Tarihi II",
                     "Course Credit": 2,
                     "Semester": 2,
                     "Prerequisite": null
                 },
-                "DD"
+                "BB"
             ],
             [
                 {
@@ -97,7 +97,7 @@
                     "Semester": 2,
                     "Prerequisite": null
                 },
-                "AA"
+                "BB"
             ],
             [
                 {
@@ -106,7 +106,7 @@
                     "Semester": 2,
                     "Prerequisite": null
                 },
-                "DD"
+                "DC"
             ],
             [
                 {
@@ -115,7 +115,7 @@
                     "Semester": 2,
                     "Prerequisite": null
                 },
-                "CB"
+                "AA"
             ],
             [
                 {
@@ -133,26 +133,26 @@
                     "Semester": 2,
                     "Prerequisite": null
                 },
-                "FD"
+                "CC"
             ],
             [
                 {
-                    "Course Name": "T\u00c3\u00bcrk Dili II",
+                    "Course Name": "Türk Dili II",
                     "Course Credit": 2,
                     "Semester": 2,
                     "Prerequisite": null
                 },
-                "DD"
+                "CB"
             ],
             [
                 {
-                    "Course Name": "Entrepreneurship and Innovation",
+                    "Course Name": "Strategic Entrepreneurship",
                     "Course Credit": 3,
                     "Quota": 20,
                     "Prerequisite": null,
                     "Elective Type": "NTE"
                 },
-                "CC"
+                "AA"
             ],
             [
                 {
@@ -161,7 +161,7 @@
                     "Semester": 3,
                     "Prerequisite": null
                 },
-                "BB"
+                "AA"
             ],
             [
                 {
@@ -170,7 +170,7 @@
                     "Semester": 3,
                     "Prerequisite": "Computer Programming II"
                 },
-                "DC"
+                "BA"
             ],
             [
                 {
@@ -179,7 +179,7 @@
                     "Semester": 3,
                     "Prerequisite": null
                 },
-                "BB"
+                "DC"
             ],
             [
                 {
@@ -188,7 +188,7 @@
                     "Semester": 3,
                     "Prerequisite": null
                 },
-                "FD"
+                "BB"
             ],
             [
                 {
@@ -197,7 +197,7 @@
                     "Semester": 3,
                     "Prerequisite": null
                 },
-                "DD"
+                "BB"
             ],
             [
                 {
@@ -206,13 +206,13 @@
                     "Semester": 3,
                     "Prerequisite": null
                 },
-                "CB"
+                "BA"
             ]
         ],
         "Attended Credit": 91,
-        "Completed Credit": 80,
-        "Point": 197.0,
-        "GANO": 2.16
+        "Completed Credit": 83,
+        "Point": 217.5,
+        "GANO": 2.39
     },
     "Course Offered": [
         {

@@ -1,22 +1,22 @@
 {
     "Student Number": "150120058",
-    "Student Name": "Ramazan G\u00fc\u00e7l\u00fc",
+    "Student Name": "Öykü Erdoğan",
     "Year": 2,
     "Advisor": {
-        "Name": "Borahan T\u00c3\u00bcmer",
+        "Name": "Mustafa Ağaoğlu",
         "Department": "CSE",
-        "Rank": "Do\u00c3\u00a7.Dr"
+        "Rank": "Doç.Dr"
     },
     "Transcript Before": {
         "Course List": [
             [
                 {
-                    "Course Name": "Atat\u00c3\u00bcrk \u00c4\u00b0lkeleri ve \u00c4\u00b0nk\u00c4\u00b1lap Tarihi I",
+                    "Course Name": "Atatürk İlkeleri ve İnkılap Tarihi I",
                     "Course Credit": 2,
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "CC"
+                "DC"
             ],
             [
                 {
@@ -25,7 +25,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "DC"
+                "AA"
             ],
             [
                 {
@@ -34,7 +34,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "AA"
+                "BB"
             ],
             [
                 {
@@ -43,7 +43,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "CC"
+                "BB"
             ],
             [
                 {
@@ -52,7 +52,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "FD"
+                "CC"
             ],
             [
                 {
@@ -61,7 +61,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "BA"
+                "BB"
             ],
             [
                 {
@@ -70,25 +70,25 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "DD"
+                "BB"
             ],
             [
                 {
-                    "Course Name": "T\u00c3\u00bcrk Dili I",
+                    "Course Name": "Türk Dili I",
                     "Course Credit": 2,
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "DD"
+                "CC"
             ],
             [
                 {
-                    "Course Name": "Atat\u00c3\u00bcrk \u00c4\u00b0lkeleri ve \u00c4\u00b0nk\u00c4\u00b1lap Tarihi II",
+                    "Course Name": "Atatürk İlkeleri ve İnkılap Tarihi II",
                     "Course Credit": 2,
                     "Semester": 2,
                     "Prerequisite": null
                 },
-                "BA"
+                "DC"
             ],
             [
                 {
@@ -97,7 +97,7 @@
                     "Semester": 2,
                     "Prerequisite": null
                 },
-                "AA"
+                "BB"
             ],
             [
                 {
@@ -106,7 +106,7 @@
                     "Semester": 2,
                     "Prerequisite": null
                 },
-                "FD"
+                "BB"
             ],
             [
                 {
@@ -115,7 +115,7 @@
                     "Semester": 2,
                     "Prerequisite": null
                 },
-                "AA"
+                "FF"
             ],
             [
                 {
@@ -133,20 +133,20 @@
                     "Semester": 2,
                     "Prerequisite": null
                 },
-                "DC"
+                "AA"
             ],
             [
                 {
-                    "Course Name": "T\u00c3\u00bcrk Dili II",
+                    "Course Name": "Türk Dili II",
                     "Course Credit": 2,
                     "Semester": 2,
                     "Prerequisite": null
                 },
-                "CC"
+                "CB"
             ],
             [
                 {
-                    "Course Name": "Entrepreneurship and Innovation",
+                    "Course Name": "Energy for Physical Activity",
                     "Course Credit": 3,
                     "Quota": 20,
                     "Prerequisite": null,
@@ -161,7 +161,7 @@
                     "Semester": 3,
                     "Prerequisite": null
                 },
-                "DC"
+                "BA"
             ],
             [
                 {
@@ -179,7 +179,7 @@
                     "Semester": 3,
                     "Prerequisite": null
                 },
-                "DC"
+                "BB"
             ],
             [
                 {
@@ -188,7 +188,7 @@
                     "Semester": 3,
                     "Prerequisite": null
                 },
-                "DC"
+                "DD"
             ],
             [
                 {
@@ -197,7 +197,7 @@
                     "Semester": 3,
                     "Prerequisite": null
                 },
-                "AA"
+                "BA"
             ],
             [
                 {
@@ -206,13 +206,13 @@
                     "Semester": 3,
                     "Prerequisite": null
                 },
-                "CC"
+                "BB"
             ]
         ],
         "Attended Credit": 91,
-        "Completed Credit": 72,
-        "Point": 191.0,
-        "GANO": 2.1
+        "Completed Credit": 79,
+        "Point": 226.0,
+        "GANO": 2.48
     },
     "Course Offered": [
         {

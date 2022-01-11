@@ -1,22 +1,22 @@
 {
     "Student Number": "150120032",
-    "Student Name": "\u00d6mer Asaf Erdo\u011fmu\u015f",
+    "Student Name": "Ömer Asaf Kuruçay",
     "Year": 2,
     "Advisor": {
-        "Name": "Borahan T\u00c3\u00bcmer",
+        "Name": "Mustafa Ağaoğlu",
         "Department": "CSE",
-        "Rank": "Do\u00c3\u00a7.Dr"
+        "Rank": "Doç.Dr"
     },
     "Transcript Before": {
         "Course List": [
             [
                 {
-                    "Course Name": "Atat\u00c3\u00bcrk \u00c4\u00b0lkeleri ve \u00c4\u00b0nk\u00c4\u00b1lap Tarihi I",
+                    "Course Name": "Atatürk İlkeleri ve İnkılap Tarihi I",
                     "Course Credit": 2,
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "FD"
+                "FF"
             ],
             [
                 {
@@ -25,7 +25,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "CC"
+                "BA"
             ],
             [
                 {
@@ -34,7 +34,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "FF"
+                "AA"
             ],
             [
                 {
@@ -43,7 +43,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "FD"
+                "FF"
             ],
             [
                 {
@@ -52,7 +52,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "BA"
+                "FF"
             ],
             [
                 {
@@ -61,7 +61,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "FD"
+                "CC"
             ],
             [
                 {
@@ -70,25 +70,25 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "BA"
+                "DD"
             ],
             [
                 {
-                    "Course Name": "T\u00c3\u00bcrk Dili I",
+                    "Course Name": "Türk Dili I",
                     "Course Credit": 2,
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "BB"
+                "DD"
             ],
             [
                 {
-                    "Course Name": "Atat\u00c3\u00bcrk \u00c4\u00b0lkeleri ve \u00c4\u00b0nk\u00c4\u00b1lap Tarihi II",
+                    "Course Name": "Atatürk İlkeleri ve İnkılap Tarihi II",
                     "Course Credit": 2,
                     "Semester": 2,
                     "Prerequisite": null
                 },
-                "FD"
+                "BB"
             ],
             [
                 {
@@ -97,7 +97,7 @@
                     "Semester": 2,
                     "Prerequisite": null
                 },
-                "BA"
+                "FD"
             ],
             [
                 {
@@ -106,7 +106,7 @@
                     "Semester": 2,
                     "Prerequisite": null
                 },
-                "BB"
+                "FD"
             ],
             [
                 {
@@ -115,7 +115,7 @@
                     "Semester": 2,
                     "Prerequisite": null
                 },
-                "DD"
+                "CC"
             ],
             [
                 {
@@ -124,7 +124,7 @@
                     "Semester": 2,
                     "Prerequisite": null
                 },
-                "CB"
+                "BB"
             ],
             [
                 {
@@ -133,26 +133,26 @@
                     "Semester": 2,
                     "Prerequisite": null
                 },
-                "AA"
-            ],
-            [
-                {
-                    "Course Name": "T\u00c3\u00bcrk Dili II",
-                    "Course Credit": 2,
-                    "Semester": 2,
-                    "Prerequisite": null
-                },
                 "CB"
             ],
             [
                 {
-                    "Course Name": "Human Performance and Nutrition",
+                    "Course Name": "Türk Dili II",
+                    "Course Credit": 2,
+                    "Semester": 2,
+                    "Prerequisite": null
+                },
+                "FD"
+            ],
+            [
+                {
+                    "Course Name": "Interpersonal Relations and Communication",
                     "Course Credit": 3,
                     "Quota": 20,
                     "Prerequisite": null,
                     "Elective Type": "NTE"
                 },
-                "AA"
+                "BA"
             ],
             [
                 {
@@ -161,7 +161,7 @@
                     "Semester": 3,
                     "Prerequisite": null
                 },
-                "DC"
+                "BB"
             ],
             [
                 {
@@ -170,7 +170,7 @@
                     "Semester": 3,
                     "Prerequisite": "Computer Programming II"
                 },
-                "DC"
+                "BA"
             ],
             [
                 {
@@ -179,7 +179,7 @@
                     "Semester": 3,
                     "Prerequisite": null
                 },
-                "AA"
+                "BB"
             ],
             [
                 {
@@ -188,7 +188,7 @@
                     "Semester": 3,
                     "Prerequisite": null
                 },
-                "FD"
+                "DD"
             ],
             [
                 {
@@ -206,13 +206,13 @@
                     "Semester": 3,
                     "Prerequisite": null
                 },
-                "FF"
+                "AA"
             ]
         ],
         "Attended Credit": 91,
-        "Completed Credit": 64,
-        "Point": 180.0,
-        "GANO": 1.98
+        "Completed Credit": 63,
+        "Point": 183.5,
+        "GANO": 2.02
     },
     "Course Offered": [
         {

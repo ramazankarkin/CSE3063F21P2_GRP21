@@ -8,7 +8,7 @@ from Transcript import Transcript
 
 
 def get_create_new_student_from_json():
-    json_file = open("input.json")
+    json_file = open("input.json", encoding="utf-8")
     variables = json.load(json_file)
     json_file.close()
 
@@ -16,7 +16,7 @@ def get_create_new_student_from_json():
 
 
 def get_semester_from_json():
-    json_file = open("input.json")
+    json_file = open("input.json", encoding="utf-8")
     variables = json.load(json_file)
     json_file.close()
 
@@ -24,7 +24,7 @@ def get_semester_from_json():
 
 
 def get_advisors_from_json():
-    json_file = open("input.json")
+    json_file = open("input.json", encoding="utf-8")
     variables = json.load(json_file)
     json_file.close()
 
@@ -52,7 +52,7 @@ def create_courses():
 
 
 def create_semester_courses(semester):
-    json_file = open("input.json")
+    json_file = open("input.json", encoding="utf-8")
     variables = json.load(json_file)
     json_file.close()
 
@@ -72,7 +72,7 @@ def create_semester_courses(semester):
 
 
 def create_elective_courses(electiveType):
-    json_file = open("input.json")
+    json_file = open("input.json", encoding="utf-8")
     variables = json.load(json_file)
     json_file.close()
 
@@ -298,6 +298,7 @@ def create_course_offered(student):
                     if student.student_number not in student.advisor.quota_error_list:
                         student.advisor.quota_error_list.append(student.student_number)
                 break
+
 
     return my_course_list
 

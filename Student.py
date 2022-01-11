@@ -1,6 +1,7 @@
 import json
 from Advisor import Advisor
 
+
 class Student:
     def __init__(self, student_number, student_name, year, advisor, transcript_before, course_offered):
         self.student_number = student_number
@@ -22,6 +23,7 @@ class Student:
                 'Course Offered': data, 'Errors': self.errors}
 
     def toJSON(self):
-        with open("students/" + str(self.student_number) + ".json", "w") as outfile:
-            json_for_student = json.dumps(self.json_dumps_text(), default=lambda o: o.__dict__, indent=4)
+        with open("students/" + str(self.student_number) + ".json", "w", encoding="utf-8") as outfile:
+            json_for_student = json.dumps(self.json_dumps_text(), ensure_ascii=False, default=lambda o: o.__dict__,
+                                          indent=4)
             outfile.write(json_for_student)

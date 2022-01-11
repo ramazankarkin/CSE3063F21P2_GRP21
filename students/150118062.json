@@ -1,17 +1,17 @@
 {
     "Student Number": "150118062",
-    "Student Name": "Hamza Din\u00e7",
+    "Student Name": "Zeynep Türkay",
     "Year": 4,
     "Advisor": {
-        "Name": "Sanem Arslan",
+        "Name": "Müjdat Soytürk",
         "Department": "CSE",
-        "Rank": "Dr.\u00c3\u2013\u00c4\u0178r.\u00c3\u0153yesi"
+        "Rank": "Doç.Dr"
     },
     "Transcript Before": {
         "Course List": [
             [
                 {
-                    "Course Name": "Atat\u00c3\u00bcrk \u00c4\u00b0lkeleri ve \u00c4\u00b0nk\u00c4\u00b1lap Tarihi I",
+                    "Course Name": "Atatürk İlkeleri ve İnkılap Tarihi I",
                     "Course Credit": 2,
                     "Semester": 1,
                     "Prerequisite": null
@@ -25,7 +25,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "AA"
+                "CB"
             ],
             [
                 {
@@ -34,7 +34,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "CB"
+                "FD"
             ],
             [
                 {
@@ -43,7 +43,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "FF"
+                "AA"
             ],
             [
                 {
@@ -52,7 +52,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "CC"
+                "BA"
             ],
             [
                 {
@@ -61,7 +61,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "BA"
+                "CC"
             ],
             [
                 {
@@ -70,65 +70,20 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "AA"
+                "CC"
             ],
             [
                 {
-                    "Course Name": "T\u00c3\u00bcrk Dili I",
+                    "Course Name": "Türk Dili I",
                     "Course Credit": 2,
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "BB"
+                "FF"
             ],
             [
                 {
-                    "Course Name": "Atat\u00c3\u00bcrk \u00c4\u00b0lkeleri ve \u00c4\u00b0nk\u00c4\u00b1lap Tarihi II",
-                    "Course Credit": 2,
-                    "Semester": 2,
-                    "Prerequisite": null
-                },
-                "FD"
-            ],
-            [
-                {
-                    "Course Name": "Computer Programming II",
-                    "Course Credit": 6,
-                    "Semester": 2,
-                    "Prerequisite": null
-                },
-                "AA"
-            ],
-            [
-                {
-                    "Course Name": "Calculus II",
-                    "Course Credit": 6,
-                    "Semester": 2,
-                    "Prerequisite": null
-                },
-                "DC"
-            ],
-            [
-                {
-                    "Course Name": "Linear Algebra for Computer Engineering",
-                    "Course Credit": 5,
-                    "Semester": 2,
-                    "Prerequisite": null
-                },
-                "FD"
-            ],
-            [
-                {
-                    "Course Name": "Physics II",
-                    "Course Credit": 4,
-                    "Semester": 2,
-                    "Prerequisite": null
-                },
-                "DC"
-            ],
-            [
-                {
-                    "Course Name": "Physics Lab II",
+                    "Course Name": "Atatürk İlkeleri ve İnkılap Tarihi II",
                     "Course Credit": 2,
                     "Semester": 2,
                     "Prerequisite": null
@@ -137,8 +92,8 @@
             ],
             [
                 {
-                    "Course Name": "T\u00c3\u00bcrk Dili II",
-                    "Course Credit": 2,
+                    "Course Name": "Computer Programming II",
+                    "Course Credit": 6,
                     "Semester": 2,
                     "Prerequisite": null
                 },
@@ -146,7 +101,52 @@
             ],
             [
                 {
-                    "Course Name": "Strategic Entrepreneurship",
+                    "Course Name": "Calculus II",
+                    "Course Credit": 6,
+                    "Semester": 2,
+                    "Prerequisite": null
+                },
+                "CB"
+            ],
+            [
+                {
+                    "Course Name": "Linear Algebra for Computer Engineering",
+                    "Course Credit": 5,
+                    "Semester": 2,
+                    "Prerequisite": null
+                },
+                "BA"
+            ],
+            [
+                {
+                    "Course Name": "Physics II",
+                    "Course Credit": 4,
+                    "Semester": 2,
+                    "Prerequisite": null
+                },
+                "CC"
+            ],
+            [
+                {
+                    "Course Name": "Physics Lab II",
+                    "Course Credit": 2,
+                    "Semester": 2,
+                    "Prerequisite": null
+                },
+                "FD"
+            ],
+            [
+                {
+                    "Course Name": "Türk Dili II",
+                    "Course Credit": 2,
+                    "Semester": 2,
+                    "Prerequisite": null
+                },
+                "DD"
+            ],
+            [
+                {
+                    "Course Name": "Our Biosphere",
                     "Course Credit": 3,
                     "Quota": 20,
                     "Prerequisite": null,
@@ -161,7 +161,7 @@
                     "Semester": 3,
                     "Prerequisite": null
                 },
-                "DC"
+                "FD"
             ],
             [
                 {
@@ -170,7 +170,7 @@
                     "Semester": 3,
                     "Prerequisite": "Computer Programming II"
                 },
-                "DD"
+                "AA"
             ],
             [
                 {
@@ -179,7 +179,7 @@
                     "Semester": 3,
                     "Prerequisite": null
                 },
-                "CC"
+                "BB"
             ],
             [
                 {
@@ -188,7 +188,7 @@
                     "Semester": 3,
                     "Prerequisite": null
                 },
-                "DC"
+                "CB"
             ],
             [
                 {
@@ -197,7 +197,7 @@
                     "Semester": 3,
                     "Prerequisite": null
                 },
-                "FD"
+                "DD"
             ],
             [
                 {
@@ -206,7 +206,7 @@
                     "Semester": 3,
                     "Prerequisite": null
                 },
-                "CB"
+                "DC"
             ],
             [
                 {
@@ -215,7 +215,7 @@
                     "Semester": 4,
                     "Prerequisite": "Data Structures"
                 },
-                "CB"
+                "BB"
             ],
             [
                 {
@@ -224,7 +224,7 @@
                     "Semester": 4,
                     "Prerequisite": null
                 },
-                "CC"
+                "BA"
             ],
             [
                 {
@@ -233,7 +233,7 @@
                     "Semester": 4,
                     "Prerequisite": null
                 },
-                "FD"
+                "CB"
             ],
             [
                 {
@@ -242,7 +242,7 @@
                     "Semester": 4,
                     "Prerequisite": null
                 },
-                "FF"
+                "DC"
             ],
             [
                 {
@@ -251,7 +251,7 @@
                     "Semester": 4,
                     "Prerequisite": null
                 },
-                "FF"
+                "DD"
             ],
             [
                 {
@@ -260,7 +260,7 @@
                     "Semester": 5,
                     "Prerequisite": null
                 },
-                "FD"
+                "BA"
             ],
             [
                 {
@@ -269,7 +269,7 @@
                     "Semester": 5,
                     "Prerequisite": null
                 },
-                "AA"
+                "BB"
             ],
             [
                 {
@@ -278,7 +278,7 @@
                     "Semester": 5,
                     "Prerequisite": null
                 },
-                "CC"
+                "AA"
             ],
             [
                 {
@@ -287,7 +287,7 @@
                     "Semester": 5,
                     "Prerequisite": null
                 },
-                "CC"
+                "FD"
             ],
             [
                 {
@@ -296,7 +296,7 @@
                     "Semester": 5,
                     "Prerequisite": null
                 },
-                "DC"
+                "FF"
             ],
             [
                 {
@@ -305,7 +305,7 @@
                     "Semester": 5,
                     "Prerequisite": null
                 },
-                "DC"
+                "CB"
             ],
             [
                 {
@@ -314,7 +314,7 @@
                     "Semester": 6,
                     "Prerequisite": null
                 },
-                "CC"
+                "BB"
             ],
             [
                 {
@@ -332,7 +332,7 @@
                     "Semester": 6,
                     "Prerequisite": null
                 },
-                "DD"
+                "BB"
             ],
             [
                 {
@@ -341,7 +341,7 @@
                     "Semester": 6,
                     "Prerequisite": null
                 },
-                "CB"
+                "DC"
             ],
             [
                 {
@@ -350,7 +350,7 @@
                     "Semester": 6,
                     "Prerequisite": null
                 },
-                "DD"
+                "FD"
             ],
             [
                 {
@@ -359,7 +359,7 @@
                     "Semester": 6,
                     "Prerequisite": null
                 },
-                "CC"
+                "FF"
             ],
             [
                 {
@@ -368,7 +368,7 @@
                     "Semester": 7,
                     "Prerequisite": null
                 },
-                "CC"
+                "AA"
             ],
             [
                 {
@@ -386,7 +386,7 @@
                     "Semester": 7,
                     "Prerequisite": null
                 },
-                "DC"
+                "DD"
             ],
             [
                 {
@@ -395,16 +395,16 @@
                     "Semester": 7,
                     "Prerequisite": null
                 },
-                "FD"
+                "CB"
             ],
             [
                 {
-                    "Course Name": "\u00c4\u00b0\u00c5\u0178 Sa\u00c4\u0178l\u00c4\u00b1\u00c4\u0178\u00c4\u00b1 ve G\u00c3\u00bcvenli\u00c4\u0178i I",
+                    "Course Name": "İş Sağlığı ve Güvenliği I",
                     "Course Credit": 2,
                     "Semester": 7,
                     "Prerequisite": null
                 },
-                "FF"
+                "AA"
             ],
             [
                 {
@@ -413,53 +413,59 @@
                     "Semester": 7,
                     "Prerequisite": null
                 },
-                "FD"
+                "BB"
             ],
             [
                 {
-                    "Course Name": "Wireless & Mobile Network",
+                    "Course Name": "Management of Information Systems",
                     "Course Credit": 5,
                     "Quota": 20,
-                    "Prerequisite": "Computer Networks",
+                    "Prerequisite": null,
                     "Elective Type": "TE"
                 },
                 "DC"
             ],
             [
                 {
-                    "Course Name": "Our Biosphere",
+                    "Course Name": "Energy for Physical Activity",
                     "Course Credit": 3,
                     "Quota": 20,
                     "Prerequisite": null,
                     "Elective Type": "ENG-UE"
                 },
-                "BB"
+                "CB"
             ]
         ],
         "Attended Credit": 228,
-        "Completed Credit": 170,
-        "Point": 390.0,
-        "GANO": 1.71
+        "Completed Credit": 191,
+        "Point": 530.5,
+        "GANO": 2.33
     },
     "Course Offered": [
         {
-            "Course Name": "\u00c4\u00b0\u00c5\u0178 Sa\u00c4\u0178l\u00c4\u00b1\u00c4\u0178\u00c4\u00b1 ve G\u00c3\u00bcvenli\u00c4\u0178i II",
+            "Course Name": "Engineering Project II",
+            "Course Credit": 5,
+            "Semester": 8,
+            "Prerequisite": "Engineering Project I"
+        },
+        {
+            "Course Name": "İş Sağlığı ve Güvenliği II",
             "Course Credit": 2,
             "Semester": 8,
             "Prerequisite": null
         },
         {
-            "Course Name": "Cloud Computing",
+            "Course Name": "Introduction to Robotics and Control Theory",
             "Course Credit": 5,
             "Quota": 20,
             "Prerequisite": null,
             "Elective Type": "TE"
         },
         {
-            "Course Name": "Introduction to Distributed Systems",
+            "Course Name": "Wireless & Mobile Network",
             "Course Credit": 5,
             "Quota": 20,
-            "Prerequisite": null,
+            "Prerequisite": "Computer Networks",
             "Elective Type": "TE"
         },
         {
@@ -470,21 +476,14 @@
             "Elective Type": "TE"
         },
         {
-            "Course Name": "Introduction to Systems Security",
+            "Course Name": "Planning and Management of Research",
             "Course Credit": 5,
             "Quota": 20,
             "Prerequisite": null,
             "Elective Type": "ENG-FTE"
-        },
-        {
-            "Course Name": "Interpersonal Relations and Communication",
-            "Course Credit": 3,
-            "Quota": 20,
-            "Prerequisite": null,
-            "Elective Type": "NTE"
         }
     ],
     "Errors": [
-        "The system did not allow Engineering Project II because student failed prerequisite Engineering Project I"
+        "The system didnt allow NTE - Entrepreneurship and Innovation because quota is full!"
     ]
 }

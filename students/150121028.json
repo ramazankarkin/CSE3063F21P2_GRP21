@@ -1,22 +1,22 @@
 {
     "Student Number": "150121028",
-    "Student Name": "Hesna Zengin",
+    "Student Name": "Atilla Kuruçay",
     "Year": 1,
     "Advisor": {
         "Name": "Sanem Arslan",
         "Department": "CSE",
-        "Rank": "Dr.\u00c3\u2013\u00c4\u0178r.\u00c3\u0153yesi"
+        "Rank": "Dr.Öğr.Üyesi"
     },
     "Transcript Before": {
         "Course List": [
             [
                 {
-                    "Course Name": "Atat\u00c3\u00bcrk \u00c4\u00b0lkeleri ve \u00c4\u00b0nk\u00c4\u00b1lap Tarihi I",
+                    "Course Name": "Atatürk İlkeleri ve İnkılap Tarihi I",
                     "Course Credit": 2,
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "BB"
+                "DC"
             ],
             [
                 {
@@ -25,7 +25,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "DC"
+                "BB"
             ],
             [
                 {
@@ -34,7 +34,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "CB"
+                "FF"
             ],
             [
                 {
@@ -43,7 +43,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "CB"
+                "DC"
             ],
             [
                 {
@@ -52,7 +52,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "AA"
+                "BB"
             ],
             [
                 {
@@ -61,7 +61,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "AA"
+                "CC"
             ],
             [
                 {
@@ -70,26 +70,26 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "BB"
+                "CC"
             ],
             [
                 {
-                    "Course Name": "T\u00c3\u00bcrk Dili I",
+                    "Course Name": "Türk Dili I",
                     "Course Credit": 2,
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "DC"
+                "BB"
             ]
         ],
         "Attended Credit": 31,
-        "Completed Credit": 31,
-        "Point": 87.5,
-        "GANO": 2.82
+        "Completed Credit": 27,
+        "Point": 63.0,
+        "GANO": 2.03
     },
     "Course Offered": [
         {
-            "Course Name": "Atat\u00c3\u00bcrk \u00c4\u00b0lkeleri ve \u00c4\u00b0nk\u00c4\u00b1lap Tarihi II",
+            "Course Name": "Atatürk İlkeleri ve İnkılap Tarihi II",
             "Course Credit": 2,
             "Semester": 2,
             "Prerequisite": null
@@ -125,7 +125,7 @@
             "Prerequisite": null
         },
         {
-            "Course Name": "T\u00c3\u00bcrk Dili II",
+            "Course Name": "Türk Dili II",
             "Course Credit": 2,
             "Semester": 2,
             "Prerequisite": null

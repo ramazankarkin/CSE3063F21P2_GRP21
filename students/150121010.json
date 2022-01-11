@@ -1,0 +1,142 @@
+{
+    "Student Number": "150121010",
+    "Student Name": "Nuri Turgut",
+    "Year": 1,
+    "Advisor": {
+        "Name": "Sanem Arslan",
+        "Department": "CSE",
+        "Rank": "Dr.Öğr.Üyesi"
+    },
+    "Transcript Before": {
+        "Course List": [
+            [
+                {
+                    "Course Name": "Atatürk İlkeleri ve İnkılap Tarihi I",
+                    "Course Credit": 2,
+                    "Semester": 1,
+                    "Prerequisite": null
+                },
+                "AA"
+            ],
+            [
+                {
+                    "Course Name": "Introduction to Modern Biology",
+                    "Course Credit": 5,
+                    "Semester": 1,
+                    "Prerequisite": null
+                },
+                "AA"
+            ],
+            [
+                {
+                    "Course Name": "Introduction to Computer Engineering",
+                    "Course Credit": 4,
+                    "Semester": 1,
+                    "Prerequisite": null
+                },
+                "CB"
+            ],
+            [
+                {
+                    "Course Name": "Computer Programming I",
+                    "Course Credit": 6,
+                    "Semester": 1,
+                    "Prerequisite": null
+                },
+                "CB"
+            ],
+            [
+                {
+                    "Course Name": "Calculus I",
+                    "Course Credit": 6,
+                    "Semester": 1,
+                    "Prerequisite": null
+                },
+                "AA"
+            ],
+            [
+                {
+                    "Course Name": "Physics I",
+                    "Course Credit": 4,
+                    "Semester": 1,
+                    "Prerequisite": null
+                },
+                "AA"
+            ],
+            [
+                {
+                    "Course Name": "Physics Lab I",
+                    "Course Credit": 2,
+                    "Semester": 1,
+                    "Prerequisite": null
+                },
+                "AA"
+            ],
+            [
+                {
+                    "Course Name": "Türk Dili I",
+                    "Course Credit": 2,
+                    "Semester": 1,
+                    "Prerequisite": null
+                },
+                "DC"
+            ]
+        ],
+        "Attended Credit": 31,
+        "Completed Credit": 31,
+        "Point": 104.0,
+        "GANO": 3.35
+    },
+    "Course Offered": [
+        {
+            "Course Name": "Atatürk İlkeleri ve İnkılap Tarihi II",
+            "Course Credit": 2,
+            "Semester": 2,
+            "Prerequisite": null
+        },
+        {
+            "Course Name": "Computer Programming II",
+            "Course Credit": 6,
+            "Semester": 2,
+            "Prerequisite": null
+        },
+        {
+            "Course Name": "Calculus II",
+            "Course Credit": 6,
+            "Semester": 2,
+            "Prerequisite": null
+        },
+        {
+            "Course Name": "Linear Algebra for Computer Engineering",
+            "Course Credit": 5,
+            "Semester": 2,
+            "Prerequisite": null
+        },
+        {
+            "Course Name": "Physics II",
+            "Course Credit": 4,
+            "Semester": 2,
+            "Prerequisite": null
+        },
+        {
+            "Course Name": "Physics Lab II",
+            "Course Credit": 2,
+            "Semester": 2,
+            "Prerequisite": null
+        },
+        {
+            "Course Name": "Türk Dili II",
+            "Course Credit": 2,
+            "Semester": 2,
+            "Prerequisite": null
+        },
+        {
+            "Course Name": "International Business",
+            "Course Credit": 3,
+            "Quota": 20,
+            "Prerequisite": null,
+            "Elective Type": "NTE"
+        }
+    ],
+    "Errors": []
+}

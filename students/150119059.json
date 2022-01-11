@@ -1,80 +1,17 @@
 {
     "Student Number": "150119059",
-    "Student Name": "Serkan \u00c7ubuklu\u00f6z",
+    "Student Name": "Fatih Yılmaz",
     "Year": 3,
     "Advisor": {
-        "Name": "Bet\u00c3\u00bcl Demir\u00c3\u00b6z Boz",
+        "Name": "Ali Haydar Özer",
         "Department": "CSE",
-        "Rank": "Dr.\u00c3\u2013\u00c4\u0178r.\u00c3\u0153yesi"
+        "Rank": "Dr.Öğr.Üyesi"
     },
     "Transcript Before": {
         "Course List": [
             [
                 {
-                    "Course Name": "Atat\u00c3\u00bcrk \u00c4\u00b0lkeleri ve \u00c4\u00b0nk\u00c4\u00b1lap Tarihi I",
-                    "Course Credit": 2,
-                    "Semester": 1,
-                    "Prerequisite": null
-                },
-                "BA"
-            ],
-            [
-                {
-                    "Course Name": "Introduction to Modern Biology",
-                    "Course Credit": 5,
-                    "Semester": 1,
-                    "Prerequisite": null
-                },
-                "FF"
-            ],
-            [
-                {
-                    "Course Name": "Introduction to Computer Engineering",
-                    "Course Credit": 4,
-                    "Semester": 1,
-                    "Prerequisite": null
-                },
-                "BA"
-            ],
-            [
-                {
-                    "Course Name": "Computer Programming I",
-                    "Course Credit": 6,
-                    "Semester": 1,
-                    "Prerequisite": null
-                },
-                "DC"
-            ],
-            [
-                {
-                    "Course Name": "Calculus I",
-                    "Course Credit": 6,
-                    "Semester": 1,
-                    "Prerequisite": null
-                },
-                "AA"
-            ],
-            [
-                {
-                    "Course Name": "Physics I",
-                    "Course Credit": 4,
-                    "Semester": 1,
-                    "Prerequisite": null
-                },
-                "FF"
-            ],
-            [
-                {
-                    "Course Name": "Physics Lab I",
-                    "Course Credit": 2,
-                    "Semester": 1,
-                    "Prerequisite": null
-                },
-                "CB"
-            ],
-            [
-                {
-                    "Course Name": "T\u00c3\u00bcrk Dili I",
+                    "Course Name": "Atatürk İlkeleri ve İnkılap Tarihi I",
                     "Course Credit": 2,
                     "Semester": 1,
                     "Prerequisite": null
@@ -83,12 +20,75 @@
             ],
             [
                 {
-                    "Course Name": "Atat\u00c3\u00bcrk \u00c4\u00b0lkeleri ve \u00c4\u00b0nk\u00c4\u00b1lap Tarihi II",
+                    "Course Name": "Introduction to Modern Biology",
+                    "Course Credit": 5,
+                    "Semester": 1,
+                    "Prerequisite": null
+                },
+                "DD"
+            ],
+            [
+                {
+                    "Course Name": "Introduction to Computer Engineering",
+                    "Course Credit": 4,
+                    "Semester": 1,
+                    "Prerequisite": null
+                },
+                "AA"
+            ],
+            [
+                {
+                    "Course Name": "Computer Programming I",
+                    "Course Credit": 6,
+                    "Semester": 1,
+                    "Prerequisite": null
+                },
+                "DD"
+            ],
+            [
+                {
+                    "Course Name": "Calculus I",
+                    "Course Credit": 6,
+                    "Semester": 1,
+                    "Prerequisite": null
+                },
+                "BA"
+            ],
+            [
+                {
+                    "Course Name": "Physics I",
+                    "Course Credit": 4,
+                    "Semester": 1,
+                    "Prerequisite": null
+                },
+                "CC"
+            ],
+            [
+                {
+                    "Course Name": "Physics Lab I",
+                    "Course Credit": 2,
+                    "Semester": 1,
+                    "Prerequisite": null
+                },
+                "FF"
+            ],
+            [
+                {
+                    "Course Name": "Türk Dili I",
+                    "Course Credit": 2,
+                    "Semester": 1,
+                    "Prerequisite": null
+                },
+                "FF"
+            ],
+            [
+                {
+                    "Course Name": "Atatürk İlkeleri ve İnkılap Tarihi II",
                     "Course Credit": 2,
                     "Semester": 2,
                     "Prerequisite": null
                 },
-                "DC"
+                "BB"
             ],
             [
                 {
@@ -97,7 +97,7 @@
                     "Semester": 2,
                     "Prerequisite": null
                 },
-                "AA"
+                "FF"
             ],
             [
                 {
@@ -106,7 +106,7 @@
                     "Semester": 2,
                     "Prerequisite": null
                 },
-                "DC"
+                "FF"
             ],
             [
                 {
@@ -115,7 +115,7 @@
                     "Semester": 2,
                     "Prerequisite": null
                 },
-                "BA"
+                "FF"
             ],
             [
                 {
@@ -124,7 +124,7 @@
                     "Semester": 2,
                     "Prerequisite": null
                 },
-                "AA"
+                "CB"
             ],
             [
                 {
@@ -137,22 +137,22 @@
             ],
             [
                 {
-                    "Course Name": "T\u00c3\u00bcrk Dili II",
+                    "Course Name": "Türk Dili II",
                     "Course Credit": 2,
                     "Semester": 2,
                     "Prerequisite": null
                 },
-                "FD"
+                "DD"
             ],
             [
                 {
-                    "Course Name": "Entrepreneurship and Innovation",
+                    "Course Name": "Cardiopulmonary Resuscitation and First Aid Basics",
                     "Course Credit": 3,
                     "Quota": 20,
                     "Prerequisite": null,
                     "Elective Type": "NTE"
                 },
-                "BB"
+                "CB"
             ],
             [
                 {
@@ -161,7 +161,7 @@
                     "Semester": 3,
                     "Prerequisite": null
                 },
-                "DC"
+                "CB"
             ],
             [
                 {
@@ -170,7 +170,7 @@
                     "Semester": 3,
                     "Prerequisite": "Computer Programming II"
                 },
-                "BA"
+                "CC"
             ],
             [
                 {
@@ -179,7 +179,7 @@
                     "Semester": 3,
                     "Prerequisite": null
                 },
-                "BA"
+                "CB"
             ],
             [
                 {
@@ -188,7 +188,7 @@
                     "Semester": 3,
                     "Prerequisite": null
                 },
-                "BB"
+                "FF"
             ],
             [
                 {
@@ -197,7 +197,7 @@
                     "Semester": 3,
                     "Prerequisite": null
                 },
-                "BB"
+                "CC"
             ],
             [
                 {
@@ -206,7 +206,7 @@
                     "Semester": 3,
                     "Prerequisite": null
                 },
-                "FD"
+                "DC"
             ],
             [
                 {
@@ -215,7 +215,7 @@
                     "Semester": 4,
                     "Prerequisite": "Data Structures"
                 },
-                "CC"
+                "DC"
             ],
             [
                 {
@@ -224,7 +224,7 @@
                     "Semester": 4,
                     "Prerequisite": null
                 },
-                "FF"
+                "AA"
             ],
             [
                 {
@@ -242,7 +242,7 @@
                     "Semester": 4,
                     "Prerequisite": null
                 },
-                "BB"
+                "DD"
             ],
             [
                 {
@@ -251,7 +251,7 @@
                     "Semester": 4,
                     "Prerequisite": null
                 },
-                "DC"
+                "CB"
             ],
             [
                 {
@@ -260,7 +260,7 @@
                     "Semester": 5,
                     "Prerequisite": null
                 },
-                "AA"
+                "BB"
             ],
             [
                 {
@@ -269,7 +269,7 @@
                     "Semester": 5,
                     "Prerequisite": null
                 },
-                "BB"
+                "CB"
             ],
             [
                 {
@@ -278,7 +278,7 @@
                     "Semester": 5,
                     "Prerequisite": null
                 },
-                "CB"
+                "AA"
             ],
             [
                 {
@@ -287,7 +287,7 @@
                     "Semester": 5,
                     "Prerequisite": null
                 },
-                "CB"
+                "CC"
             ],
             [
                 {
@@ -296,7 +296,7 @@
                     "Semester": 5,
                     "Prerequisite": null
                 },
-                "BB"
+                "BA"
             ],
             [
                 {
@@ -305,13 +305,13 @@
                     "Semester": 5,
                     "Prerequisite": null
                 },
-                "AA"
+                "BB"
             ]
         ],
         "Attended Credit": 157,
-        "Completed Credit": 135,
-        "Point": 392.5,
-        "GANO": 2.5
+        "Completed Credit": 131,
+        "Point": 324.5,
+        "GANO": 2.07
     },
     "Course Offered": [
         {

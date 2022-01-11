@@ -1,22 +1,22 @@
 {
     "Student Number": "150121032",
-    "Student Name": "Deniz Kaya",
+    "Student Name": "Recep Kuruçay",
     "Year": 1,
     "Advisor": {
         "Name": "Sanem Arslan",
         "Department": "CSE",
-        "Rank": "Dr.\u00c3\u2013\u00c4\u0178r.\u00c3\u0153yesi"
+        "Rank": "Dr.Öğr.Üyesi"
     },
     "Transcript Before": {
         "Course List": [
             [
                 {
-                    "Course Name": "Atat\u00c3\u00bcrk \u00c4\u00b0lkeleri ve \u00c4\u00b0nk\u00c4\u00b1lap Tarihi I",
+                    "Course Name": "Atatürk İlkeleri ve İnkılap Tarihi I",
                     "Course Credit": 2,
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "BA"
+                "DC"
             ],
             [
                 {
@@ -25,7 +25,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "CC"
+                "BB"
             ],
             [
                 {
@@ -34,7 +34,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "FF"
+                "DD"
             ],
             [
                 {
@@ -52,7 +52,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "FF"
+                "FD"
             ],
             [
                 {
@@ -61,7 +61,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "AA"
+                "CC"
             ],
             [
                 {
@@ -70,26 +70,26 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "FD"
+                "CB"
             ],
             [
                 {
-                    "Course Name": "T\u00c3\u00bcrk Dili I",
+                    "Course Name": "Türk Dili I",
                     "Course Credit": 2,
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "CC"
+                "BB"
             ]
         ],
         "Attended Credit": 31,
-        "Completed Credit": 19,
-        "Point": 53.0,
-        "GANO": 1.71
+        "Completed Credit": 25,
+        "Point": 59.0,
+        "GANO": 1.9
     },
     "Course Offered": [
         {
-            "Course Name": "Atat\u00c3\u00bcrk \u00c4\u00b0lkeleri ve \u00c4\u00b0nk\u00c4\u00b1lap Tarihi II",
+            "Course Name": "Atatürk İlkeleri ve İnkılap Tarihi II",
             "Course Credit": 2,
             "Semester": 2,
             "Prerequisite": null
@@ -125,13 +125,13 @@
             "Prerequisite": null
         },
         {
-            "Course Name": "T\u00c3\u00bcrk Dili II",
+            "Course Name": "Türk Dili II",
             "Course Credit": 2,
             "Semester": 2,
             "Prerequisite": null
         },
         {
-            "Course Name": "Our Biosphere",
+            "Course Name": "Cardiopulmonary Resuscitation and First Aid Basics",
             "Course Credit": 3,
             "Quota": 20,
             "Prerequisite": null,

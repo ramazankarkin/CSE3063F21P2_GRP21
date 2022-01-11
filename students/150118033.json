@@ -1,0 +1,783 @@
+{
+    "student_number": "150118033",
+    "student_name": "\u00d6nder Erdo\u011fmu\u015f",
+    "year": 4,
+    "advisor": {
+        "advisor_name": "Mustafa A\u00c4\u0178ao\u00c4\u0178lu",
+        "department": "CSE",
+        "rank": "Do\u00c3\u00a7.Dr",
+        "student_list": []
+    },
+    "transcript_before": {
+        "course_list": [
+            {
+                "course": {
+                    "course_name": "Atat\u00c3\u00bcrk \u00c4\u00b0lkeleri ve \u00c4\u00b0nk\u00c4\u00b1lap Tarihi I",
+                    "student_list": [],
+                    "course_credit": 2,
+                    "semester": 1,
+                    "quota": null,
+                    "prerequisite": null,
+                    "elective_type": null,
+                    "course_hour": [
+                        31,
+                        32
+                    ]
+                },
+                "letterGrade": "FD"
+            },
+            {
+                "course": {
+                    "course_name": "Introduction to Modern Biology",
+                    "student_list": [],
+                    "course_credit": 5,
+                    "semester": 1,
+                    "quota": null,
+                    "prerequisite": null,
+                    "elective_type": null,
+                    "course_hour": [
+                        35,
+                        36,
+                        68
+                    ]
+                },
+                "letterGrade": "CB"
+            },
+            {
+                "course": {
+                    "course_name": "Introduction to Computer Engineering",
+                    "student_list": [],
+                    "course_credit": 4,
+                    "semester": 1,
+                    "quota": null,
+                    "prerequisite": null,
+                    "elective_type": null,
+                    "course_hour": [
+                        65,
+                        66,
+                        67
+                    ]
+                },
+                "letterGrade": "CB"
+            },
+            {
+                "course": {
+                    "course_name": "Computer Programming I",
+                    "student_list": [],
+                    "course_credit": 6,
+                    "semester": 1,
+                    "quota": null,
+                    "prerequisite": null,
+                    "elective_type": null,
+                    "course_hour": [
+                        3,
+                        4,
+                        39
+                    ]
+                },
+                "letterGrade": "FD"
+            },
+            {
+                "course": {
+                    "course_name": "Calculus I",
+                    "student_list": [],
+                    "course_credit": 6,
+                    "semester": 1,
+                    "quota": null,
+                    "prerequisite": null,
+                    "elective_type": null,
+                    "course_hour": [
+                        17,
+                        18,
+                        49
+                    ]
+                },
+                "letterGrade": "BA"
+            },
+            {
+                "course": {
+                    "course_name": "Physics I",
+                    "student_list": [],
+                    "course_credit": 4,
+                    "semester": 1,
+                    "quota": null,
+                    "prerequisite": null,
+                    "elective_type": null,
+                    "course_hour": [
+                        24,
+                        55,
+                        56
+                    ]
+                },
+                "letterGrade": "FF"
+            },
+            {
+                "course": {
+                    "course_name": "Physics Lab I",
+                    "student_list": [],
+                    "course_credit": 2,
+                    "semester": 1,
+                    "quota": null,
+                    "prerequisite": null,
+                    "elective_type": null,
+                    "course_hour": [
+                        1,
+                        2
+                    ]
+                },
+                "letterGrade": "FD"
+            },
+            {
+                "course": {
+                    "course_name": "T\u00c3\u00bcrk Dili I",
+                    "student_list": [],
+                    "course_credit": 2,
+                    "semester": 1,
+                    "quota": null,
+                    "prerequisite": null,
+                    "elective_type": null,
+                    "course_hour": [
+                        104,
+                        105
+                    ]
+                },
+                "letterGrade": "FF"
+            },
+            {
+                "course": {
+                    "course_name": "Atat\u00c3\u00bcrk \u00c4\u00b0lkeleri ve \u00c4\u00b0nk\u00c4\u00b1lap Tarihi II",
+                    "student_list": [],
+                    "course_credit": 2,
+                    "semester": 2,
+                    "quota": null,
+                    "prerequisite": null,
+                    "elective_type": null,
+                    "course_hour": [
+                        102,
+                        103
+                    ]
+                },
+                "letterGrade": "AA"
+            },
+            {
+                "course": {
+                    "course_name": "Computer Programming II",
+                    "student_list": [],
+                    "course_credit": 6,
+                    "semester": 2,
+                    "quota": null,
+                    "prerequisite": null,
+                    "elective_type": null,
+                    "course_hour": [
+                        4,
+                        5,
+                        20
+                    ]
+                },
+                "letterGrade": "FD"
+            },
+            {
+                "course": {
+                    "course_name": "Calculus II",
+                    "student_list": [],
+                    "course_credit": 6,
+                    "semester": 2,
+                    "quota": null,
+                    "prerequisite": null,
+                    "elective_type": null,
+                    "course_hour": [
+                        3,
+                        51,
+                        52
+                    ]
+                },
+                "letterGrade": "CC"
+            },
+            {
+                "course": {
+                    "course_name": "Linear Algebra for Computer Engineering",
+                    "student_list": [],
+                    "course_credit": 5,
+                    "semester": 2,
+                    "quota": null,
+                    "prerequisite": null,
+                    "elective_type": null,
+                    "course_hour": [
+                        18,
+                        19,
+                        35
+                    ]
+                },
+                "letterGrade": "FF"
+            },
+            {
+                "course": {
+                    "course_name": "Physics II",
+                    "student_list": [],
+                    "course_credit": 4,
+                    "semester": 2,
+                    "quota": null,
+                    "prerequisite": null,
+                    "elective_type": null,
+                    "course_hour": [
+                        55,
+                        56,
+                        57
+                    ]
+                },
+                "letterGrade": "AA"
+            },
+            {
+                "course": {
+                    "course_name": "Physics Lab II",
+                    "student_list": [],
+                    "course_credit": 2,
+                    "semester": 2,
+                    "quota": null,
+                    "prerequisite": null,
+                    "elective_type": null,
+                    "course_hour": [
+                        7,
+                        8
+                    ]
+                },
+                "letterGrade": "FF"
+            },
+            {
+                "course": {
+                    "course_name": "T\u00c3\u00bcrk Dili II",
+                    "student_list": [],
+                    "course_credit": 2,
+                    "semester": 2,
+                    "quota": null,
+                    "prerequisite": null,
+                    "elective_type": null,
+                    "course_hour": [
+                        82,
+                        83
+                    ]
+                },
+                "letterGrade": "BB"
+            },
+            {
+                "course": {
+                    "course_name": "Discrete Computational Structures",
+                    "student_list": [],
+                    "course_credit": 6,
+                    "semester": 3,
+                    "quota": null,
+                    "prerequisite": null,
+                    "elective_type": null,
+                    "course_hour": [
+                        6,
+                        7,
+                        73
+                    ]
+                },
+                "letterGrade": "DD"
+            },
+            {
+                "course": {
+                    "course_name": "Data Structures",
+                    "student_list": [],
+                    "course_credit": 7,
+                    "semester": 3,
+                    "quota": null,
+                    "prerequisite": "Computer Programming II",
+                    "elective_type": null,
+                    "course_hour": [
+                        8,
+                        39,
+                        40
+                    ]
+                },
+                "letterGrade": "AA"
+            },
+            {
+                "course": {
+                    "course_name": "Engineering Economy",
+                    "student_list": [],
+                    "course_credit": 4,
+                    "semester": 3,
+                    "quota": null,
+                    "prerequisite": null,
+                    "elective_type": null,
+                    "course_hour": [
+                        27,
+                        28
+                    ]
+                },
+                "letterGrade": "DC"
+            },
+            {
+                "course": {
+                    "course_name": "Electric Circuits",
+                    "student_list": [],
+                    "course_credit": 5,
+                    "semester": 3,
+                    "quota": null,
+                    "prerequisite": null,
+                    "elective_type": null,
+                    "course_hour": [
+                        22,
+                        23,
+                        55
+                    ]
+                },
+                "letterGrade": "CB"
+            },
+            {
+                "course": {
+                    "course_name": "Differential Equations",
+                    "student_list": [],
+                    "course_credit": 4,
+                    "semester": 3,
+                    "quota": null,
+                    "prerequisite": null,
+                    "elective_type": null,
+                    "course_hour": [
+                        2,
+                        33,
+                        34
+                    ]
+                },
+                "letterGrade": "AA"
+            },
+            {
+                "course": {
+                    "course_name": "Numerical Methods",
+                    "student_list": [],
+                    "course_credit": 4,
+                    "semester": 3,
+                    "quota": null,
+                    "prerequisite": null,
+                    "elective_type": null,
+                    "course_hour": [
+                        24,
+                        25,
+                        56
+                    ]
+                },
+                "letterGrade": "DD"
+            },
+            {
+                "course": {
+                    "course_name": "Analysis of Algorithms",
+                    "student_list": [],
+                    "course_credit": 6,
+                    "semester": 4,
+                    "quota": null,
+                    "prerequisite": "Data Structures",
+                    "elective_type": null,
+                    "course_hour": [
+                        54,
+                        71,
+                        72
+                    ]
+                },
+                "letterGrade": "BB"
+            },
+            {
+                "course": {
+                    "course_name": "Systems Programming",
+                    "student_list": [],
+                    "course_credit": 7,
+                    "semester": 4,
+                    "quota": null,
+                    "prerequisite": null,
+                    "elective_type": null,
+                    "course_hour": [
+                        7,
+                        8,
+                        22
+                    ]
+                },
+                "letterGrade": "BB"
+            },
+            {
+                "course": {
+                    "course_name": "Principles of Programming Languages",
+                    "student_list": [],
+                    "course_credit": 4,
+                    "semester": 4,
+                    "quota": null,
+                    "prerequisite": null,
+                    "elective_type": null,
+                    "course_hour": [
+                        113,
+                        114,
+                        115
+                    ]
+                },
+                "letterGrade": "CB"
+            },
+            {
+                "course": {
+                    "course_name": "Electronics",
+                    "student_list": [],
+                    "course_credit": 5,
+                    "semester": 4,
+                    "quota": null,
+                    "prerequisite": null,
+                    "elective_type": null,
+                    "course_hour": [
+                        58,
+                        59
+                    ]
+                },
+                "letterGrade": "BB"
+            },
+            {
+                "course": {
+                    "course_name": "Introduction to Probability and Statistics",
+                    "student_list": [],
+                    "course_credit": 5,
+                    "semester": 4,
+                    "quota": null,
+                    "prerequisite": null,
+                    "elective_type": null,
+                    "course_hour": [
+                        9,
+                        23,
+                        24
+                    ]
+                },
+                "letterGrade": "DC"
+            },
+            {
+                "course": {
+                    "course_name": "Summer Practice I",
+                    "student_list": [],
+                    "course_credit": 10,
+                    "semester": 5,
+                    "quota": null,
+                    "prerequisite": null,
+                    "elective_type": null,
+                    "course_hour": [
+                        128,
+                        129,
+                        130
+                    ]
+                },
+                "letterGrade": "BA"
+            },
+            {
+                "course": {
+                    "course_name": "Digital Logic Design",
+                    "student_list": [],
+                    "course_credit": 6,
+                    "semester": 5,
+                    "quota": null,
+                    "prerequisite": null,
+                    "elective_type": null,
+                    "course_hour": [
+                        19,
+                        20,
+                        50
+                    ]
+                },
+                "letterGrade": "FD"
+            },
+            {
+                "course": {
+                    "course_name": "Operating Systems",
+                    "student_list": [],
+                    "course_credit": 7,
+                    "semester": 5,
+                    "quota": null,
+                    "prerequisite": null,
+                    "elective_type": null,
+                    "course_hour": [
+                        30,
+                        33
+                    ]
+                },
+                "letterGrade": "CB"
+            },
+            {
+                "course": {
+                    "course_name": "Database Systems",
+                    "student_list": [],
+                    "course_credit": 7,
+                    "semester": 5,
+                    "quota": null,
+                    "prerequisite": null,
+                    "elective_type": null,
+                    "course_hour": [
+                        35,
+                        38,
+                        72
+                    ]
+                },
+                "letterGrade": "DC"
+            },
+            {
+                "course": {
+                    "course_name": "Object-Oriented Software Design",
+                    "student_list": [],
+                    "course_credit": 5,
+                    "semester": 5,
+                    "quota": null,
+                    "prerequisite": null,
+                    "elective_type": null,
+                    "course_hour": [
+                        2,
+                        3,
+                        18
+                    ]
+                },
+                "letterGrade": "CB"
+            },
+            {
+                "course": {
+                    "course_name": "Modeling and Discrete Simulation",
+                    "student_list": [],
+                    "course_credit": 4,
+                    "semester": 5,
+                    "quota": null,
+                    "prerequisite": null,
+                    "elective_type": null,
+                    "course_hour": [
+                        51,
+                        52,
+                        66
+                    ]
+                },
+                "letterGrade": "FD"
+            },
+            {
+                "course": {
+                    "course_name": "Computer Organization",
+                    "student_list": [],
+                    "course_credit": 7,
+                    "semester": 6,
+                    "quota": null,
+                    "prerequisite": null,
+                    "elective_type": null,
+                    "course_hour": [
+                        35,
+                        36,
+                        52
+                    ]
+                },
+                "letterGrade": "DD"
+            },
+            {
+                "course": {
+                    "course_name": "Software Engineering",
+                    "student_list": [],
+                    "course_credit": 7,
+                    "semester": 6,
+                    "quota": null,
+                    "prerequisite": null,
+                    "elective_type": null,
+                    "course_hour": [
+                        34,
+                        50,
+                        51
+                    ]
+                },
+                "letterGrade": "CB"
+            },
+            {
+                "course": {
+                    "course_name": "Introduction to Signals and Systems",
+                    "student_list": [],
+                    "course_credit": 5,
+                    "semester": 6,
+                    "quota": null,
+                    "prerequisite": null,
+                    "elective_type": null,
+                    "course_hour": [
+                        20,
+                        21,
+                        22
+                    ]
+                },
+                "letterGrade": "BB"
+            },
+            {
+                "course": {
+                    "course_name": "Formal Languages and Automata Theory",
+                    "student_list": [],
+                    "course_credit": 5,
+                    "semester": 6,
+                    "quota": null,
+                    "prerequisite": null,
+                    "elective_type": null,
+                    "course_hour": [
+                        4,
+                        5,
+                        66
+                    ]
+                },
+                "letterGrade": "BA"
+            },
+            {
+                "course": {
+                    "course_name": "Operations Research",
+                    "student_list": [],
+                    "course_credit": 4,
+                    "semester": 6,
+                    "quota": null,
+                    "prerequisite": null,
+                    "elective_type": null,
+                    "course_hour": [
+                        2,
+                        3,
+                        19
+                    ]
+                },
+                "letterGrade": "DC"
+            },
+            {
+                "course": {
+                    "course_name": "Technical Comm. and Entrepreneurship",
+                    "student_list": [],
+                    "course_credit": 2,
+                    "semester": 6,
+                    "quota": null,
+                    "prerequisite": null,
+                    "elective_type": null,
+                    "course_hour": [
+                        117,
+                        118
+                    ]
+                },
+                "letterGrade": "DD"
+            },
+            {
+                "course": {
+                    "course_name": "Summer Practice II",
+                    "student_list": [],
+                    "course_credit": 10,
+                    "semester": 7,
+                    "quota": null,
+                    "prerequisite": null,
+                    "elective_type": null,
+                    "course_hour": [
+                        120,
+                        121
+                    ]
+                },
+                "letterGrade": "FD"
+            },
+            {
+                "course": {
+                    "course_name": "Computer Networks",
+                    "student_list": [],
+                    "course_credit": 5,
+                    "semester": 7,
+                    "quota": null,
+                    "prerequisite": null,
+                    "elective_type": null,
+                    "course_hour": [
+                        8,
+                        55,
+                        56
+                    ]
+                },
+                "letterGrade": "BB"
+            },
+            {
+                "course": {
+                    "course_name": "Principles of Embedded System Design",
+                    "student_list": [],
+                    "course_credit": 6,
+                    "semester": 7,
+                    "quota": null,
+                    "prerequisite": null,
+                    "elective_type": null,
+                    "course_hour": [
+                        9,
+                        10,
+                        54
+                    ]
+                },
+                "letterGrade": "DD"
+            },
+            {
+                "course": {
+                    "course_name": "Engineering Project I",
+                    "student_list": [],
+                    "course_credit": 5,
+                    "semester": 7,
+                    "quota": null,
+                    "prerequisite": null,
+                    "elective_type": null,
+                    "course_hour": [
+                        125,
+                        126
+                    ]
+                },
+                "letterGrade": "DD"
+            },
+            {
+                "course": {
+                    "course_name": "\u00c4\u00b0\u00c5\u0178 Sa\u00c4\u0178l\u00c4\u00b1\u00c4\u0178\u00c4\u00b1 ve G\u00c3\u00bcvenli\u00c4\u0178i I",
+                    "student_list": [],
+                    "course_credit": 2,
+                    "semester": 7,
+                    "quota": null,
+                    "prerequisite": null,
+                    "elective_type": null,
+                    "course_hour": [
+                        86,
+                        87
+                    ]
+                },
+                "letterGrade": "BB"
+            },
+            {
+                "course": {
+                    "course_name": "Introduction to Machine Learning",
+                    "student_list": [],
+                    "course_credit": 5,
+                    "semester": 7,
+                    "quota": null,
+                    "prerequisite": null,
+                    "elective_type": null,
+                    "course_hour": [
+                        81,
+                        82,
+                        83
+                    ]
+                },
+                "letterGrade": "CB"
+            }
+        ],
+        "given_credit": 0,
+        "completed_credit": 0,
+        "point": 0,
+        "gano": 0
+    },
+    "course_offerd": [
+        {
+            "course_name": "Engineering Project II",
+            "student_list": [],
+            "course_credit": 5,
+            "semester": 8,
+            "quota": null,
+            "prerequisite": "Engineering Project I",
+            "elective_type": null,
+            "course_hour": [
+                136,
+                137
+            ]
+        },
+        {
+            "course_name": "\u00c4\u00b0\u00c5\u0178 Sa\u00c4\u0178l\u00c4\u00b1\u00c4\u0178\u00c4\u00b1 ve G\u00c3\u00bcvenli\u00c4\u0178i II",
+            "student_list": [],
+            "course_credit": 2,
+            "semester": 8,
+            "quota": null,
+            "prerequisite": null,
+            "elective_type": null,
+            "course_hour": [
+                90,
+                91
+            ]
+        }
+    ],
+    "errors": null
+}

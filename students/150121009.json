@@ -1,11 +1,11 @@
 {
     "Student Number": "150121009",
-    "Student Name": "Azra Kartal",
+    "Student Name": "Ali Boz",
     "Year": 1,
     "Advisor": {
-        "Name": "Sanem Arslan",
+        "Name": "Ali Fuat Alkaya",
         "Department": "CSE",
-        "Rank": "Dr.Öğr.Üyesi"
+        "Rank": "Doç.Dr"
     },
     "Transcript Before": {
         "Course List": [
@@ -16,7 +16,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "FF"
+                "DC"
             ],
             [
                 {
@@ -25,7 +25,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "AA"
+                "CB"
             ],
             [
                 {
@@ -61,7 +61,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "DC"
+                "DD"
             ],
             [
                 {
@@ -70,7 +70,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "DC"
+                "FF"
             ],
             [
                 {
@@ -79,13 +79,13 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "BB"
+                "CB"
             ]
         ],
         "Attended Credit": 31,
         "Completed Credit": 19,
-        "Point": 43.0,
-        "GANO": 1.39
+        "Point": 32.5,
+        "GANO": 1.05
     },
     "Course Offered": [
         {

@@ -1,5 +1,6 @@
 # import required packages
 import json
+import random
 from random import randint
 from Student import Student
 from Advisor import Advisor
@@ -114,7 +115,10 @@ def get_elective_courses(elective_type):
 def initialize_students():
     for year in range(1, 5):
         advisor = advisor_list[randint(0, len(advisor_list) - 1)]
-        for student_count in range(70):
+        random_student = list(range(70))
+        random.shuffle(random_student)
+        for student_count in random_student:
+
             student = Student(generate_student_number(year, student_count), generate_random_name(), year, advisor,
                               create_transcript(year), None)
             student.course_offered = create_course_offered(student)

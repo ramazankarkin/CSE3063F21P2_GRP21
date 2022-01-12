@@ -1,6 +1,7 @@
 # import required packages
 import json
 import random
+import glob
 from random import randint
 from Student import Student
 from Advisor import Advisor
@@ -113,16 +114,30 @@ def get_elective_courses(elective_type):
 
 
 def initialize_students():
-    for year in range(1, 5):
-        advisor = advisor_list[randint(0, len(advisor_list) - 1)]
-        random_student = list(range(70))
-        random.shuffle(random_student)
-        for student_count in random_student:
-            student = Student(generate_student_number(year, student_count), generate_random_name(), year, advisor,
+    if get_create_new_student_from_json():
+        for year in range(1, 5):
+            advisor = advisor_list[randint(0, len(advisor_list) - 1)]
+            random_student = list(range(70))
+            random.shuffle(random_student)
+            for student_count in random_student:
+                student = Student(generate_student_number(year, student_count), generate_random_name(), year, advisor,
                               create_transcript(year), None)
-            student.course_offered = create_course_offered(student)
-            student_list.append(student)
-            advisor.student_list.append(student)
+                student.course_offered = create_course_offered(student)
+                student_list.append(student)
+                advisor.student_list.append(student)
+        print("• {} students were recreated.\n".format(len(student_list)))
+    else:
+        files = glob.glob('students/*',recursive=True)
+        for single_file in files:
+            with open(single_file, encoding="utf-8") as f:
+                data = json.load(f)
+                new_student = Student(data['Student Number'],data['Student Name'],
+                                      data['Year'],data['Advisor'],
+                                      data['Transcript Before'],data['Course Offered'])
+                student_list.append(new_student)
+        print("• Action was taken on {} existing students.".format(len(student_list)))
+
+
 
 
 def create_transcript(year):
@@ -406,7 +421,9 @@ if __name__ == '__main__':
 
     initialize_students()
 
-    create_json_for_all_students()
+    if get_create_new_student_from_json():
+        create_json_for_all_students()
+
 
     for i in advisor_list:
         if len(i.quota_error_list) != 0:

@@ -1,11 +1,11 @@
 {
     "Student Number": "150119002",
-    "Student Name": "Nuri Türk",
+    "Student Name": "Ömer Asaf Çetin",
     "Year": 3,
     "Advisor": {
-        "Name": "Ali Fuat Alkaya",
+        "Name": "Sanem Arslan",
         "Department": "CSE",
-        "Rank": "Doç.Dr"
+        "Rank": "Dr.Öğr.Üyesi"
     },
     "Transcript Before": {
         "Course List": [
@@ -16,7 +16,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "CB"
+                "DC"
             ],
             [
                 {
@@ -25,7 +25,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "AA"
+                "BB"
             ],
             [
                 {
@@ -34,7 +34,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "BB"
+                "CC"
             ],
             [
                 {
@@ -43,7 +43,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "BA"
+                "DC"
             ],
             [
                 {
@@ -52,7 +52,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "AA"
+                "BB"
             ],
             [
                 {
@@ -61,7 +61,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "DC"
+                "CC"
             ],
             [
                 {
@@ -70,7 +70,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "DD"
+                "DC"
             ],
             [
                 {
@@ -88,7 +88,7 @@
                     "Semester": 2,
                     "Prerequisite": null
                 },
-                "BA"
+                "CB"
             ],
             [
                 {
@@ -97,7 +97,7 @@
                     "Semester": 2,
                     "Prerequisite": null
                 },
-                "CC"
+                "BB"
             ],
             [
                 {
@@ -106,7 +106,7 @@
                     "Semester": 2,
                     "Prerequisite": null
                 },
-                "AA"
+                "FD"
             ],
             [
                 {
@@ -115,7 +115,7 @@
                     "Semester": 2,
                     "Prerequisite": null
                 },
-                "FF"
+                "AA"
             ],
             [
                 {
@@ -124,7 +124,7 @@
                     "Semester": 2,
                     "Prerequisite": null
                 },
-                "BB"
+                "FD"
             ],
             [
                 {
@@ -133,7 +133,7 @@
                     "Semester": 2,
                     "Prerequisite": null
                 },
-                "FF"
+                "BB"
             ],
             [
                 {
@@ -142,17 +142,17 @@
                     "Semester": 2,
                     "Prerequisite": null
                 },
-                "AA"
+                "BB"
             ],
             [
                 {
-                    "Course Name": "Cardiopulmonary Resuscitation and First Aid Basics",
+                    "Course Name": "Our Biosphere",
                     "Course Credit": 3,
                     "Quota": 20,
                     "Prerequisite": null,
                     "Elective Type": "NTE"
                 },
-                "CB"
+                "CC"
             ],
             [
                 {
@@ -161,7 +161,7 @@
                     "Semester": 3,
                     "Prerequisite": null
                 },
-                "FD"
+                "AA"
             ],
             [
                 {
@@ -170,7 +170,7 @@
                     "Semester": 3,
                     "Prerequisite": "Computer Programming II"
                 },
-                "BB"
+                "FF"
             ],
             [
                 {
@@ -179,7 +179,7 @@
                     "Semester": 3,
                     "Prerequisite": null
                 },
-                "BB"
+                "FD"
             ],
             [
                 {
@@ -188,7 +188,7 @@
                     "Semester": 3,
                     "Prerequisite": null
                 },
-                "BB"
+                "CC"
             ],
             [
                 {
@@ -197,7 +197,7 @@
                     "Semester": 3,
                     "Prerequisite": null
                 },
-                "DC"
+                "BA"
             ],
             [
                 {
@@ -206,7 +206,7 @@
                     "Semester": 3,
                     "Prerequisite": null
                 },
-                "CC"
+                "AA"
             ],
             [
                 {
@@ -215,7 +215,7 @@
                     "Semester": 4,
                     "Prerequisite": "Data Structures"
                 },
-                "AA"
+                "BA"
             ],
             [
                 {
@@ -233,7 +233,7 @@
                     "Semester": 4,
                     "Prerequisite": null
                 },
-                "FF"
+                "DD"
             ],
             [
                 {
@@ -242,297 +242,7 @@
                     "Semester": 4,
                     "Prerequisite": null
                 },
-                "DD"
-            ],
-            [
-                {
-                    "Course Name": "Introduction to Probability and Statistics",
-                    "Course Credit": 5,
-                    "Semester": 4,
-                    "Prerequisite": null
-                },
-                "FF"
-            ]
-        ],
-        "Attended Credit": 118,
-        "Completed Credit": 96,
-        "Point": 290.5,
-        "GANO": 2.46
-    },
-    "Course Offered": [
-        {
-            "Course Name": "Summer Practice I",
-            "Course Credit": 10,
-            "Semester": 5,
-            "Prerequisite": null
-        },
-        {
-            "Course Name": "Digital Logic Design",
-            "Course Credit": 6,
-            "Semester": 5,
-            "Prerequisite": null
-        },
-        {
-            "Course Name": "Operating Systems",
-            "Course Credit": 7,
-            "Semester": 5,
-            "Prerequisite": null
-        },
-        {
-            "Course Name": "Database Systems",
-            "Course Credit": 7,
-            "Semester": 5,
-            "Prerequisite": null
-        },
-        {
-            "Course Name": "Object-Oriented Software Design",
-            "Course Credit": 5,
-            "Semester": 5,
-            "Prerequisite": null
-        },
-        {
-            "Course Name": "Modeling and Discrete Simulation",
-            "Course Credit": 4,
-            "Semester": 5,
-            "Prerequisite": null
-        }
-    ],
-    "Transcript After": {
-        "Course List": [
-            [
-                {
-                    "Course Name": "Atatürk İlkeleri ve İnkılap Tarihi I",
-                    "Course Credit": 2,
-                    "Semester": 1,
-                    "Prerequisite": null
-                },
-                "CB"
-            ],
-            [
-                {
-                    "Course Name": "Introduction to Modern Biology",
-                    "Course Credit": 5,
-                    "Semester": 1,
-                    "Prerequisite": null
-                },
-                "AA"
-            ],
-            [
-                {
-                    "Course Name": "Introduction to Computer Engineering",
-                    "Course Credit": 4,
-                    "Semester": 1,
-                    "Prerequisite": null
-                },
-                "BB"
-            ],
-            [
-                {
-                    "Course Name": "Computer Programming I",
-                    "Course Credit": 6,
-                    "Semester": 1,
-                    "Prerequisite": null
-                },
-                "BA"
-            ],
-            [
-                {
-                    "Course Name": "Calculus I",
-                    "Course Credit": 6,
-                    "Semester": 1,
-                    "Prerequisite": null
-                },
-                "AA"
-            ],
-            [
-                {
-                    "Course Name": "Physics I",
-                    "Course Credit": 4,
-                    "Semester": 1,
-                    "Prerequisite": null
-                },
-                "DC"
-            ],
-            [
-                {
-                    "Course Name": "Physics Lab I",
-                    "Course Credit": 2,
-                    "Semester": 1,
-                    "Prerequisite": null
-                },
-                "DD"
-            ],
-            [
-                {
-                    "Course Name": "Türk Dili I",
-                    "Course Credit": 2,
-                    "Semester": 1,
-                    "Prerequisite": null
-                },
-                "AA"
-            ],
-            [
-                {
-                    "Course Name": "Atatürk İlkeleri ve İnkılap Tarihi II",
-                    "Course Credit": 2,
-                    "Semester": 2,
-                    "Prerequisite": null
-                },
-                "BA"
-            ],
-            [
-                {
-                    "Course Name": "Computer Programming II",
-                    "Course Credit": 6,
-                    "Semester": 2,
-                    "Prerequisite": null
-                },
                 "CC"
-            ],
-            [
-                {
-                    "Course Name": "Calculus II",
-                    "Course Credit": 6,
-                    "Semester": 2,
-                    "Prerequisite": null
-                },
-                "AA"
-            ],
-            [
-                {
-                    "Course Name": "Linear Algebra for Computer Engineering",
-                    "Course Credit": 5,
-                    "Semester": 2,
-                    "Prerequisite": null
-                },
-                "FF"
-            ],
-            [
-                {
-                    "Course Name": "Physics II",
-                    "Course Credit": 4,
-                    "Semester": 2,
-                    "Prerequisite": null
-                },
-                "BB"
-            ],
-            [
-                {
-                    "Course Name": "Physics Lab II",
-                    "Course Credit": 2,
-                    "Semester": 2,
-                    "Prerequisite": null
-                },
-                "FF"
-            ],
-            [
-                {
-                    "Course Name": "Türk Dili II",
-                    "Course Credit": 2,
-                    "Semester": 2,
-                    "Prerequisite": null
-                },
-                "AA"
-            ],
-            [
-                {
-                    "Course Name": "Cardiopulmonary Resuscitation and First Aid Basics",
-                    "Course Credit": 3,
-                    "Quota": 20,
-                    "Prerequisite": null,
-                    "Elective Type": "NTE"
-                },
-                "CB"
-            ],
-            [
-                {
-                    "Course Name": "Discrete Computational Structures",
-                    "Course Credit": 6,
-                    "Semester": 3,
-                    "Prerequisite": null
-                },
-                "FD"
-            ],
-            [
-                {
-                    "Course Name": "Data Structures",
-                    "Course Credit": 7,
-                    "Semester": 3,
-                    "Prerequisite": "Computer Programming II"
-                },
-                "BB"
-            ],
-            [
-                {
-                    "Course Name": "Engineering Economy",
-                    "Course Credit": 4,
-                    "Semester": 3,
-                    "Prerequisite": null
-                },
-                "BB"
-            ],
-            [
-                {
-                    "Course Name": "Electric Circuits",
-                    "Course Credit": 5,
-                    "Semester": 3,
-                    "Prerequisite": null
-                },
-                "BB"
-            ],
-            [
-                {
-                    "Course Name": "Differential Equations",
-                    "Course Credit": 4,
-                    "Semester": 3,
-                    "Prerequisite": null
-                },
-                "DC"
-            ],
-            [
-                {
-                    "Course Name": "Numerical Methods",
-                    "Course Credit": 4,
-                    "Semester": 3,
-                    "Prerequisite": null
-                },
-                "CC"
-            ],
-            [
-                {
-                    "Course Name": "Analysis of Algorithms",
-                    "Course Credit": 6,
-                    "Semester": 4,
-                    "Prerequisite": "Data Structures"
-                },
-                "AA"
-            ],
-            [
-                {
-                    "Course Name": "Systems Programming",
-                    "Course Credit": 7,
-                    "Semester": 4,
-                    "Prerequisite": null
-                },
-                "AA"
-            ],
-            [
-                {
-                    "Course Name": "Principles of Programming Languages",
-                    "Course Credit": 4,
-                    "Semester": 4,
-                    "Prerequisite": null
-                },
-                "FF"
-            ],
-            [
-                {
-                    "Course Name": "Electronics",
-                    "Course Credit": 5,
-                    "Semester": 4,
-                    "Prerequisite": null
-                },
-                "DD"
             ],
             [
                 {
@@ -550,7 +260,7 @@
                     "Semester": 5,
                     "Prerequisite": null
                 },
-                null
+                "FD"
             ],
             [
                 {
@@ -559,7 +269,7 @@
                     "Semester": 5,
                     "Prerequisite": null
                 },
-                null
+                "FD"
             ],
             [
                 {
@@ -568,7 +278,7 @@
                     "Semester": 5,
                     "Prerequisite": null
                 },
-                null
+                "BB"
             ],
             [
                 {
@@ -577,7 +287,7 @@
                     "Semester": 5,
                     "Prerequisite": null
                 },
-                null
+                "CB"
             ],
             [
                 {
@@ -586,7 +296,7 @@
                     "Semester": 5,
                     "Prerequisite": null
                 },
-                null
+                "CC"
             ],
             [
                 {
@@ -595,13 +305,411 @@
                     "Semester": 5,
                     "Prerequisite": null
                 },
-                null
+                "DC"
             ]
         ],
         "Attended Credit": 157,
-        "Completed Credit": 96,
-        "Point": 290.5,
-        "GANO": 2.46
+        "Completed Credit": 115,
+        "Point": 329.5,
+        "GANO": 2.1
+    },
+    "Course Offered": [
+        {
+            "Course Name": "Computer Organization",
+            "Course Credit": 7,
+            "Semester": 6,
+            "Prerequisite": null
+        },
+        {
+            "Course Name": "Software Engineering",
+            "Course Credit": 7,
+            "Semester": 6,
+            "Prerequisite": null
+        },
+        {
+            "Course Name": "Introduction to Signals and Systems",
+            "Course Credit": 5,
+            "Semester": 6,
+            "Prerequisite": null
+        },
+        {
+            "Course Name": "Formal Languages and Automata Theory",
+            "Course Credit": 5,
+            "Semester": 6,
+            "Prerequisite": null
+        },
+        {
+            "Course Name": "Operations Research",
+            "Course Credit": 4,
+            "Semester": 6,
+            "Prerequisite": null
+        },
+        {
+            "Course Name": "Technical Comm. and Entrepreneurship",
+            "Course Credit": 2,
+            "Semester": 6,
+            "Prerequisite": null
+        }
+    ],
+    "Transcript After": {
+        "Course List": [
+            [
+                {
+                    "Course Name": "Atatürk İlkeleri ve İnkılap Tarihi I",
+                    "Course Credit": 2,
+                    "Semester": 1,
+                    "Prerequisite": null
+                },
+                "DC"
+            ],
+            [
+                {
+                    "Course Name": "Introduction to Modern Biology",
+                    "Course Credit": 5,
+                    "Semester": 1,
+                    "Prerequisite": null
+                },
+                "BB"
+            ],
+            [
+                {
+                    "Course Name": "Introduction to Computer Engineering",
+                    "Course Credit": 4,
+                    "Semester": 1,
+                    "Prerequisite": null
+                },
+                "CC"
+            ],
+            [
+                {
+                    "Course Name": "Computer Programming I",
+                    "Course Credit": 6,
+                    "Semester": 1,
+                    "Prerequisite": null
+                },
+                "DC"
+            ],
+            [
+                {
+                    "Course Name": "Calculus I",
+                    "Course Credit": 6,
+                    "Semester": 1,
+                    "Prerequisite": null
+                },
+                "BB"
+            ],
+            [
+                {
+                    "Course Name": "Physics I",
+                    "Course Credit": 4,
+                    "Semester": 1,
+                    "Prerequisite": null
+                },
+                "CC"
+            ],
+            [
+                {
+                    "Course Name": "Physics Lab I",
+                    "Course Credit": 2,
+                    "Semester": 1,
+                    "Prerequisite": null
+                },
+                "DC"
+            ],
+            [
+                {
+                    "Course Name": "Türk Dili I",
+                    "Course Credit": 2,
+                    "Semester": 1,
+                    "Prerequisite": null
+                },
+                "AA"
+            ],
+            [
+                {
+                    "Course Name": "Atatürk İlkeleri ve İnkılap Tarihi II",
+                    "Course Credit": 2,
+                    "Semester": 2,
+                    "Prerequisite": null
+                },
+                "CB"
+            ],
+            [
+                {
+                    "Course Name": "Computer Programming II",
+                    "Course Credit": 6,
+                    "Semester": 2,
+                    "Prerequisite": null
+                },
+                "BB"
+            ],
+            [
+                {
+                    "Course Name": "Calculus II",
+                    "Course Credit": 6,
+                    "Semester": 2,
+                    "Prerequisite": null
+                },
+                "FD"
+            ],
+            [
+                {
+                    "Course Name": "Linear Algebra for Computer Engineering",
+                    "Course Credit": 5,
+                    "Semester": 2,
+                    "Prerequisite": null
+                },
+                "AA"
+            ],
+            [
+                {
+                    "Course Name": "Physics II",
+                    "Course Credit": 4,
+                    "Semester": 2,
+                    "Prerequisite": null
+                },
+                "FD"
+            ],
+            [
+                {
+                    "Course Name": "Physics Lab II",
+                    "Course Credit": 2,
+                    "Semester": 2,
+                    "Prerequisite": null
+                },
+                "BB"
+            ],
+            [
+                {
+                    "Course Name": "Türk Dili II",
+                    "Course Credit": 2,
+                    "Semester": 2,
+                    "Prerequisite": null
+                },
+                "BB"
+            ],
+            [
+                {
+                    "Course Name": "Our Biosphere",
+                    "Course Credit": 3,
+                    "Quota": 20,
+                    "Prerequisite": null,
+                    "Elective Type": "NTE"
+                },
+                "CC"
+            ],
+            [
+                {
+                    "Course Name": "Discrete Computational Structures",
+                    "Course Credit": 6,
+                    "Semester": 3,
+                    "Prerequisite": null
+                },
+                "AA"
+            ],
+            [
+                {
+                    "Course Name": "Data Structures",
+                    "Course Credit": 7,
+                    "Semester": 3,
+                    "Prerequisite": "Computer Programming II"
+                },
+                "FF"
+            ],
+            [
+                {
+                    "Course Name": "Engineering Economy",
+                    "Course Credit": 4,
+                    "Semester": 3,
+                    "Prerequisite": null
+                },
+                "FD"
+            ],
+            [
+                {
+                    "Course Name": "Electric Circuits",
+                    "Course Credit": 5,
+                    "Semester": 3,
+                    "Prerequisite": null
+                },
+                "CC"
+            ],
+            [
+                {
+                    "Course Name": "Differential Equations",
+                    "Course Credit": 4,
+                    "Semester": 3,
+                    "Prerequisite": null
+                },
+                "BA"
+            ],
+            [
+                {
+                    "Course Name": "Numerical Methods",
+                    "Course Credit": 4,
+                    "Semester": 3,
+                    "Prerequisite": null
+                },
+                "AA"
+            ],
+            [
+                {
+                    "Course Name": "Analysis of Algorithms",
+                    "Course Credit": 6,
+                    "Semester": 4,
+                    "Prerequisite": "Data Structures"
+                },
+                "BA"
+            ],
+            [
+                {
+                    "Course Name": "Systems Programming",
+                    "Course Credit": 7,
+                    "Semester": 4,
+                    "Prerequisite": null
+                },
+                "AA"
+            ],
+            [
+                {
+                    "Course Name": "Principles of Programming Languages",
+                    "Course Credit": 4,
+                    "Semester": 4,
+                    "Prerequisite": null
+                },
+                "DD"
+            ],
+            [
+                {
+                    "Course Name": "Electronics",
+                    "Course Credit": 5,
+                    "Semester": 4,
+                    "Prerequisite": null
+                },
+                "CC"
+            ],
+            [
+                {
+                    "Course Name": "Introduction to Probability and Statistics",
+                    "Course Credit": 5,
+                    "Semester": 4,
+                    "Prerequisite": null
+                },
+                "FF"
+            ],
+            [
+                {
+                    "Course Name": "Summer Practice I",
+                    "Course Credit": 10,
+                    "Semester": 5,
+                    "Prerequisite": null
+                },
+                "FD"
+            ],
+            [
+                {
+                    "Course Name": "Digital Logic Design",
+                    "Course Credit": 6,
+                    "Semester": 5,
+                    "Prerequisite": null
+                },
+                "FD"
+            ],
+            [
+                {
+                    "Course Name": "Operating Systems",
+                    "Course Credit": 7,
+                    "Semester": 5,
+                    "Prerequisite": null
+                },
+                "BB"
+            ],
+            [
+                {
+                    "Course Name": "Database Systems",
+                    "Course Credit": 7,
+                    "Semester": 5,
+                    "Prerequisite": null
+                },
+                "CB"
+            ],
+            [
+                {
+                    "Course Name": "Object-Oriented Software Design",
+                    "Course Credit": 5,
+                    "Semester": 5,
+                    "Prerequisite": null
+                },
+                "CC"
+            ],
+            [
+                {
+                    "Course Name": "Modeling and Discrete Simulation",
+                    "Course Credit": 4,
+                    "Semester": 5,
+                    "Prerequisite": null
+                },
+                "DC"
+            ],
+            [
+                {
+                    "Course Name": "Computer Organization",
+                    "Course Credit": 7,
+                    "Semester": 6,
+                    "Prerequisite": null
+                },
+                null
+            ],
+            [
+                {
+                    "Course Name": "Software Engineering",
+                    "Course Credit": 7,
+                    "Semester": 6,
+                    "Prerequisite": null
+                },
+                null
+            ],
+            [
+                {
+                    "Course Name": "Introduction to Signals and Systems",
+                    "Course Credit": 5,
+                    "Semester": 6,
+                    "Prerequisite": null
+                },
+                null
+            ],
+            [
+                {
+                    "Course Name": "Formal Languages and Automata Theory",
+                    "Course Credit": 5,
+                    "Semester": 6,
+                    "Prerequisite": null
+                },
+                null
+            ],
+            [
+                {
+                    "Course Name": "Operations Research",
+                    "Course Credit": 4,
+                    "Semester": 6,
+                    "Prerequisite": null
+                },
+                null
+            ],
+            [
+                {
+                    "Course Name": "Technical Comm. and Entrepreneurship",
+                    "Course Credit": 2,
+                    "Semester": 6,
+                    "Prerequisite": null
+                },
+                null
+            ]
+        ],
+        "Attended Credit": 187,
+        "Completed Credit": 115,
+        "Point": 329.5,
+        "GANO": 2.1
     },
     "Errors": []
 }

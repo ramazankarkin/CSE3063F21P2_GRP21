@@ -2,6 +2,7 @@
 import json
 import random
 import glob
+import logging
 from random import randint
 from Student import Student
 from Advisor import Advisor
@@ -325,6 +326,7 @@ def create_course_offered(student):
                         student.errors.append(error)
                         if student.student_number not in student.advisor.collision_error_list:
                             student.advisor.collision_error_list.append(student.student_number)
+                            logging.warning(student.student_number + " - " + error)  # will print a message to the console
 
     return my_course_list
 
@@ -437,6 +439,8 @@ def print_error_log():
 
 
 if __name__ == '__main__':
+    logging.basicConfig(filename='ErrorLog.log', encoding='utf-8', level=logging.DEBUG)
+
     student_list = []
     advisor_list = get_advisors_from_json()
     semester = get_semester_from_json()

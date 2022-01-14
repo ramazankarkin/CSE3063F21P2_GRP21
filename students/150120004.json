@@ -1,9 +1,9 @@
 {
     "Student Number": "150120004",
-    "Student Name": "Ferit Erdoğmuş",
+    "Student Name": "Ömer Asaf Kuruçay",
     "Year": 2,
     "Advisor": {
-        "Name": "Ali Haydar Özer",
+        "Name": "Sanem Arslan",
         "Department": "CSE",
         "Rank": "Dr.Öğr.Üyesi"
     },
@@ -25,7 +25,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "BB"
+                "FD"
             ],
             [
                 {
@@ -34,7 +34,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "FD"
+                "CB"
             ],
             [
                 {
@@ -43,7 +43,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "DD"
+                "BB"
             ],
             [
                 {
@@ -52,7 +52,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "BB"
+                "BA"
             ],
             [
                 {
@@ -61,7 +61,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "FD"
+                "BB"
             ],
             [
                 {
@@ -70,7 +70,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "BB"
+                "DD"
             ],
             [
                 {
@@ -79,7 +79,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "FF"
+                "BB"
             ],
             [
                 {
@@ -88,7 +88,7 @@
                     "Semester": 2,
                     "Prerequisite": null
                 },
-                "CB"
+                "FF"
             ],
             [
                 {
@@ -97,7 +97,7 @@
                     "Semester": 2,
                     "Prerequisite": null
                 },
-                "CC"
+                "AA"
             ],
             [
                 {
@@ -106,7 +106,7 @@
                     "Semester": 2,
                     "Prerequisite": null
                 },
-                "BB"
+                "CB"
             ],
             [
                 {
@@ -115,7 +115,7 @@
                     "Semester": 2,
                     "Prerequisite": null
                 },
-                "BB"
+                "CC"
             ],
             [
                 {
@@ -124,7 +124,7 @@
                     "Semester": 2,
                     "Prerequisite": null
                 },
-                "AA"
+                "BB"
             ],
             [
                 {
@@ -133,7 +133,7 @@
                     "Semester": 2,
                     "Prerequisite": null
                 },
-                "FD"
+                "DC"
             ],
             [
                 {
@@ -152,49 +152,91 @@
                     "Prerequisite": null,
                     "Elective Type": "NTE"
                 },
+                "BB"
+            ],
+            [
+                {
+                    "Course Name": "Discrete Computational Structures",
+                    "Course Credit": 6,
+                    "Semester": 3,
+                    "Prerequisite": null
+                },
+                "CC"
+            ],
+            [
+                {
+                    "Course Name": "Data Structures",
+                    "Course Credit": 7,
+                    "Semester": 3,
+                    "Prerequisite": "Computer Programming II"
+                },
+                "FF"
+            ],
+            [
+                {
+                    "Course Name": "Engineering Economy",
+                    "Course Credit": 4,
+                    "Semester": 3,
+                    "Prerequisite": null
+                },
+                "FF"
+            ],
+            [
+                {
+                    "Course Name": "Electric Circuits",
+                    "Course Credit": 5,
+                    "Semester": 3,
+                    "Prerequisite": null
+                },
+                "BB"
+            ],
+            [
+                {
+                    "Course Name": "Differential Equations",
+                    "Course Credit": 4,
+                    "Semester": 3,
+                    "Prerequisite": null
+                },
+                "FF"
+            ],
+            [
+                {
+                    "Course Name": "Numerical Methods",
+                    "Course Credit": 4,
+                    "Semester": 3,
+                    "Prerequisite": null
+                },
                 "CB"
             ]
         ],
-        "Attended Credit": 61,
-        "Completed Credit": 49,
-        "Point": 136.5,
-        "GANO": 2.24
+        "Attended Credit": 91,
+        "Completed Credit": 69,
+        "Point": 194.5,
+        "GANO": 2.14
     },
     "Course Offered": [
         {
-            "Course Name": "Discrete Computational Structures",
-            "Course Credit": 6,
-            "Semester": 3,
-            "Prerequisite": null
-        },
-        {
-            "Course Name": "Data Structures",
+            "Course Name": "Systems Programming",
             "Course Credit": 7,
-            "Semester": 3,
-            "Prerequisite": "Computer Programming II"
-        },
-        {
-            "Course Name": "Engineering Economy",
-            "Course Credit": 4,
-            "Semester": 3,
+            "Semester": 4,
             "Prerequisite": null
         },
         {
-            "Course Name": "Electric Circuits",
+            "Course Name": "Principles of Programming Languages",
+            "Course Credit": 4,
+            "Semester": 4,
+            "Prerequisite": null
+        },
+        {
+            "Course Name": "Electronics",
             "Course Credit": 5,
-            "Semester": 3,
+            "Semester": 4,
             "Prerequisite": null
         },
         {
-            "Course Name": "Differential Equations",
-            "Course Credit": 4,
-            "Semester": 3,
-            "Prerequisite": null
-        },
-        {
-            "Course Name": "Numerical Methods",
-            "Course Credit": 4,
-            "Semester": 3,
+            "Course Name": "Introduction to Probability and Statistics",
+            "Course Credit": 5,
+            "Semester": 4,
             "Prerequisite": null
         }
     ],
@@ -216,7 +258,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "BB"
+                "FD"
             ],
             [
                 {
@@ -225,7 +267,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "FD"
+                "CB"
             ],
             [
                 {
@@ -234,7 +276,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "DD"
+                "BB"
             ],
             [
                 {
@@ -243,7 +285,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "BB"
+                "BA"
             ],
             [
                 {
@@ -252,7 +294,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "FD"
+                "BB"
             ],
             [
                 {
@@ -261,7 +303,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "BB"
+                "DD"
             ],
             [
                 {
@@ -270,7 +312,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "FF"
+                "BB"
             ],
             [
                 {
@@ -279,7 +321,7 @@
                     "Semester": 2,
                     "Prerequisite": null
                 },
-                "CB"
+                "FF"
             ],
             [
                 {
@@ -288,7 +330,7 @@
                     "Semester": 2,
                     "Prerequisite": null
                 },
-                "CC"
+                "AA"
             ],
             [
                 {
@@ -297,7 +339,7 @@
                     "Semester": 2,
                     "Prerequisite": null
                 },
-                "BB"
+                "CB"
             ],
             [
                 {
@@ -306,7 +348,7 @@
                     "Semester": 2,
                     "Prerequisite": null
                 },
-                "BB"
+                "CC"
             ],
             [
                 {
@@ -315,7 +357,7 @@
                     "Semester": 2,
                     "Prerequisite": null
                 },
-                "AA"
+                "BB"
             ],
             [
                 {
@@ -324,7 +366,7 @@
                     "Semester": 2,
                     "Prerequisite": null
                 },
-                "FD"
+                "DC"
             ],
             [
                 {
@@ -343,7 +385,7 @@
                     "Prerequisite": null,
                     "Elective Type": "NTE"
                 },
-                "CB"
+                "BB"
             ],
             [
                 {
@@ -352,7 +394,7 @@
                     "Semester": 3,
                     "Prerequisite": null
                 },
-                null
+                "CC"
             ],
             [
                 {
@@ -361,7 +403,7 @@
                     "Semester": 3,
                     "Prerequisite": "Computer Programming II"
                 },
-                null
+                "FF"
             ],
             [
                 {
@@ -370,7 +412,7 @@
                     "Semester": 3,
                     "Prerequisite": null
                 },
-                null
+                "FF"
             ],
             [
                 {
@@ -379,7 +421,7 @@
                     "Semester": 3,
                     "Prerequisite": null
                 },
-                null
+                "BB"
             ],
             [
                 {
@@ -388,7 +430,7 @@
                     "Semester": 3,
                     "Prerequisite": null
                 },
-                null
+                "FF"
             ],
             [
                 {
@@ -397,13 +439,51 @@
                     "Semester": 3,
                     "Prerequisite": null
                 },
+                "CB"
+            ],
+            [
+                {
+                    "Course Name": "Systems Programming",
+                    "Course Credit": 7,
+                    "Semester": 4,
+                    "Prerequisite": null
+                },
+                null
+            ],
+            [
+                {
+                    "Course Name": "Principles of Programming Languages",
+                    "Course Credit": 4,
+                    "Semester": 4,
+                    "Prerequisite": null
+                },
+                null
+            ],
+            [
+                {
+                    "Course Name": "Electronics",
+                    "Course Credit": 5,
+                    "Semester": 4,
+                    "Prerequisite": null
+                },
+                null
+            ],
+            [
+                {
+                    "Course Name": "Introduction to Probability and Statistics",
+                    "Course Credit": 5,
+                    "Semester": 4,
+                    "Prerequisite": null
+                },
                 null
             ]
         ],
-        "Attended Credit": 91,
-        "Completed Credit": 49,
-        "Point": 136.5,
-        "GANO": 2.24
+        "Attended Credit": 112,
+        "Completed Credit": 69,
+        "Point": 194.5,
+        "GANO": 2.14
     },
-    "Errors": []
+    "Errors": [
+        "The system did not allow Analysis of Algorithms because student failed prerequisite Data Structures"
+    ]
 }

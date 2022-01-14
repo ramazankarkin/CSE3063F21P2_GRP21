@@ -1,5 +1,6 @@
 import json
 from Advisor import Advisor
+from Transcript import Transcript
 
 
 class Student:
@@ -10,17 +11,18 @@ class Student:
         self.advisor = advisor
         self.transcript_before = transcript_before
         self.course_offered = course_offered
+        self.transcript_after = []
         self.errors = []
 
     def json_dumps_text(self):
-        data = []
+        course_offered_text = []
 
         for course in self.course_offered:
-            data.append(course.json_dumps_text())
+            course_offered_text.append(course.json_dumps_text())
 
         return {'Student Number': self.student_number, 'Student Name': self.student_name, 'Year': self.year,
                 'Advisor': self.advisor.stu, 'Transcript Before': self.transcript_before.json_dumps_text(),
-                'Course Offered': data, 'Errors': self.errors}
+                'Course Offered': course_offered_text, 'Transcript After': self.transcript_after.json_dumps_text(), 'Errors': self.errors}
 
     def toJSON(self):
         with open("students/" + str(self.student_number) + ".json", "w", encoding="utf-8") as outfile:

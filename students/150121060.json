@@ -1,13 +1,70 @@
 {
     "Student Number": "150121060",
-    "Student Name": "Özge Öztürk",
+    "Student Name": "Deniz Ekşi",
     "Year": 1,
     "Advisor": {
-        "Name": "Mustafa Ağaoğlu",
+        "Name": "Borahan Tümer",
         "Department": "CSE",
         "Rank": "Doç.Dr"
     },
     "Transcript Before": {
+        "Course List": [],
+        "Attended Credit": 0,
+        "Completed Credit": 0,
+        "Point": 0,
+        "GANO": 0.0
+    },
+    "Course Offered": [
+        {
+            "Course Name": "Atatürk İlkeleri ve İnkılap Tarihi I",
+            "Course Credit": 2,
+            "Semester": 1,
+            "Prerequisite": null
+        },
+        {
+            "Course Name": "Introduction to Modern Biology",
+            "Course Credit": 5,
+            "Semester": 1,
+            "Prerequisite": null
+        },
+        {
+            "Course Name": "Introduction to Computer Engineering",
+            "Course Credit": 4,
+            "Semester": 1,
+            "Prerequisite": null
+        },
+        {
+            "Course Name": "Computer Programming I",
+            "Course Credit": 6,
+            "Semester": 1,
+            "Prerequisite": null
+        },
+        {
+            "Course Name": "Calculus I",
+            "Course Credit": 6,
+            "Semester": 1,
+            "Prerequisite": null
+        },
+        {
+            "Course Name": "Physics I",
+            "Course Credit": 4,
+            "Semester": 1,
+            "Prerequisite": null
+        },
+        {
+            "Course Name": "Physics Lab I",
+            "Course Credit": 2,
+            "Semester": 1,
+            "Prerequisite": null
+        },
+        {
+            "Course Name": "Türk Dili I",
+            "Course Credit": 2,
+            "Semester": 1,
+            "Prerequisite": null
+        }
+    ],
+    "Transcript After": {
         "Course List": [
             [
                 {
@@ -16,7 +73,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "FF"
+                null
             ],
             [
                 {
@@ -25,7 +82,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "CC"
+                null
             ],
             [
                 {
@@ -34,7 +91,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "CC"
+                null
             ],
             [
                 {
@@ -43,7 +100,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "AA"
+                null
             ],
             [
                 {
@@ -52,7 +109,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "BB"
+                null
             ],
             [
                 {
@@ -61,7 +118,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "CC"
+                null
             ],
             [
                 {
@@ -70,7 +127,7 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "BB"
+                null
             ],
             [
                 {
@@ -79,64 +136,13 @@
                     "Semester": 1,
                     "Prerequisite": null
                 },
-                "FF"
+                null
             ]
         ],
         "Attended Credit": 31,
-        "Completed Credit": 27,
-        "Point": 74.0,
-        "GANO": 2.39
+        "Completed Credit": 0,
+        "Point": 0,
+        "GANO": 0.0
     },
-    "Course Offered": [
-        {
-            "Course Name": "Atatürk İlkeleri ve İnkılap Tarihi II",
-            "Course Credit": 2,
-            "Semester": 2,
-            "Prerequisite": null
-        },
-        {
-            "Course Name": "Computer Programming II",
-            "Course Credit": 6,
-            "Semester": 2,
-            "Prerequisite": null
-        },
-        {
-            "Course Name": "Calculus II",
-            "Course Credit": 6,
-            "Semester": 2,
-            "Prerequisite": null
-        },
-        {
-            "Course Name": "Linear Algebra for Computer Engineering",
-            "Course Credit": 5,
-            "Semester": 2,
-            "Prerequisite": null
-        },
-        {
-            "Course Name": "Physics II",
-            "Course Credit": 4,
-            "Semester": 2,
-            "Prerequisite": null
-        },
-        {
-            "Course Name": "Physics Lab II",
-            "Course Credit": 2,
-            "Semester": 2,
-            "Prerequisite": null
-        },
-        {
-            "Course Name": "Türk Dili II",
-            "Course Credit": 2,
-            "Semester": 2,
-            "Prerequisite": null
-        },
-        {
-            "Course Name": "Energy for Physical Activity",
-            "Course Credit": 3,
-            "Quota": 20,
-            "Prerequisite": null,
-            "Elective Type": "NTE"
-        }
-    ],
     "Errors": []
 }

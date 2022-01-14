@@ -121,23 +121,21 @@ def initialize_students():
             random.shuffle(random_student)
             for student_count in random_student:
                 student = Student(generate_student_number(year, student_count), generate_random_name(), year, advisor,
-                              create_transcript(year), None)
+                                  create_transcript(year), None)
                 student.course_offered = create_course_offered(student)
                 student_list.append(student)
                 advisor.student_list.append(student)
         print("• {} students were recreated.\n".format(len(student_list)))
     else:
-        files = glob.glob('students/*',recursive=True)
+        files = glob.glob('students/*', recursive=True)
         for single_file in files:
             with open(single_file, encoding="utf-8") as f:
                 data = json.load(f)
-                new_student = Student(data['Student Number'],data['Student Name'],
-                                      data['Year'],data['Advisor'],
-                                      data['Transcript Before'],data['Course Offered'])
+                new_student = Student(data['Student Number'], data['Student Name'],
+                                      data['Year'], data['Advisor'],
+                                      data['Transcript Before'], data['Course Offered'])
                 student_list.append(new_student)
         print("• Action was taken on {} existing students.".format(len(student_list)))
-
-
 
 
 def create_transcript(year):
@@ -192,7 +190,7 @@ def create_transcript(year):
                         completed_credit += course.course_credit
                     break
 
-    gano = round(point / attended_credit, 2)
+    gano = round(point / attended_credit, 2) if attended_credit != 0 else 0.0
     transcript = Transcript(my_course_list, attended_credit, completed_credit, point, gano)
     return transcript
 
@@ -413,6 +411,31 @@ def create_json_for_all_students():
         student.toJSON()
 
 
+def add_approval_courses_for_all_student():
+    for advisor in advisor_list:
+        advisor.add_approval_courses()
+
+
+def print_error_log():
+    for advisor in advisor_list:
+        if len(advisor.student_list) != 0:
+            if len(advisor.quota_error_list) != 0:
+                print(advisor.advisor_name + f"'s quota list ({len(advisor.quota_error_list)} students):")
+                print(advisor.quota_error_list)
+            if len(advisor.prerequisite_error_list) != 0:
+                print(advisor.advisor_name + f"'s prerequisite list ({len(advisor.prerequisite_error_list)} students):")
+                print(advisor.prerequisite_error_list)
+            if len(advisor.collision_error_list) != 0:
+                print(advisor.advisor_name + f"'s collison list ({len(advisor.collision_error_list)} students):")
+                print(advisor.collision_error_list)
+            if len(advisor.te_error_list) != 0:
+                print(advisor.advisor_name + f"'s TE error list ({len(advisor.te_error_list)} students):")
+                print(advisor.te_error_list)
+            if len(advisor.project_error_list) != 0:
+                print(advisor.advisor_name + f"'s Project Error list ({len(advisor.project_error_list)} students):")
+                print(advisor.project_error_list)
+
+
 if __name__ == '__main__':
     student_list = []
     advisor_list = get_advisors_from_json()
@@ -420,18 +443,8 @@ if __name__ == '__main__':
     course_list = create_courses()
 
     initialize_students()
+    add_approval_courses_for_all_student()
+    print_error_log()
 
     if get_create_new_student_from_json():
         create_json_for_all_students()
-
-
-    for i in advisor_list:
-        if len(i.quota_error_list) != 0:
-            print(i.advisor_name + f"'s quota list({len(i.quota_error_list)} students):")
-            print(i.quota_error_list)
-        if len(i.prerequisite_error_list) != 0:
-            print(i.advisor_name + f"'s prerequisite list({len(i.prerequisite_error_list)} students):")
-            print(i.prerequisite_error_list)
-        if len(i.collision_error_list) != 0:
-            print(i.advisor_name + f"'s collison list({len(i.collision_error_list)} students):")
-            print(i.collision_error_list)
